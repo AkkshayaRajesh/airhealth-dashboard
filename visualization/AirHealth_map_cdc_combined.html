@@ -159,7 +159,7 @@
         </div>
         <!-- Color scale legend for pollutants - positioned below map -->
         <div id="color-legend" style="margin-top: 14px; background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 10px 14px; display: none; pointer-events: none; width: fit-content; margin-left: auto; margin-right: 0;">
-          <div style="font-size: 11px; font-weight: 600; margin-bottom: 6px; color: var(--muted);">PM₂.₅ (μg/m³)</div>
+          <div id="legend-title" style="font-size: 11px; font-weight: 600; margin-bottom: 6px; color: var(--muted);">PM₂.₅ (μg/m³)</div>
           <svg id="legend-gradient" width="180" height="12" style="margin-bottom: 4px;"></svg>
           <div style="display: flex; justify-content: space-between; font-size: 10px; color: var(--muted);">
             <span id="legend-min">0</span>
@@ -342,8 +342,18 @@
 
 
   // --- Pollutant data storage ---
-  var pollutantData = new Map(); // key: monthCode (YYYY/MM), value: Map(stateName -> value)
-  var yearRanges = new Map(); // key: year, value: {min: number, max: number}
+  // Structure: pollutantData[pollutant][monthCode] = Map(stateName -> value)
+  var pollutantData = {
+    pm25: new Map(),
+    no2: new Map(),
+    o3: new Map()
+  };
+  // Structure: yearRanges[pollutant][year] = {min: number, max: number}
+  var yearRanges = {
+    pm25: new Map(),
+    no2: new Map(),
+    o3: new Map()
+  };
   
   // Function to convert month format from 2018-01 to 2018/01
   function convertMonthFormat(monthStr) {
@@ -355,46 +365,56 @@
     return monthCode.split('/')[0];
   }
 
-  // Load PM2.5 data and calculate year ranges
-  d3.csv('./data/PM2.5_state_month_2018_2025.csv').then(function(pm25Data) {
-    console.log('[PM2.5 data] Loaded', pm25Data.length, 'rows');
-    
-    // First pass: load data and collect values by year
-    var valuesByYear = new Map();
-    
-    pm25Data.forEach(function(d) {
-      var monthCode = convertMonthFormat(d.Month);
-      var year = getYearFromMonthCode(monthCode);
-      var value = +d['Arithmetic Mean'] || 0;
+  // Function to load pollutant data
+  function loadPollutantData(pollutant, csvPath, pollutantKey) {
+    return d3.csv(csvPath).then(function(data) {
+      console.log('[' + pollutant + ' data] Loaded', data.length, 'rows');
       
-      if (!pollutantData.has(monthCode)) {
-        pollutantData.set(monthCode, new Map());
-      }
-      var monthMap = pollutantData.get(monthCode);
-      monthMap.set(d['State Name'], value);
+      var valuesByYear = new Map();
       
-      // Collect values for year range calculation
-      if (!valuesByYear.has(year)) {
-        valuesByYear.set(year, []);
-      }
-      valuesByYear.get(year).push(value);
+      data.forEach(function(d) {
+        var monthCode = convertMonthFormat(d.Month);
+        var year = getYearFromMonthCode(monthCode);
+        var value = +d['Arithmetic Mean'] || 0;
+        
+        if (!pollutantData[pollutantKey].has(monthCode)) {
+          pollutantData[pollutantKey].set(monthCode, new Map());
+        }
+        var monthMap = pollutantData[pollutantKey].get(monthCode);
+        monthMap.set(d['State Name'], value);
+        
+        // Collect values for year range calculation
+        if (!valuesByYear.has(year)) {
+          valuesByYear.set(year, []);
+        }
+        valuesByYear.get(year).push(value);
+      });
+      
+      // Calculate min/max for each year
+      valuesByYear.forEach(function(values, year) {
+        var min = d3.min(values);
+        var max = d3.max(values);
+        yearRanges[pollutantKey].set(year, {min: min, max: max});
+        console.log('[' + pollutant + ' year range]', year, 'Min:', min.toFixed(2), 'Max:', max.toFixed(2));
+      });
+      
+      console.log('[' + pollutant + ' data loaded]', pollutantData[pollutantKey].size, 'months');
+      console.log('[' + pollutant + ' sample keys]', Array.from(pollutantData[pollutantKey].keys()).slice(0, 10));
+      // Update map if pollutant is already selected
+      updateMapColors();
+    }).catch(function(err) {
+      console.error('Failed to load ' + pollutant + ' data:', err);
     });
-    
-    // Calculate min/max for each year
-    valuesByYear.forEach(function(values, year) {
-      var min = d3.min(values);
-      var max = d3.max(values);
-      yearRanges.set(year, {min: min, max: max});
-      console.log('[Year range]', year, 'Min:', min.toFixed(2), 'Max:', max.toFixed(2));
-    });
-    
-    console.log('[PM2.5 data loaded]', pollutantData.size, 'months');
-    console.log('[PM2.5 sample keys]', Array.from(pollutantData.keys()).slice(0, 10));
-    // Update map if pollutant is already selected
-    updateMapColors();
-  }).catch(function(err) {
-    console.error('Failed to load PM2.5 data:', err);
-  });
+  }
+
+  // Load PM2.5 data
+  loadPollutantData('PM2.5', './data/PM2.5_state_month_2018_2025.csv', 'pm25');
+
+  // Load NO2 data
+  loadPollutantData('NO2', './data/no2_state_month_2018_2025.csv', 'no2');
+
+  // Load O3 data
+  loadPollutantData('O3', './data/ozone_state_month_2018_2025.csv', 'o3');
 
   // --- Color scale for pollutants ---
   var pollutantColorScale = d3.scaleSequential(d3.interpolateYlOrRd)
@@ -436,65 +456,74 @@
       // Reset to default colors if no selection
       gMap.selectAll('path.state')
         .style('fill', '#e5edf5');
+      d3.select('#color-legend').style('display', 'none');
       return;
     }
 
-    if (selectedPollutant === 'pm25') {
-      // Get year range for color scale
-      var yearRange = yearRanges.get(selectedYear);
-      if (!yearRange) {
-        console.warn('No year range for', selectedYear);
-        gMap.selectAll('path.state').style('fill', '#e5edf5');
-        d3.select('#color-legend').style('display', 'none');
-        return;
-      }
-      
-      // Update color scale domain for selected year
-      pollutantColorScale.domain([yearRange.min, yearRange.max]);
-      
-      // Update legend with year-specific range
-      d3.select('#legend-min').text(yearRange.min.toFixed(2));
-      d3.select('#legend-max').text(yearRange.max.toFixed(2));
-      updateLegendGradient(yearRange.min, yearRange.max);
-      
-      // Show color legend
-      d3.select('#color-legend').style('display', 'block');
-      
-      // Get month from slider (activeMonth is global)
-      var monthIdx = activeMonth ? months.indexOf(activeMonth) : 0;
-      var monthCode = keyFor(selectedYear, monthIdx);
-      
-      console.log('[updateMapColors] PM2.5 selected, monthCode:', monthCode, 'Range:', yearRange.min, '-', yearRange.max);
-      
-      var monthData = pollutantData.get(monthCode);
-      if (!monthData) {
-        console.warn('No PM2.5 data for', monthCode, '- Available keys:', Array.from(pollutantData.keys()).slice(0, 5));
-        gMap.selectAll('path.state').style('fill', '#e5edf5');
-        d3.select('#color-legend').style('display', 'none');
-        return;
-      }
+    // Pollutant configuration
+    var pollutantConfig = {
+      pm25: { name: 'PM₂.₅', unit: 'μg/m³', dataKey: 'pm25' },
+      no2: { name: 'NO₂', unit: 'ppb', dataKey: 'no2' },
+      o3: { name: 'O₃', unit: 'ppb', dataKey: 'o3' }
+    };
 
-      console.log('[updateMapColors] Found data for', monthCode, '- States:', monthData.size);
-      
-      // Update colors based on PM2.5 values - use style() instead of attr() to override CSS
-      var statePaths = gMap.selectAll('path.state');
-      console.log('[updateMapColors] Found', statePaths.size(), 'state paths');
-      
-      statePaths.style('fill', function(d) {
-        var stateName = d.properties.name;
-        var value = monthData.get(stateName);
-        if (value === undefined || isNaN(value)) {
-          return '#e5edf5'; // default gray for missing data
-        }
-        var color = pollutantColorScale(value);
-        return color;
-      });
-    } else {
-      // Hide color legend for non-pollutant selections
-      d3.select('#color-legend').style('display', 'none');
-      // Reset to default colors when not PM2.5
+    var config = pollutantConfig[selectedPollutant];
+    if (!config) {
       gMap.selectAll('path.state').style('fill', '#e5edf5');
+      d3.select('#color-legend').style('display', 'none');
+      return;
     }
+
+    // Get year range for color scale
+    var yearRange = yearRanges[config.dataKey].get(selectedYear);
+    if (!yearRange) {
+      console.warn('No year range for', selectedPollutant, selectedYear);
+      gMap.selectAll('path.state').style('fill', '#e5edf5');
+      d3.select('#color-legend').style('display', 'none');
+      return;
+    }
+    
+    // Update color scale domain for selected year
+    pollutantColorScale.domain([yearRange.min, yearRange.max]);
+    
+    // Update legend with year-specific range and pollutant name
+    d3.select('#legend-title').text(config.name + ' (' + config.unit + ')');
+    d3.select('#legend-min').text(yearRange.min.toFixed(2));
+    d3.select('#legend-max').text(yearRange.max.toFixed(2));
+    updateLegendGradient(yearRange.min, yearRange.max);
+    
+    // Show color legend
+    d3.select('#color-legend').style('display', 'block');
+    
+    // Get month from slider (activeMonth is global)
+    var monthIdx = activeMonth ? months.indexOf(activeMonth) : 0;
+    var monthCode = keyFor(selectedYear, monthIdx);
+    
+    console.log('[updateMapColors]', config.name, 'selected, monthCode:', monthCode, 'Range:', yearRange.min, '-', yearRange.max);
+    
+    var monthData = pollutantData[config.dataKey].get(monthCode);
+    if (!monthData) {
+      console.warn('No', config.name, 'data for', monthCode, '- Available keys:', Array.from(pollutantData[config.dataKey].keys()).slice(0, 5));
+      gMap.selectAll('path.state').style('fill', '#e5edf5');
+      d3.select('#color-legend').style('display', 'none');
+      return;
+    }
+
+    console.log('[updateMapColors] Found data for', monthCode, '- States:', monthData.size);
+    
+    // Update colors based on pollutant values - use style() instead of attr() to override CSS
+    var statePaths = gMap.selectAll('path.state');
+    console.log('[updateMapColors] Found', statePaths.size(), 'state paths');
+    
+    statePaths.style('fill', function(d) {
+      var stateName = d.properties.name;
+      var value = monthData.get(stateName);
+      if (value === undefined || isNaN(value)) {
+        return '#e5edf5'; // default gray for missing data
+      }
+      var color = pollutantColorScale(value);
+      return color;
+    });
   }
 
   d3.select('#pollutant').on('change', function(){
@@ -860,16 +889,23 @@
       var monthIdx = activeMonth ? months.indexOf(activeMonth) : 0;
       var key = keyFor(selectedYear, monthIdx);
 
-      // Show PM2.5 value in legend area if PM2.5 is selected
+      // Show pollutant value in legend area if a pollutant is selected
       var legendEl = d3.select('#pop .legend');
-      if (selectedPollutant === 'pm25') {
-        var monthData = pollutantData.get(key);
-        var pm25Value = monthData ? (monthData.get(stateName) || 0) : 0;
+      var pollutantConfig = {
+        pm25: { name: 'PM₂.₅', unit: 'μg/m³', dataKey: 'pm25' },
+        no2: { name: 'NO₂', unit: 'ppb', dataKey: 'no2' },
+        o3: { name: 'O₃', unit: 'ppb', dataKey: 'o3' }
+      };
+      
+      if (selectedPollutant && pollutantConfig[selectedPollutant]) {
+        var config = pollutantConfig[selectedPollutant];
+        var monthData = pollutantData[config.dataKey].get(key);
+        var pollutantValue = monthData ? (monthData.get(stateName) || 0) : 0;
         legendEl.style('display', 'flex');
-        var displayVal = (pm25Value === 0) ? 'Not Available' : pm25Value.toFixed(2) + ' μg/m³';
-        legendEl.html(`<span style="font-weight: 600;">PM₂.₅: ${displayVal}</span>`);
+        var displayVal = (pollutantValue === 0) ? 'Not Available' : pollutantValue.toFixed(2) + ' ' + config.unit;
+        legendEl.html(`<span style="font-weight: 600;">${config.name}: ${displayVal}</span>`);
       } else {
-        // Hide legend for other pollutants
+        // Hide legend for no pollutant selection
         legendEl.style('display', 'none');
       }
 
