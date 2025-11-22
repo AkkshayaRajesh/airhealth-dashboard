@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>US Choropleth — AirHealth</title>
+  <script src="./lib/d3.v5.min.js"></script>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --ink: #0f172a;
+      --muted: #64748b;
+      --card: #ffffff;
+      --accent: #2563eb;
+      --border: #e5e7eb;
+    }
+    html, body { height: 100%; }
+    body {
+      margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Noto Sans', Ubuntu, Cantarell, 'Helvetica Neue', Arial;
+      color: var(--ink); background: radial-gradient(1200px 600px at 30% 0%, #eef2ff 0%, var(--bg) 40%);
+    }
+    .wrap { max-width: 1200px; margin: 24px auto 40px; padding: 0 16px; }
+    h1 { margin: 0 0 10px; font-size: 20px; font-weight: 700; letter-spacing: 0.2px; }
+    .toolbar { display: grid; grid-template-columns: auto auto 1fr; gap: 16px; align-items: center; }
+    .controls { display: flex; gap: 12px; align-items: center; }
+    .select { position: relative; }
+    select {
+      appearance: none; -webkit-appearance: none; -moz-appearance: none;
+      border: 1px solid var(--border); background: var(--card);
+      border-radius: 12px; padding: 10px 40px 10px 14px; font-size: 14px; color: var(--ink);
+      box-shadow: 0 1px 1px rgba(16,24,40,.04), 0 1px 2px rgba(16,24,40,.06);
+      outline: none;
+    }
+    .select:after {
+      content: '\25BE'; position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+      color: var(--muted); pointer-events: none; font-size: 14px;
+    }
+
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 14px; }
+    .layout { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; margin-top: 14px; }
+    .mapPanel { position: relative; }
+
+    svg { width: 100%; height: auto; display: block; }
+    .state { fill: #e5edf5; stroke: #ffffff; stroke-width: 1; cursor: pointer; }
+    .state:hover { filter: brightness(0.95); }
+    .abbr { font: 11px/1.1 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto; fill: #0f172a; text-anchor: middle; pointer-events: none; }
+
+    /* Slider */
+    .sliderWrap { padding: 10px 14px 10px 10px; grid-column: 1 / -1; height: 70px; display: flex; flex-direction: column; }
+    .sliderTitle { font-size: 14px; margin-bottom: 8px; font-weight: 600; letter-spacing: .02em; }
+    .slider svg { width: 100%; height: 70px; }
+    .track { stroke: #e2e8f0; stroke-linecap: round; stroke-width: 6; }
+    .track-inset { stroke: #f8fafc; stroke-width: 4; }
+    .track-overlay { pointer-events: stroke; stroke-width: 36; cursor: ew-resize; opacity: 0; }
+    .handle { fill: var(--card); stroke: var(--accent); stroke-width: 2.5; }
+    .tick text { font-size: 11px; fill: var(--muted); transform: translateY(-10px); }
+    .pop {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      pointer-events: none;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, .14);
+      padding: 10px 10px 8px;
+      min-width: 220px;
+      max-width: 260px;
+      transform: translate(-50%, -100%);
+      display: none;
+    }
+
+    .pop .title {
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .pop .sub {
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .pop .legend {
+      font-size: 12px;
+      color: var(--ink);
+      display: none; /* Hidden by default, shown for PM2.5 via JavaScript */
+      gap: 10px;
+      margin-bottom: 6px;
+    }
+
+    .pop .legend i {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 2px;
+      margin-right: 6px;
+    }
+
+    .pop .legend .a { background: #93c5fd; } /* light blue */
+    .pop .legend .c { background: #facc15; } /* amber */
+    .pop .legend .i { background: #f9a8d4; } /* pink */
+
+    .bar.asthma { fill: #93c5fd; }
+    .bar.copd { fill: #facc15; }
+    .bar.ihd { fill: #f9a8d4; }
+
+    .axis text { font-size: 10px; fill: var(--muted); }
+    .axis path, .axis line { stroke: #e5e7eb; }
+
+    
+    #lineChartPanel {
+    margin-bottom: 60px; /* ⬅️ adds space under the line chart card */
+    }
+
+  
+    
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>AirHealth — US Choropleth</h1>
+    <div class="toolbar">
+      <div class="controls">
+        <div class="select">
+          <select id="pollutant">
+            <option value="" selected disabled>Pollutants</option>
+            <option value="pm25">PM₂.₅ (Fine Particulate)</option>
+            <option value="o3">O₃ (Ozone)</option>
+            <option value="no2">NO₂ (Nitrogen Dioxide)</option>
+          </select>
+        </div>
+        <div class="select">
+          <select id="year">
+            <option value="" selected disabled>Year</option>
+          </select>
+        </div>
+      </div>
+      <div class="card sliderWrap">
+        <div class="sliderTitle">Month</div>
+        <div id="month-slider" class="slider"></div>
+      </div>
+    </div>
+
+    <div class="layout">
+      <div class="card mapPanel">
+        <svg id="map" viewBox="0 0 960 600" aria-label="US States map"></svg>
+        <!-- Tooltip popover for state mortality -->
+        <div id="pop" class="pop" role="tooltip" aria-live="polite">
+          <div class="title" id="pop-title"></div>
+          <div class="sub" id="pop-sub"></div>
+          <div class="legend">
+            <span><i class="a"></i>Asthma</span>
+            <span><i class="c"></i>COPD</span>
+            <span><i class="i"></i>IHD</span>
+          </div>
+          <svg id="pop-chart" width="240" height="150" aria-label="Mortality mini chart"></svg>
+        </div>
+        <!-- Color scale legend for pollutants - positioned below map -->
+        <div id="color-legend" style="margin-top: 14px; background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 10px 14px; display: none; pointer-events: none; width: fit-content; margin-left: auto; margin-right: 0;">
+          <div style="font-size: 11px; font-weight: 600; margin-bottom: 6px; color: var(--muted);">PM₂.₅ (μg/m³)</div>
+          <svg id="legend-gradient" width="180" height="12" style="margin-bottom: 4px;"></svg>
+          <div style="display: flex; justify-content: space-between; font-size: 10px; color: var(--muted);">
+            <span id="legend-min">0</span>
+            <span id="legend-max">15</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="layout">
+      <div class="card" id="lineChartPanel">
+        <div class="select" style="margin-bottom:12px; width:180px;">
+          <select id="state">
+            <option value="" selected disabled>State</option>
+          </select>
+        </div>
+        <svg id="lineChart" width="700" height="380"></svg>
+      </div>
+    </div>
+
+
+  </div>
+
+<script>
+(function() {
+  // --- Year dropdown ---
+  var years = d3.range(2018, 2026);
+  var yearSel = d3.select('#year');
+  yearSel.selectAll('option.yr')
+    .data(years)
+    .enter().append('option')
+    .attr('class','yr')
+    .attr('value', String)
+    .text(String);
+
+  // --- Slider setup ---
+  var months = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+  var sliderSVG, gS, x, handle, activeMonth;
+
+  function drawSlider() {
+    d3.select('#month-slider').selectAll('svg').remove();
+
+    var mapW = document.querySelector('.mapPanel').getBoundingClientRect().width;
+    var sliderW = Math.max(300, Math.floor(mapW));
+    var sliderH = 60;
+    var margin = {left: 24, right: 30, top: 16, bottom: 16};
+    var innerW = sliderW - margin.left - margin.right;
+
+    sliderSVG = d3.select('#month-slider').append('svg')
+      .attr('width', sliderW)
+      .attr('height', sliderH);
+
+    gS = sliderSVG.append('g').attr('transform', 'translate(' + margin.left + ',30)');
+
+    x = d3.scalePoint().domain(months).range([0, innerW]).padding(0.5);
+    var xIdx = d3.scaleLinear().domain([0, months.length - 1]).range([0, innerW]).clamp(true);
+
+    function clampPx(px) { return Math.max(x.range()[0], Math.min(x.range()[1], px)); }
+
+    function smoothDrag(pxAbs) {
+      var local = clampPx(pxAbs - margin.left);
+      var idx = xIdx.invert(local);
+      handle.attr('cx', xIdx(idx));
+    }
+
+    function snapToNearest(pxAbs) {
+      var local = clampPx(pxAbs - margin.left);
+      var idx = xIdx.invert(local);
+      var i = Math.round(idx);
+      i = Math.max(0, Math.min(months.length - 1, i));
+      activeMonth = months[i];
+      handle.attr('cx', x(activeMonth));
+      var detail = { month: activeMonth, index: i };
+      var ev = new CustomEvent('monthchange', { detail: detail });
+      document.body.dispatchEvent(ev);
+    }
+
+    gS.append('line').attr('class','track')
+      .attr('x1', x.range()[0]).attr('x2', x.range()[1])
+      .attr('y1',0).attr('y2',0);
+    gS.append('line').attr('class','track-inset')
+      .attr('x1', x.range()[0]).attr('x2', x.range()[1])
+      .attr('y1',0).attr('y2',0);
+
+    // overlay
+    var overlay = gS.append('line').attr('class','track-overlay')
+      .attr('x1', x.range()[0]).attr('x2', x.range()[1])
+      .attr('y1',0).attr('y2',0);
+    overlay.call(d3.drag()
+      .on('start drag', function() { smoothDrag(d3.event.x); })
+      .on('end', function() { snapToNearest(d3.event.x); })
+    );
+
+    gS.append('g').attr('class','axis axis--x')
+      .call(d3.axisBottom(x).tickSize(0))
+      .selectAll('text').attr('dy', -10);
+
+    var initialIdx = 0;
+    activeMonth = months[initialIdx];
+    handle = gS.append('circle')
+      .attr('class','handle').attr('r', 10)
+      .attr('cy', 0).attr('cx', x(activeMonth));
+
+    handle.call(d3.drag()
+      .on('start drag', function() { smoothDrag(d3.event.x); })
+      .on('end', function() { snapToNearest(d3.event.x); })
+    );
+  }
+
+  function alignSliderBox() {
+    var wrap = document.querySelector('.wrap');
+    var map = document.querySelector('.mapPanel');
+    var sliderBox = document.querySelector('.sliderWrap');
+    if (!wrap || !map || !sliderBox) return;
+    var wrapRect = wrap.getBoundingClientRect();
+    var mapRect = map.getBoundingClientRect();
+    sliderBox.style.width = (mapRect.width - 30) + 'px';
+    sliderBox.style.marginLeft = (mapRect.left - wrapRect.left - 16) + 'px';
+  }
+
+  function reflowSlider() { alignSliderBox(); drawSlider(); }
+
+  reflowSlider();
+  window.addEventListener('resize', reflowSlider);
+
+  // Month change listener moved to after pollutant data loading
+
+  // --- Map rendering ---
+  var mapSvg = d3.select('#map');
+  var gMap = mapSvg.append('g');
+  
+  var projection = d3.geoAlbersUsa().translate([480, 300]).scale(1150);
+  var path = d3.geoPath().projection(projection);
+
+
+  d3.json('./data/us-states.json').then(function(geo) {
+    var states = geo.features;
+
+    
+    gMap.selectAll('path.state')
+      .data(states)
+      .enter().append('path')
+      .attr('class', 'state')
+      .attr('d', path)
+      .on('click', function(d) {
+        console.log('Clicked:', d.id, d.properties && d.properties.name);
+      });
+
+    gMap.selectAll('text.abbr')
+      .data(states)
+      .enter().append('text')
+      .attr('class','abbr')
+      .attr('transform', function(d){
+        var c = path.centroid(d);
+        return 'translate(' + (isFinite(c[0]) ? c[0] : -9999) + ',' + (isFinite(c[1]) ? c[1] : -9999) + ')';
+      })
+      .attr('dy', 3)
+      .text(function(d){ return d.id || ''; });
+  }).catch(function(err){
+    console.error('Failed to load GeoJSON. Make sure ./data/us-states.json exists.', err);
+  });
+    // --- Tooltip Popover setup ---
+  var pop = document.getElementById('pop');
+  var popTitle = document.getElementById('pop-title');
+  var popSub = document.getElementById('pop-sub');
+  var popSvg = d3.select('#pop-chart');
+
+  function showPop() { pop.style.display = 'block'; }
+  function hidePop() { pop.style.display = 'none'; }
+  function movePop(evt) {
+    const panel = document.querySelector('.mapPanel').getBoundingClientRect();
+    const popRect = pop.getBoundingClientRect();
+    const x = evt.clientX - panel.left + 14;
+    const y = evt.clientY - panel.top - 10;
+    const left = Math.min(Math.max(8, x), panel.width - popRect.width - 8);
+    const top = Math.min(Math.max(8, y), panel.height - popRect.height - 8);
+    pop.style.left = left + 'px';
+    pop.style.top = top + 'px';
+  }
+
+
+  // --- Pollutant data storage ---
+  var pollutantData = new Map(); // key: monthCode (YYYY/MM), value: Map(stateName -> value)
+  var yearRanges = new Map(); // key: year, value: {min: number, max: number}
+  
+  // Function to convert month format from 2018-01 to 2018/01
+  function convertMonthFormat(monthStr) {
+    return monthStr.replace('-', '/');
+  }
+
+  // Function to get year from month code (YYYY/MM -> YYYY)
+  function getYearFromMonthCode(monthCode) {
+    return monthCode.split('/')[0];
+  }
+
+  // Load PM2.5 data and calculate year ranges
+  d3.csv('./data/PM2.5_state_month_2018_2025.csv').then(function(pm25Data) {
+    console.log('[PM2.5 data] Loaded', pm25Data.length, 'rows');
+    
+    // First pass: load data and collect values by year
+    var valuesByYear = new Map();
+    
+    pm25Data.forEach(function(d) {
+      var monthCode = convertMonthFormat(d.Month);
+      var year = getYearFromMonthCode(monthCode);
+      var value = +d['Arithmetic Mean'] || 0;
+      
+      if (!pollutantData.has(monthCode)) {
+        pollutantData.set(monthCode, new Map());
+      }
+      var monthMap = pollutantData.get(monthCode);
+      monthMap.set(d['State Name'], value);
+      
+      // Collect values for year range calculation
+      if (!valuesByYear.has(year)) {
+        valuesByYear.set(year, []);
+      }
+      valuesByYear.get(year).push(value);
+    });
+    
+    // Calculate min/max for each year
+    valuesByYear.forEach(function(values, year) {
+      var min = d3.min(values);
+      var max = d3.max(values);
+      yearRanges.set(year, {min: min, max: max});
+      console.log('[Year range]', year, 'Min:', min.toFixed(2), 'Max:', max.toFixed(2));
+    });
+    
+    console.log('[PM2.5 data loaded]', pollutantData.size, 'months');
+    console.log('[PM2.5 sample keys]', Array.from(pollutantData.keys()).slice(0, 10));
+    // Update map if pollutant is already selected
+    updateMapColors();
+  }).catch(function(err) {
+    console.error('Failed to load PM2.5 data:', err);
+  });
+
+  // --- Color scale for pollutants ---
+  var pollutantColorScale = d3.scaleSequential(d3.interpolateYlOrRd)
+    .domain([0, 15]); // Will be updated based on selected year
+
+  // Function to update legend gradient with year-specific range
+  function updateLegendGradient(min, max) {
+    var legendGradient = d3.select('#legend-gradient');
+    legendGradient.selectAll('*').remove();
+    
+    var defs = legendGradient.append('defs');
+    var gradient = defs.append('linearGradient')
+      .attr('id', 'pollutant-gradient')
+      .attr('x1', '0%')
+      .attr('x2', '100%');
+    
+    // Create gradient stops
+    var numStops = 10;
+    for (var i = 0; i <= numStops; i++) {
+      var value = min + (i / numStops) * (max - min);
+      gradient.append('stop')
+        .attr('offset', (i / numStops * 100) + '%')
+        .attr('stop-color', pollutantColorScale(value));
+    }
+    
+    legendGradient.append('rect')
+      .attr('width', 180)
+      .attr('height', 12)
+      .attr('fill', 'url(#pollutant-gradient)')
+      .attr('rx', 2);
+  }
+
+  // --- Update map colors based on selected pollutant/year/month ---
+  function updateMapColors() {
+    var selectedPollutant = d3.select('#pollutant').property('value');
+    var selectedYear = d3.select('#year').property('value');
+    
+    if (!selectedPollutant || !selectedYear) {
+      // Reset to default colors if no selection
+      gMap.selectAll('path.state')
+        .style('fill', '#e5edf5');
+      return;
+    }
+
+    if (selectedPollutant === 'pm25') {
+      // Get year range for color scale
+      var yearRange = yearRanges.get(selectedYear);
+      if (!yearRange) {
+        console.warn('No year range for', selectedYear);
+        gMap.selectAll('path.state').style('fill', '#e5edf5');
+        d3.select('#color-legend').style('display', 'none');
+        return;
+      }
+      
+      // Update color scale domain for selected year
+      pollutantColorScale.domain([yearRange.min, yearRange.max]);
+      
+      // Update legend with year-specific range
+      d3.select('#legend-min').text(yearRange.min.toFixed(2));
+      d3.select('#legend-max').text(yearRange.max.toFixed(2));
+      updateLegendGradient(yearRange.min, yearRange.max);
+      
+      // Show color legend
+      d3.select('#color-legend').style('display', 'block');
+      
+      // Get month from slider (activeMonth is global)
+      var monthIdx = activeMonth ? months.indexOf(activeMonth) : 0;
+      var monthCode = keyFor(selectedYear, monthIdx);
+      
+      console.log('[updateMapColors] PM2.5 selected, monthCode:', monthCode, 'Range:', yearRange.min, '-', yearRange.max);
+      
+      var monthData = pollutantData.get(monthCode);
+      if (!monthData) {
+        console.warn('No PM2.5 data for', monthCode, '- Available keys:', Array.from(pollutantData.keys()).slice(0, 5));
+        gMap.selectAll('path.state').style('fill', '#e5edf5');
+        d3.select('#color-legend').style('display', 'none');
+        return;
+      }
+
+      console.log('[updateMapColors] Found data for', monthCode, '- States:', monthData.size);
+      
+      // Update colors based on PM2.5 values - use style() instead of attr() to override CSS
+      var statePaths = gMap.selectAll('path.state');
+      console.log('[updateMapColors] Found', statePaths.size(), 'state paths');
+      
+      statePaths.style('fill', function(d) {
+        var stateName = d.properties.name;
+        var value = monthData.get(stateName);
+        if (value === undefined || isNaN(value)) {
+          return '#e5edf5'; // default gray for missing data
+        }
+        var color = pollutantColorScale(value);
+        return color;
+      });
+    } else {
+      // Hide color legend for non-pollutant selections
+      d3.select('#color-legend').style('display', 'none');
+      // Reset to default colors when not PM2.5
+      gMap.selectAll('path.state').style('fill', '#e5edf5');
+    }
+  }
+
+  d3.select('#pollutant').on('change', function(){
+    console.log('[Pollutant]', this.value);
+    updateMapColors();
+  });
+  
+  d3.select('#year').on('change', function(){
+    console.log('[Year]', +this.value);
+    updateMapColors();
+  });
+
+  // Update map when month changes
+  document.body.addEventListener('monthchange', function(e){
+    console.log('[Month changed]', e.detail);
+    updateMapColors();
+  });
+
+    // --- Mortality Line Chart (monthly, smoothed) ---
+  var svgLine = d3.select("#lineChart"),
+      margin = {top: 40, right: 120, bottom: 80, left: 60}, 
+      width = +svgLine.attr("width") - margin.left - margin.right,
+      height = +svgLine.attr("height") - margin.top - margin.bottom;
+
+
+  var gLine = svgLine.append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  // scales
+  var xLine = d3.scaleTime().range([0, width]);
+  var yLine = d3.scaleLinear().range([height, 0]);
+
+  var color = d3.scaleOrdinal()
+  .domain(["Asthma", "COPD", "IHD"])
+  .range([
+    "rgba(147,197,253,0.8)",  // Asthma: blue-sky
+    "rgba(250,204,21,0.8)",   // COPD: amber
+    "rgba(249,168,212,0.8)"   // IHD: pink
+  ]);
+
+
+  var xAxis = d3.axisBottom(xLine)
+    .ticks(d3.timeYear.every(1))
+    .tickFormat(d3.timeFormat("%Y"))
+    .tickPadding(8);
+  var yAxis = d3.axisLeft(yLine).tickFormat(d3.format(","));
+
+  gLine.append("g").attr("class", "x-axis")
+      .attr("transform", "translate(0," + height + ")");
+  gLine.append("g").attr("class", "y-axis");
+
+  gLine.append("text")
+    .attr("x", width / 2)
+    .attr("y", -10)
+    .attr("text-anchor", "middle")
+    .style("font-weight", "600")
+    .text("Yearly Mortality by Disease (2018-2024)");
+
+  gLine.append("text")
+    .attr("x", width / 2)
+    .attr("y", height + 40)
+    .attr("text-anchor", "middle")
+    .style("fill", "#64748b")
+    .text("Year");
+
+  gLine.append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("y", -45)
+    .attr("x", -height / 2)
+    .attr("text-anchor", "middle")
+    .style("fill", "#64748b")
+    .text("Deaths");
+  
+  // --- Legend ---
+  // --- Legend (smaller, moved right) ---
+  var legend = gLine.append("g")
+    .attr("class", "legend")
+    .attr("transform", "translate(" + (width - 80) + ", -30)"); 
+
+  var legendItems = [
+    { name: "Asthma", color: "rgba(147,197,253,0.8)" },
+    { name: "COPD", color: "rgba(250,204,21,0.8)" },
+    { name: "IHD", color: "rgba(249,168,212,0.8)" }
+  ];
+
+  legend.selectAll("rect")
+    .data(legendItems)
+    .enter().append("rect")
+    .attr("x", 0)
+    .attr("y", (d, i) => i * 20)   
+    .attr("width", 10)             
+    .attr("height", 10)
+    .attr("rx", 2)
+    .attr("fill", d => d.color)
+    .attr("fill-opacity", 0.9);
+
+  legend.selectAll("text")
+    .data(legendItems)
+    .enter().append("text")
+    .attr("x", 16)             
+    .attr("y", (d, i) => i * 20 + 9)
+    .attr("text-anchor", "start")
+    .style("font-size", "11.5px") 
+    .style("fill", "#334155")
+    .text(d => d.name);
+
+
+
+  var tooltip = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("position", "absolute")
+    .style("padding", "6px 10px")
+    .style("background", "#fff")
+    .style("border", "1px solid #ddd")
+    .style("border-radius", "6px")
+    .style("font-size", "13px")
+    .style("pointer-events", "none")
+    .style("opacity", 0);
+
+  Promise.all([
+  d3.csv("./data/copd_final.csv"),
+  d3.csv("./data/asthma_final.csv"),
+  d3.csv("./data/ihd_final.csv")
+]).then(function([copd, asthma, ihd]) {
+
+  // label datasets
+  copd.forEach(d => d.disease = "COPD");
+  asthma.forEach(d => d.disease = "Asthma");
+  ihd.forEach(d => d.disease = "IHD");
+
+  var data = copd.concat(asthma, ihd);
+
+  var parseMonth = d3.timeParse("%Y/%m");
+  var formatMonth = d3.timeFormat("%Y/%m");
+
+  data.forEach(function(d) {
+    d.date = parseMonth(String(d["Month Code"]));
+    d.deaths = +d["Deaths"];
+    d.state = d["Residence State"];
+  });
+
+  //  Get all unique states and diseases
+  var allStates = Array.from(new Set(data.map(d => d.state))).sort();
+  var diseases = Array.from(new Set(data.map(d => d.disease)));
+
+  //  Generate all year–month combinations (Jan 2018 – Dec 2024)
+  var fullMonths = [];
+  for (let y = 2018; y <= 2024; y++) {
+    for (let m = 1; m <= 12; m++) {
+      fullMonths.push(`${y}/${String(m).padStart(2, "0")}`);
+    }
+  }
+
+  //  Fill missing combinations with 0 deaths
+  var filledData = [];
+  allStates.forEach(state => {
+    diseases.forEach(disease => {
+      fullMonths.forEach(monthCode => {
+        const found = data.find(
+          d =>
+            d.state === state &&
+            d.disease === disease &&
+            formatMonth(d.date) === monthCode
+        );
+        if (found) {
+          filledData.push(found);
+        } else {
+          filledData.push({
+            state: state,
+            disease: disease,
+            date: parseMonth(monthCode),
+            deaths: 0
+          });
+        }
+      });
+    });
+  });
+
+  data = filledData; // replace with filled dataset
+
+  // Populate dropdown with all states
+  d3.select("#state")
+    .selectAll("option.stateOpt")
+    .data(allStates)
+    .enter()
+    .append("option")
+    .attr("value", d => d)
+    .text(d => d);
+
+
+    // populate dropdown
+    var allStates = Array.from(new Set(data.map(d => d.state))).sort();
+    d3.select("#state")
+      .selectAll("option.stateOpt")
+      .data(allStates)
+      .enter().append("option")
+      .attr("value", d => d)
+      .text(d => d);
+
+    // main update function
+    function updateChart(state) {
+      var filtered = data.filter(d => d.state === state);
+
+      // --- Aggregate monthly to yearly totals ---
+      var yearly = d3.nest()
+        .key(d => d.disease)
+        .key(d => {
+          const year = d.date.getFullYear();
+          return (year <= 2024) ? year : null;  // ignore 2025
+        })
+        .rollup(v => d3.sum(v, d => d.deaths))
+        .entries(filtered)
+        .map(g => ({
+          name: g.key,
+          values: g.values
+            .filter(v => v.key !== "null")
+            .map(v => ({ year: +v.key, deaths: v.value }))
+            .sort((a, b) => a.year - b.year)
+        }));
+
+      if (yearly.length === 0) {
+        console.warn("No data for state:", state);
+        return;
+      }
+
+      // --- Scales ---
+      const allYears = d3.range(2018, 2025);
+      xLine.domain(d3.extent(allYears, d => new Date(d, 0, 1)));
+      yLine.domain([0, d3.max(yearly, s => d3.max(s.values, v => v.deaths)) * 1.1]);
+
+      gLine.select(".x-axis")
+        .call(d3.axisBottom(xLine)
+          .ticks(d3.timeYear.every(1))
+          .tickFormat(d3.timeFormat("%Y"))
+          .tickSizeOuter(0)
+          .tickPadding(10))
+        .selectAll("text")
+        .attr("dy", "1.5em")           
+        .style("fill", "#475569")
+        .style("font-size", "12px");
+
+
+      gLine.select(".y-axis").call(yAxis);
+
+      // --- Line generator ---
+      var lineGen = d3.line()
+        .x(d => xLine(new Date(d.year, 0, 1)))
+        .y(d => yLine(d.deaths))
+        .curve(d3.curveMonotoneX);
+
+      // --- Draw lines ---
+      var lines = gLine.selectAll(".disease-line")
+        .data(yearly, d => d.name);
+
+      lines.enter().append("path")
+        .attr("class", "disease-line")
+        .merge(lines)
+        .attr("fill", "none")
+        .attr("stroke-width", 1.6)
+        .attr("stroke-opacity", 0.9)
+        .attr("stroke", d => color(d.name))
+        .attr("d", d => lineGen(d.values));
+
+      lines.exit().remove();
+
+      // --- Hover overlay paths (for tooltips on the line) ---
+      var overlays = gLine.selectAll(".hover-line")
+        .data(yearly, d => d.name);
+
+      overlays.enter().append("path")
+        .attr("class", "hover-line")
+        .merge(overlays)
+        .attr("fill", "none")
+        .attr("stroke", "transparent")
+        .attr("stroke-width", 15)  // invisible hover area
+        .attr("d", d => lineGen(d.values))
+        .on("mousemove", function(d) {
+          // find closest year to mouse x
+          const [mx] = d3.mouse(this);
+          const xDate = xLine.invert(mx);
+          const year = xDate.getFullYear();
+          const nearest = d.values.reduce((a, b) =>
+            Math.abs(a.year - year) < Math.abs(b.year - year) ? a : b
+          );
+          tooltip.transition().duration(50).style("opacity", 0.9);
+          tooltip.html(`<b>${d.name}</b><br>${nearest.year}: ${nearest.deaths.toLocaleString()}`)
+            .style("left", (d3.event.pageX + 10) + "px")
+            .style("top", (d3.event.pageY - 28) + "px");
+        })
+        .on("mouseout", () => tooltip.transition().duration(200).style("opacity", 0));
+
+      overlays.exit().remove();
+
+      // --- Draw yearly dots ---
+      var points = gLine.selectAll(".point")
+        .data(yearly.flatMap(d => d.values.map(v => ({ ...v, name: d.name }))));
+
+      points.enter().append("circle")
+        .attr("class", "point")
+        .attr("r", 3)
+        .attr("fill", d => color(d.name))
+        .attr("fill-opacity", 0.9)
+        .merge(points)
+        .attr("cx", d => xLine(new Date(d.year, 0, 1)))
+        .attr("cy", d => yLine(d.deaths));
+
+      points.exit().remove();
+    }
+
+    
+
+    d3.select("#state").on("change", function() {
+      updateChart(this.value);
+    });
+  });
+  // --- Aggregate mortality counts by state/month ---
+    var byKey = new Map();
+
+    function keyFor(year, monthIdx) {
+      var mm = String(monthIdx + 1).padStart(2, '0');
+      return year + '/' + mm;
+    }
+
+    function addCount(monthCode, stateName, kind, val) {
+      if (!byKey.has(monthCode)) byKey.set(monthCode, new Map());
+      var m = byKey.get(monthCode);
+      if (!m.has(stateName)) m.set(stateName, { asthma: 0, copd: 0, ihd: 0 });
+      m.get(stateName)[kind] += val;
+    }
+
+    // Load and structure data
+    Promise.all([
+      d3.json('./data/us-states.json'),
+      d3.csv('./data/asthma_final.csv', d => addCount(d['Month Code'], d['Residence State'], 'asthma', +d['Deaths'] || 0)),
+      d3.csv('./data/copd_final.csv', d => addCount(d['Month Code'], d['Residence State'], 'copd', +d['Deaths'] || 0)),
+      d3.csv('./data/ihd_final.csv', d => addCount(d['Month Code'], d['Residence State'], 'ihd', +d['Deaths'] || 0))
+    ]).then(([geo]) => {
+      var states = geo.features;
+      gMap.selectAll('path.state')
+        .on('mouseover', function(d) {
+          renderMiniChart(d.properties.name);
+          showPop();
+          movePop(d3.event);
+        })
+        .on('mousemove', function() { movePop(d3.event); })
+        .on('mouseout', hidePop);
+    });
+
+    // --- Function to render the small bar chart ---
+    function renderMiniChart(stateName) {
+      var selectedYear = d3.select('#year').property('value');
+      var selectedPollutant = d3.select('#pollutant').property('value');
+      
+      if (!selectedYear) {
+        popSvg.selectAll('*').remove();
+        popTitle.textContent = stateName;
+        popSub.textContent = "Select a year to view data";
+        // Hide legend area
+        d3.select('#pop .legend').style('display', 'none');
+        return;
+      }
+
+      var monthIdx = activeMonth ? months.indexOf(activeMonth) : 0;
+      var key = keyFor(selectedYear, monthIdx);
+
+      // Show PM2.5 value in legend area if PM2.5 is selected
+      var legendEl = d3.select('#pop .legend');
+      if (selectedPollutant === 'pm25') {
+        var monthData = pollutantData.get(key);
+        var pm25Value = monthData ? (monthData.get(stateName) || 0) : 0;
+        legendEl.style('display', 'flex');
+        var displayVal = (pm25Value === 0) ? 'Not Available' : pm25Value.toFixed(2) + ' μg/m³';
+        legendEl.html(`<span style="font-weight: 600;">PM₂.₅: ${displayVal}</span>`);
+      } else {
+        // Hide legend for other pollutants
+        legendEl.style('display', 'none');
+      }
+
+      var rec = (byKey.get(key) || new Map()).get(stateName) || { asthma: 0, copd: 0, ihd: 0 };
+
+      popTitle.textContent = stateName;
+      popSub.textContent = `${activeMonth || 'JAN'} ${selectedYear}`;
+
+      var data = [
+        { label: 'Asthma', cls: 'asthma', value: rec.asthma },
+        { label: 'COPD', cls: 'copd', value: rec.copd },
+        { label: 'IHD', cls: 'ihd', value: rec.ihd }
+      ];
+
+      var W = 240, H = 150, m = { top: 6, right: 8, bottom: 28, left: 36 };
+      var iw = W - m.left - m.right, ih = H - m.top - m.bottom;
+
+      popSvg.selectAll('*').remove();
+      var g = popSvg.append('g').attr('transform', `translate(${m.left},${m.top})`);
+
+      var x = d3.scaleBand().domain(data.map(d => d.label)).range([0, iw]).padding(0.35);
+      var y = d3.scaleLinear()
+              .domain([0, (d3.max(data, d=>d.value) || 1) * 1.1])  // add 10% padding
+              .range([ih, 0]);
+
+
+      g.append('g')
+        .attr('class', 'axis axis--x')
+        .attr('transform', `translate(0,${ih})`)
+        .call(d3.axisBottom(x).tickSize(0));
+      g.selectAll('.axis--x text')
+        .attr('dy', '1.6em');  // move labels below the x-axis line
+
+
+      g.append('g')
+        .attr('class', 'axis axis--y')
+        .call(d3.axisLeft(y).ticks(4).tickSize(-iw));
+
+      // bars
+      g.selectAll('rect.bar')
+        .data(data)
+        .enter().append('rect')
+        .attr('class', 'bar')
+        .attr('x', d => x(d.label))
+        .attr('y', d => y(d.value))
+        .attr('width', x.bandwidth())
+        .attr('height', d => ih - y(d.value))
+        .attr('fill', d => color(d.label))    // use same color as line chart
+        .attr('fill-opacity', 0.9)
+        .attr('rx', 3);                       // small corner rounding 
+
+
+      // value labels
+
+      g.selectAll('text.value')
+        .data(data)
+        .enter().append('text')
+        .attr('class', 'value')
+        .attr('x', d => x(d.label) + x.bandwidth() / 2)
+        .attr('y', d => y(d.value) - 6)  // position slightly above bar
+        .attr('text-anchor', 'middle')
+        .style('font-size', '11px')
+        .style('font-weight', '500')
+        .style('fill', '#000000')  // all black text
+        .text(d => d.value.toLocaleString());
+
+
+    }
+
+    
+
+  
+
+
+})();
+</script>
+</body>
+</html>
