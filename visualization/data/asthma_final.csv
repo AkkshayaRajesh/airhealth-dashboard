@@ -1,0 +1,701 @@
+,Residence State,Residence State Code,Month,Month Code,UCD - ICD Sub-Chapter,UCD - ICD Sub-Chapter Code,Underlying Cause of death,Underlying Cause of death Code,Deaths
+0,Alabama,1,"Nov., 2018",2018/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+1,Arizona,4,"Jan., 2018",2018/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+2,Arizona,4,"Feb., 2018",2018/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+3,Arizona,4,"Mar., 2018",2018/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+4,Arizona,4,"Jan., 2019",2019/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+5,Arizona,4,"Mar., 2019",2019/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+6,Arizona,4,"May, 2019",2019/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+7,Arizona,4,"Apr., 2020",2020/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+8,Arizona,4,"May, 2020",2020/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+9,Arizona,4,"Jul., 2020",2020/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+10,Arizona,4,"Dec., 2020",2020/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+11,Arizona,4,"Apr., 2022",2022/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+12,California,6,"Jan., 2018",2018/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,47
+13,California,6,"Feb., 2018",2018/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,25
+14,California,6,"Mar., 2018",2018/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,33
+15,California,6,"Apr., 2018",2018/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,34
+16,California,6,"May, 2018",2018/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+17,California,6,"Jun., 2018",2018/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+18,California,6,"Jul., 2018",2018/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,28
+19,California,6,"Aug., 2018",2018/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,26
+20,California,6,"Sep., 2018",2018/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+21,California,6,"Oct., 2018",2018/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,30
+22,California,6,"Nov., 2018",2018/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,25
+23,California,6,"Dec., 2018",2018/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,38
+24,California,6,"Jan., 2019",2019/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,35
+25,California,6,"Feb., 2019",2019/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,28
+26,California,6,"Mar., 2019",2019/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,30
+27,California,6,"Apr., 2019",2019/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,27
+28,California,6,"May, 2019",2019/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,26
+29,California,6,"Jun., 2019",2019/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,29
+30,California,6,"Jul., 2019",2019/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,33
+31,California,6,"Aug., 2019",2019/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,23
+32,California,6,"Sep., 2019",2019/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+33,California,6,"Oct., 2019",2019/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,34
+34,California,6,"Nov., 2019",2019/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,19
+35,California,6,"Dec., 2019",2019/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,24
+36,California,6,"Dec., 2019",2019/12,Chronic lower respiratory diseases,J40-J47,Status asthmaticus,J46,12
+37,California,6,"Jan., 2020",2020/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,33
+38,California,6,"Feb., 2020",2020/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,41
+39,California,6,"Mar., 2020",2020/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,38
+40,California,6,"Apr., 2020",2020/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,47
+41,California,6,"May, 2020",2020/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,29
+42,California,6,"Jun., 2020",2020/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,28
+43,California,6,"Jul., 2020",2020/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,41
+44,California,6,"Aug., 2020",2020/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,28
+45,California,6,"Sep., 2020",2020/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+46,California,6,"Oct., 2020",2020/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,21
+47,California,6,"Nov., 2020",2020/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,31
+48,California,6,"Dec., 2020",2020/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,38
+49,California,6,"Jan., 2021",2021/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,34
+50,California,6,"Feb., 2021",2021/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,28
+51,California,6,"Mar., 2021",2021/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,27
+52,California,6,"Apr., 2021",2021/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,30
+53,California,6,"May, 2021",2021/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+54,California,6,"Jun., 2021",2021/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,24
+55,California,6,"Jul., 2021",2021/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+56,California,6,"Aug., 2021",2021/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,30
+57,California,6,"Sep., 2021",2021/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,24
+58,California,6,"Oct., 2021",2021/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,34
+59,California,6,"Nov., 2021",2021/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+60,California,6,"Dec., 2021",2021/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,36
+61,California,6,"Jan., 2022",2022/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,33
+62,California,6,"Feb., 2022",2022/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,37
+63,California,6,"Mar., 2022",2022/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,30
+64,California,6,"Apr., 2022",2022/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,26
+65,California,6,"May, 2022",2022/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+66,California,6,"Jun., 2022",2022/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,25
+67,California,6,"Jul., 2022",2022/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,25
+68,California,6,"Aug., 2022",2022/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,32
+69,California,6,"Sep., 2022",2022/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,33
+70,California,6,"Oct., 2022",2022/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,26
+71,California,6,"Nov., 2022",2022/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,48
+72,California,6,"Dec., 2022",2022/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,29
+73,California,6,"Jan., 2023",2023/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,38
+74,California,6,"Feb., 2023",2023/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,43
+75,California,6,"Mar., 2023",2023/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,28
+76,California,6,"Apr., 2023",2023/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,31
+77,California,6,"May, 2023",2023/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,24
+78,California,6,"Jun., 2023",2023/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,23
+79,California,6,"Jul., 2023",2023/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,26
+80,California,6,"Aug., 2023",2023/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,25
+81,California,6,"Sep., 2023",2023/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+82,California,6,"Oct., 2023",2023/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,24
+83,California,6,"Nov., 2023",2023/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,37
+84,California,6,"Dec., 2023",2023/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,34
+85,California,6,"Jan., 2024 (provisional)",2024/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,40
+86,California,6,"Feb., 2024 (provisional)",2024/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,27
+87,California,6,"Mar., 2024 (provisional)",2024/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,26
+88,California,6,"Apr., 2024 (provisional)",2024/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,32
+89,California,6,"May, 2024 (provisional)",2024/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,38
+90,California,6,"Jun., 2024 (provisional)",2024/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,32
+91,California,6,"Jul., 2024 (provisional)",2024/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,31
+92,California,6,"Aug., 2024 (provisional)",2024/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,24
+93,California,6,"Sep., 2024 (provisional)",2024/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+94,California,6,"Oct., 2024 (provisional)",2024/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,24
+95,California,6,"Nov., 2024 (provisional)",2024/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,30
+96,California,6,"Dec., 2024 (provisional)",2024/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,31
+97,California,6,"Jan., 2025 (provisional and partial)",2025/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,46
+98,California,6,"Feb., 2025 (provisional and partial)",2025/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,40
+99,California,6,"Mar., 2025 (provisional and partial)",2025/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,37
+100,California,6,"Apr., 2025 (provisional and partial)",2025/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+101,California,6,"May, 2025 (provisional and partial)",2025/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,40
+102,California,6,"Jun., 2025 (provisional and partial)",2025/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,23
+103,California,6,"Jul., 2025 (provisional and partial)",2025/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,19
+104,California,6,"Aug., 2025 (provisional and partial)",2025/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,25
+105,California,6,"Sep., 2025 (provisional and partial)",2025/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+106,Colorado,8,"Jan., 2024 (provisional)",2024/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+107,Florida,12,"Jan., 2018",2018/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+108,Florida,12,"Feb., 2018",2018/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+109,Florida,12,"Mar., 2018",2018/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+110,Florida,12,"Apr., 2018",2018/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+111,Florida,12,"May, 2018",2018/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+112,Florida,12,"Jul., 2018",2018/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,24
+113,Florida,12,"Sep., 2018",2018/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+114,Florida,12,"Oct., 2018",2018/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+115,Florida,12,"Nov., 2018",2018/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+116,Florida,12,"Dec., 2018",2018/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+117,Florida,12,"Jan., 2019",2019/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+118,Florida,12,"Feb., 2019",2019/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+119,Florida,12,"Mar., 2019",2019/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+120,Florida,12,"Apr., 2019",2019/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+121,Florida,12,"May, 2019",2019/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+122,Florida,12,"Jun., 2019",2019/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+123,Florida,12,"Aug., 2019",2019/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+124,Florida,12,"Sep., 2019",2019/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+125,Florida,12,"Nov., 2019",2019/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+126,Florida,12,"Dec., 2019",2019/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+127,Florida,12,"Jan., 2020",2020/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,19
+128,Florida,12,"Feb., 2020",2020/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+129,Florida,12,"Mar., 2020",2020/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+130,Florida,12,"Apr., 2020",2020/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,24
+131,Florida,12,"May, 2020",2020/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+132,Florida,12,"Jun., 2020",2020/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+133,Florida,12,"Jul., 2020",2020/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,26
+134,Florida,12,"Aug., 2020",2020/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+135,Florida,12,"Sep., 2020",2020/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+136,Florida,12,"Oct., 2020",2020/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+137,Florida,12,"Nov., 2020",2020/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,21
+138,Florida,12,"Dec., 2020",2020/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+139,Florida,12,"Jan., 2021",2021/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+140,Florida,12,"Mar., 2021",2021/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+141,Florida,12,"Apr., 2021",2021/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+142,Florida,12,"May, 2021",2021/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+143,Florida,12,"Jun., 2021",2021/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+144,Florida,12,"Jul., 2021",2021/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+145,Florida,12,"Aug., 2021",2021/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,21
+146,Florida,12,"Sep., 2021",2021/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+147,Florida,12,"Oct., 2021",2021/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+148,Florida,12,"Nov., 2021",2021/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+149,Florida,12,"Dec., 2021",2021/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+150,Florida,12,"Jan., 2022",2022/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+151,Florida,12,"Feb., 2022",2022/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,23
+152,Florida,12,"Mar., 2022",2022/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+153,Florida,12,"Apr., 2022",2022/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+154,Florida,12,"May, 2022",2022/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+155,Florida,12,"Jul., 2022",2022/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+156,Florida,12,"Aug., 2022",2022/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+157,Florida,12,"Sep., 2022",2022/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+158,Florida,12,"Oct., 2022",2022/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+159,Florida,12,"Nov., 2022",2022/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+160,Florida,12,"Dec., 2022",2022/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+161,Florida,12,"Jan., 2023",2023/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+162,Florida,12,"Feb., 2023",2023/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+163,Florida,12,"Mar., 2023",2023/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+164,Florida,12,"Apr., 2023",2023/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+165,Florida,12,"May, 2023",2023/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+166,Florida,12,"Jun., 2023",2023/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+167,Florida,12,"Jul., 2023",2023/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+168,Florida,12,"Aug., 2023",2023/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+169,Florida,12,"Sep., 2023",2023/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+170,Florida,12,"Oct., 2023",2023/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,19
+171,Florida,12,"Nov., 2023",2023/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+172,Florida,12,"Dec., 2023",2023/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+173,Florida,12,"Jan., 2024 (provisional)",2024/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,24
+174,Florida,12,"Feb., 2024 (provisional)",2024/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+175,Florida,12,"Mar., 2024 (provisional)",2024/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+176,Florida,12,"Apr., 2024 (provisional)",2024/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+177,Florida,12,"Jun., 2024 (provisional)",2024/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+178,Florida,12,"Jul., 2024 (provisional)",2024/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+179,Florida,12,"Aug., 2024 (provisional)",2024/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+180,Florida,12,"Sep., 2024 (provisional)",2024/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+181,Florida,12,"Oct., 2024 (provisional)",2024/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+182,Florida,12,"Nov., 2024 (provisional)",2024/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+183,Florida,12,"Dec., 2024 (provisional)",2024/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+184,Florida,12,"Jan., 2025 (provisional and partial)",2025/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+185,Florida,12,"Feb., 2025 (provisional and partial)",2025/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+186,Florida,12,"Mar., 2025 (provisional and partial)",2025/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+187,Florida,12,"Apr., 2025 (provisional and partial)",2025/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+188,Florida,12,"May, 2025 (provisional and partial)",2025/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,19
+189,Florida,12,"Jun., 2025 (provisional and partial)",2025/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+190,Florida,12,"Jul., 2025 (provisional and partial)",2025/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+191,Florida,12,"Aug., 2025 (provisional and partial)",2025/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+192,Georgia,13,"Jan., 2018",2018/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+193,Georgia,13,"Mar., 2018",2018/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+194,Georgia,13,"Apr., 2019",2019/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+195,Georgia,13,"Jul., 2019",2019/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+196,Georgia,13,"Sep., 2019",2019/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+197,Georgia,13,"Nov., 2019",2019/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+198,Georgia,13,"Mar., 2020",2020/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+199,Georgia,13,"Apr., 2020",2020/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+200,Georgia,13,"May, 2020",2020/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+201,Georgia,13,"Jul., 2020",2020/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+202,Georgia,13,"Jan., 2021",2021/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+203,Georgia,13,"Oct., 2021",2021/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+204,Georgia,13,"Jan., 2022",2022/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+205,Georgia,13,"Feb., 2022",2022/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+206,Georgia,13,"May, 2022",2022/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+207,Georgia,13,"Jul., 2022",2022/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+208,Georgia,13,"Jan., 2023",2023/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+209,Georgia,13,"Mar., 2023",2023/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+210,Georgia,13,"Jun., 2023",2023/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+211,Georgia,13,"Jul., 2023",2023/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+212,Georgia,13,"Nov., 2023",2023/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+213,Georgia,13,"Dec., 2023",2023/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+214,Georgia,13,"Feb., 2024 (provisional)",2024/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+215,Georgia,13,"Apr., 2024 (provisional)",2024/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+216,Georgia,13,"May, 2024 (provisional)",2024/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+217,Georgia,13,"Dec., 2024 (provisional)",2024/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+218,Georgia,13,"Jan., 2025 (provisional and partial)",2025/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+219,Georgia,13,"Feb., 2025 (provisional and partial)",2025/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+220,Georgia,13,"Mar., 2025 (provisional and partial)",2025/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+221,Georgia,13,"Apr., 2025 (provisional and partial)",2025/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+222,Georgia,13,"Jul., 2025 (provisional and partial)",2025/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+223,Illinois,17,"Jan., 2018",2018/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+224,Illinois,17,"Feb., 2018",2018/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+225,Illinois,17,"Mar., 2018",2018/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+226,Illinois,17,"Aug., 2018",2018/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+227,Illinois,17,"Sep., 2018",2018/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+228,Illinois,17,"Oct., 2018",2018/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+229,Illinois,17,"Dec., 2018",2018/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+230,Illinois,17,"Mar., 2019",2019/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+231,Illinois,17,"Apr., 2019",2019/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+232,Illinois,17,"Jun., 2019",2019/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+233,Illinois,17,"Jul., 2019",2019/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+234,Illinois,17,"Aug., 2019",2019/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+235,Illinois,17,"Sep., 2019",2019/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+236,Illinois,17,"Oct., 2019",2019/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+237,Illinois,17,"Dec., 2019",2019/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+238,Illinois,17,"Jan., 2020",2020/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+239,Illinois,17,"Apr., 2020",2020/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+240,Illinois,17,"May, 2020",2020/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+241,Illinois,17,"Jun., 2020",2020/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+242,Illinois,17,"Jul., 2020",2020/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+243,Illinois,17,"Aug., 2020",2020/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+244,Illinois,17,"Sep., 2020",2020/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+245,Illinois,17,"Oct., 2020",2020/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,21
+246,Illinois,17,"Nov., 2020",2020/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+247,Illinois,17,"Dec., 2020",2020/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+248,Illinois,17,"Feb., 2021",2021/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+249,Illinois,17,"Apr., 2021",2021/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+250,Illinois,17,"Oct., 2021",2021/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+251,Illinois,17,"Nov., 2021",2021/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+252,Illinois,17,"Dec., 2021",2021/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+253,Illinois,17,"Jan., 2022",2022/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+254,Illinois,17,"Mar., 2022",2022/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+255,Illinois,17,"Apr., 2022",2022/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+256,Illinois,17,"Jun., 2022",2022/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+257,Illinois,17,"Aug., 2022",2022/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+258,Illinois,17,"Oct., 2022",2022/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+259,Illinois,17,"Nov., 2022",2022/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+260,Illinois,17,"Dec., 2022",2022/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+261,Illinois,17,"Mar., 2023",2023/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+262,Illinois,17,"Jun., 2023",2023/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+263,Illinois,17,"Oct., 2023",2023/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+264,Illinois,17,"Dec., 2023",2023/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+265,Illinois,17,"Apr., 2024 (provisional)",2024/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+266,Illinois,17,"Jun., 2024 (provisional)",2024/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+267,Illinois,17,"Aug., 2024 (provisional)",2024/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+268,Illinois,17,"Sep., 2024 (provisional)",2024/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+269,Illinois,17,"Oct., 2024 (provisional)",2024/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+270,Illinois,17,"Dec., 2024 (provisional)",2024/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+271,Illinois,17,"Feb., 2025 (provisional and partial)",2025/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+272,Illinois,17,"Apr., 2025 (provisional and partial)",2025/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+273,Illinois,17,"May, 2025 (provisional and partial)",2025/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+274,Illinois,17,"Jun., 2025 (provisional and partial)",2025/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+275,Indiana,18,"Feb., 2019",2019/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+276,Indiana,18,"Aug., 2020",2020/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+277,Indiana,18,"Nov., 2020",2020/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+278,Maryland,24,"Jan., 2019",2019/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+279,Maryland,24,"Dec., 2019",2019/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+280,Maryland,24,"Jan., 2020",2020/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+281,Maryland,24,"Jul., 2020",2020/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+282,Maryland,24,"Jan., 2021",2021/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+283,Maryland,24,"Feb., 2023",2023/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+284,Maryland,24,"Dec., 2023",2023/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+285,Maryland,24,"Feb., 2024 (provisional)",2024/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+286,Maryland,24,"May, 2024 (provisional)",2024/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+287,Massachusetts,25,"Apr., 2019",2019/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+288,Massachusetts,25,"Mar., 2020",2020/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+289,Massachusetts,25,"Apr., 2020",2020/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+290,Massachusetts,25,"Nov., 2021",2021/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+291,Massachusetts,25,"May, 2022",2022/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+292,Massachusetts,25,"May, 2023",2023/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+293,Massachusetts,25,"Sep., 2024 (provisional)",2024/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+294,Massachusetts,25,"Jan., 2025 (provisional and partial)",2025/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+295,Michigan,26,"Jan., 2018",2018/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+296,Michigan,26,"Apr., 2018",2018/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+297,Michigan,26,"Oct., 2018",2018/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+298,Michigan,26,"Nov., 2018",2018/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+299,Michigan,26,"Mar., 2019",2019/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+300,Michigan,26,"Jun., 2019",2019/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+301,Michigan,26,"Oct., 2019",2019/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+302,Michigan,26,"Feb., 2020",2020/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+303,Michigan,26,"Mar., 2020",2020/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+304,Michigan,26,"Apr., 2020",2020/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+305,Michigan,26,"Aug., 2020",2020/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+306,Michigan,26,"Sep., 2020",2020/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+307,Michigan,26,"Jan., 2022",2022/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+308,Michigan,26,"Feb., 2022",2022/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+309,Michigan,26,"May, 2022",2022/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+310,Michigan,26,"Aug., 2022",2022/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+311,Michigan,26,"Dec., 2022",2022/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+312,Michigan,26,"Mar., 2023",2023/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+313,Michigan,26,"Apr., 2023",2023/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+314,Michigan,26,"May, 2023",2023/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+315,Michigan,26,"Jun., 2023",2023/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+316,Michigan,26,"Sep., 2023",2023/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+317,Michigan,26,"Dec., 2023",2023/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+318,Michigan,26,"Feb., 2024 (provisional)",2024/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+319,Michigan,26,"Mar., 2024 (provisional)",2024/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+320,Michigan,26,"May, 2024 (provisional)",2024/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+321,Michigan,26,"Jul., 2024 (provisional)",2024/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+322,Michigan,26,"Oct., 2024 (provisional)",2024/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+323,Minnesota,27,"Jun., 2020",2020/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+324,Minnesota,27,"Dec., 2020",2020/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+325,Minnesota,27,"Dec., 2022",2022/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+326,Minnesota,27,"Mar., 2024 (provisional)",2024/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+327,Minnesota,27,"Sep., 2024 (provisional)",2024/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+328,Minnesota,27,"Mar., 2025 (provisional and partial)",2025/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+329,Missouri,29,"Sep., 2018",2018/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+330,Missouri,29,"Jan., 2021",2021/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+331,Missouri,29,"Feb., 2022",2022/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+332,Missouri,29,"Jul., 2024 (provisional)",2024/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+333,Nevada,32,"Mar., 2024 (provisional)",2024/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+334,New Jersey,34,"Jun., 2018",2018/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+335,New Jersey,34,"Dec., 2018",2018/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+336,New Jersey,34,"Jan., 2019",2019/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+337,New Jersey,34,"Mar., 2019",2019/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+338,New Jersey,34,"May, 2019",2019/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+339,New Jersey,34,"Dec., 2019",2019/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+340,New Jersey,34,"Mar., 2020",2020/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+341,New Jersey,34,"Apr., 2020",2020/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,27
+342,New Jersey,34,"Oct., 2020",2020/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+343,New Jersey,34,"Dec., 2020",2020/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+344,New Jersey,34,"Apr., 2021",2021/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+345,New Jersey,34,"Jul., 2021",2021/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+346,New Jersey,34,"Aug., 2021",2021/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+347,New Jersey,34,"Oct., 2021",2021/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+348,New Jersey,34,"Nov., 2021",2021/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+349,New Jersey,34,"Apr., 2022",2022/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+350,New Jersey,34,"Jan., 2023",2023/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+351,New Jersey,34,"Feb., 2023",2023/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+352,New Jersey,34,"Apr., 2023",2023/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+353,New Jersey,34,"Jan., 2024 (provisional)",2024/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+354,New Jersey,34,"May, 2024 (provisional)",2024/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+355,New Jersey,34,"Jan., 2025 (provisional and partial)",2025/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+356,New Jersey,34,"Mar., 2025 (provisional and partial)",2025/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+357,New Jersey,34,"May, 2025 (provisional and partial)",2025/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+358,New Jersey,34,"Jun., 2025 (provisional and partial)",2025/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+359,New York,36,"Jan., 2018",2018/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,23
+360,New York,36,"Feb., 2018",2018/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+361,New York,36,"Mar., 2018",2018/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,24
+362,New York,36,"Apr., 2018",2018/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,28
+363,New York,36,"May, 2018",2018/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,21
+364,New York,36,"Jun., 2018",2018/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+365,New York,36,"Jul., 2018",2018/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+366,New York,36,"Aug., 2018",2018/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+367,New York,36,"Sep., 2018",2018/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+368,New York,36,"Oct., 2018",2018/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,26
+369,New York,36,"Nov., 2018",2018/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+370,New York,36,"Dec., 2018",2018/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+371,New York,36,"Jan., 2019",2019/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,35
+372,New York,36,"Feb., 2019",2019/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+373,New York,36,"Mar., 2019",2019/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+374,New York,36,"Apr., 2019",2019/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+375,New York,36,"May, 2019",2019/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,27
+376,New York,36,"Jun., 2019",2019/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+377,New York,36,"Jul., 2019",2019/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,19
+378,New York,36,"Aug., 2019",2019/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,25
+379,New York,36,"Sep., 2019",2019/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+380,New York,36,"Oct., 2019",2019/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+381,New York,36,"Nov., 2019",2019/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+382,New York,36,"Dec., 2019",2019/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+383,New York,36,"Jan., 2020",2020/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+384,New York,36,"Feb., 2020",2020/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+385,New York,36,"Mar., 2020",2020/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,26
+386,New York,36,"Apr., 2020",2020/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,54
+387,New York,36,"May, 2020",2020/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,33
+388,New York,36,"Jun., 2020",2020/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,27
+389,New York,36,"Jul., 2020",2020/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+390,New York,36,"Aug., 2020",2020/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,24
+391,New York,36,"Sep., 2020",2020/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+392,New York,36,"Oct., 2020",2020/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,19
+393,New York,36,"Nov., 2020",2020/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+394,New York,36,"Dec., 2020",2020/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,23
+395,New York,36,"Jan., 2021",2021/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,30
+396,New York,36,"Feb., 2021",2021/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,27
+397,New York,36,"Mar., 2021",2021/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+398,New York,36,"Apr., 2021",2021/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,19
+399,New York,36,"May, 2021",2021/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+400,New York,36,"Jun., 2021",2021/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,21
+401,New York,36,"Jul., 2021",2021/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+402,New York,36,"Aug., 2021",2021/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+403,New York,36,"Sep., 2021",2021/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+404,New York,36,"Oct., 2021",2021/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+405,New York,36,"Nov., 2021",2021/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,19
+406,New York,36,"Dec., 2021",2021/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,21
+407,New York,36,"Jan., 2022",2022/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,28
+408,New York,36,"Feb., 2022",2022/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+409,New York,36,"Mar., 2022",2022/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+410,New York,36,"Apr., 2022",2022/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+411,New York,36,"May, 2022",2022/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+412,New York,36,"Jun., 2022",2022/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+413,New York,36,"Jul., 2022",2022/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+414,New York,36,"Aug., 2022",2022/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+415,New York,36,"Sep., 2022",2022/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,19
+416,New York,36,"Oct., 2022",2022/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+417,New York,36,"Nov., 2022",2022/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+418,New York,36,"Dec., 2022",2022/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+419,New York,36,"Jan., 2023",2023/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,24
+420,New York,36,"Feb., 2023",2023/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,24
+421,New York,36,"Mar., 2023",2023/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+422,New York,36,"Apr., 2023",2023/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,23
+423,New York,36,"May, 2023",2023/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,19
+424,New York,36,"Jun., 2023",2023/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+425,New York,36,"Jul., 2023",2023/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+426,New York,36,"Aug., 2023",2023/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+427,New York,36,"Sep., 2023",2023/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,25
+428,New York,36,"Oct., 2023",2023/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+429,New York,36,"Nov., 2023",2023/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+430,New York,36,"Dec., 2023",2023/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,29
+431,New York,36,"Jan., 2024 (provisional)",2024/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+432,New York,36,"Feb., 2024 (provisional)",2024/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,23
+433,New York,36,"Mar., 2024 (provisional)",2024/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,27
+434,New York,36,"May, 2024 (provisional)",2024/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+435,New York,36,"Jun., 2024 (provisional)",2024/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+436,New York,36,"Jul., 2024 (provisional)",2024/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+437,New York,36,"Aug., 2024 (provisional)",2024/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,27
+438,New York,36,"Sep., 2024 (provisional)",2024/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+439,New York,36,"Oct., 2024 (provisional)",2024/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,25
+440,New York,36,"Nov., 2024 (provisional)",2024/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+441,New York,36,"Dec., 2024 (provisional)",2024/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,30
+442,New York,36,"Jan., 2025 (provisional and partial)",2025/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+443,New York,36,"Feb., 2025 (provisional and partial)",2025/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,27
+444,New York,36,"Mar., 2025 (provisional and partial)",2025/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+445,New York,36,"Apr., 2025 (provisional and partial)",2025/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,23
+446,New York,36,"May, 2025 (provisional and partial)",2025/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+447,New York,36,"Jun., 2025 (provisional and partial)",2025/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+448,New York,36,"Jul., 2025 (provisional and partial)",2025/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+449,New York,36,"Aug., 2025 (provisional and partial)",2025/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+450,New York,36,"Sep., 2025 (provisional and partial)",2025/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+451,North Carolina,37,"Nov., 2018",2018/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+452,North Carolina,37,"Oct., 2019",2019/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+453,North Carolina,37,"Dec., 2019",2019/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+454,North Carolina,37,"Mar., 2020",2020/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+455,North Carolina,37,"Apr., 2020",2020/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+456,North Carolina,37,"May, 2020",2020/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+457,North Carolina,37,"Jun., 2020",2020/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+458,North Carolina,37,"Jul., 2020",2020/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+459,North Carolina,37,"Dec., 2020",2020/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+460,North Carolina,37,"Jan., 2021",2021/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+461,North Carolina,37,"Dec., 2021",2021/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+462,North Carolina,37,"Mar., 2022",2022/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+463,North Carolina,37,"May, 2022",2022/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+464,North Carolina,37,"Aug., 2022",2022/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+465,North Carolina,37,"Oct., 2022",2022/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+466,North Carolina,37,"Nov., 2022",2022/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+467,North Carolina,37,"Feb., 2023",2023/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+468,North Carolina,37,"Nov., 2023",2023/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+469,North Carolina,37,"Dec., 2023",2023/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+470,North Carolina,37,"Aug., 2024 (provisional)",2024/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+471,North Carolina,37,"Dec., 2024 (provisional)",2024/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+472,North Carolina,37,"Apr., 2025 (provisional and partial)",2025/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+473,Ohio,39,"Mar., 2018",2018/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+474,Ohio,39,"Apr., 2018",2018/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+475,Ohio,39,"May, 2018",2018/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+476,Ohio,39,"Nov., 2018",2018/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+477,Ohio,39,"Dec., 2018",2018/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+478,Ohio,39,"Jan., 2019",2019/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+479,Ohio,39,"Mar., 2019",2019/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+480,Ohio,39,"May, 2019",2019/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+481,Ohio,39,"Jun., 2019",2019/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+482,Ohio,39,"Aug., 2019",2019/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+483,Ohio,39,"Jan., 2020",2020/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+484,Ohio,39,"Feb., 2020",2020/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+485,Ohio,39,"Mar., 2020",2020/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+486,Ohio,39,"Apr., 2020",2020/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+487,Ohio,39,"Jun., 2020",2020/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+488,Ohio,39,"Jul., 2020",2020/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+489,Ohio,39,"Dec., 2020",2020/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+490,Ohio,39,"Jan., 2021",2021/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+491,Ohio,39,"May, 2021",2021/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+492,Ohio,39,"Jul., 2021",2021/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+493,Ohio,39,"Oct., 2021",2021/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+494,Ohio,39,"Dec., 2021",2021/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+495,Ohio,39,"Jan., 2022",2022/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+496,Ohio,39,"Mar., 2022",2022/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+497,Ohio,39,"Apr., 2022",2022/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+498,Ohio,39,"May, 2022",2022/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+499,Ohio,39,"Dec., 2022",2022/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+500,Ohio,39,"Jan., 2023",2023/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+501,Ohio,39,"Feb., 2023",2023/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+502,Ohio,39,"Mar., 2023",2023/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+503,Ohio,39,"Jun., 2023",2023/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+504,Ohio,39,"Jul., 2023",2023/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+505,Ohio,39,"Feb., 2024 (provisional)",2024/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+506,Ohio,39,"Oct., 2024 (provisional)",2024/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+507,Ohio,39,"Jan., 2025 (provisional and partial)",2025/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+508,Oklahoma,40,"Jun., 2021",2021/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+509,Oregon,41,"Jun., 2024 (provisional)",2024/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+510,Pennsylvania,42,"Jan., 2018",2018/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+511,Pennsylvania,42,"Mar., 2018",2018/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+512,Pennsylvania,42,"Apr., 2018",2018/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+513,Pennsylvania,42,"May, 2018",2018/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+514,Pennsylvania,42,"Aug., 2018",2018/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+515,Pennsylvania,42,"Sep., 2018",2018/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+516,Pennsylvania,42,"Dec., 2018",2018/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+517,Pennsylvania,42,"Mar., 2019",2019/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+518,Pennsylvania,42,"Apr., 2019",2019/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+519,Pennsylvania,42,"May, 2019",2019/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+520,Pennsylvania,42,"Jul., 2019",2019/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+521,Pennsylvania,42,"Aug., 2019",2019/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+522,Pennsylvania,42,"Nov., 2019",2019/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+523,Pennsylvania,42,"Jan., 2020",2020/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+524,Pennsylvania,42,"Feb., 2020",2020/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+525,Pennsylvania,42,"Mar., 2020",2020/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+526,Pennsylvania,42,"Apr., 2020",2020/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+527,Pennsylvania,42,"Jul., 2020",2020/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+528,Pennsylvania,42,"Aug., 2020",2020/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+529,Pennsylvania,42,"Sep., 2020",2020/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+530,Pennsylvania,42,"Oct., 2020",2020/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+531,Pennsylvania,42,"Nov., 2020",2020/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+532,Pennsylvania,42,"Dec., 2020",2020/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+533,Pennsylvania,42,"Jan., 2021",2021/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,19
+534,Pennsylvania,42,"Feb., 2021",2021/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+535,Pennsylvania,42,"Mar., 2021",2021/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+536,Pennsylvania,42,"Apr., 2021",2021/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+537,Pennsylvania,42,"Aug., 2021",2021/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+538,Pennsylvania,42,"Nov., 2021",2021/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+539,Pennsylvania,42,"Dec., 2021",2021/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+540,Pennsylvania,42,"Jan., 2022",2022/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+541,Pennsylvania,42,"Mar., 2022",2022/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+542,Pennsylvania,42,"Apr., 2022",2022/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+543,Pennsylvania,42,"May, 2022",2022/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+544,Pennsylvania,42,"Jun., 2022",2022/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+545,Pennsylvania,42,"Jul., 2022",2022/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+546,Pennsylvania,42,"Oct., 2022",2022/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+547,Pennsylvania,42,"Nov., 2022",2022/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+548,Pennsylvania,42,"Dec., 2022",2022/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+549,Pennsylvania,42,"Jan., 2023",2023/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+550,Pennsylvania,42,"May, 2023",2023/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+551,Pennsylvania,42,"Jun., 2023",2023/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+552,Pennsylvania,42,"Jul., 2023",2023/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+553,Pennsylvania,42,"Aug., 2023",2023/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+554,Pennsylvania,42,"Oct., 2023",2023/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+555,Pennsylvania,42,"Nov., 2023",2023/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,21
+556,Pennsylvania,42,"Dec., 2023",2023/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+557,Pennsylvania,42,"Mar., 2024 (provisional)",2024/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+558,Pennsylvania,42,"Apr., 2024 (provisional)",2024/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,19
+559,Pennsylvania,42,"May, 2024 (provisional)",2024/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+560,Pennsylvania,42,"Jun., 2024 (provisional)",2024/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+561,Pennsylvania,42,"Jul., 2024 (provisional)",2024/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+562,Pennsylvania,42,"Aug., 2024 (provisional)",2024/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+563,Pennsylvania,42,"Nov., 2024 (provisional)",2024/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+564,Pennsylvania,42,"Jan., 2025 (provisional and partial)",2025/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,21
+565,Pennsylvania,42,"Mar., 2025 (provisional and partial)",2025/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+566,Pennsylvania,42,"Apr., 2025 (provisional and partial)",2025/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+567,Pennsylvania,42,"Jun., 2025 (provisional and partial)",2025/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+568,Pennsylvania,42,"Jul., 2025 (provisional and partial)",2025/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+569,Pennsylvania,42,"Aug., 2025 (provisional and partial)",2025/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+570,South Carolina,45,"Apr., 2020",2020/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+571,South Carolina,45,"Dec., 2020",2020/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+572,South Carolina,45,"Jan., 2021",2021/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+573,Tennessee,47,"Jan., 2018",2018/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+574,Tennessee,47,"May, 2022",2022/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+575,Tennessee,47,"Jan., 2025 (provisional and partial)",2025/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+576,Texas,48,"Jan., 2018",2018/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,28
+577,Texas,48,"Feb., 2018",2018/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+578,Texas,48,"Mar., 2018",2018/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+579,Texas,48,"Apr., 2018",2018/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+580,Texas,48,"May, 2018",2018/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+581,Texas,48,"Jun., 2018",2018/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+582,Texas,48,"Aug., 2018",2018/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+583,Texas,48,"Sep., 2018",2018/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+584,Texas,48,"Oct., 2018",2018/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+585,Texas,48,"Nov., 2018",2018/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+586,Texas,48,"Dec., 2018",2018/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+587,Texas,48,"Jan., 2019",2019/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+588,Texas,48,"Feb., 2019",2019/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+589,Texas,48,"Mar., 2019",2019/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+590,Texas,48,"Apr., 2019",2019/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+591,Texas,48,"May, 2019",2019/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+592,Texas,48,"Jun., 2019",2019/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+593,Texas,48,"Sep., 2019",2019/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+594,Texas,48,"Oct., 2019",2019/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+595,Texas,48,"Nov., 2019",2019/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+596,Texas,48,"Dec., 2019",2019/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+597,Texas,48,"Jan., 2020",2020/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+598,Texas,48,"Feb., 2020",2020/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+599,Texas,48,"Mar., 2020",2020/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,21
+600,Texas,48,"Apr., 2020",2020/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,23
+601,Texas,48,"Jun., 2020",2020/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+602,Texas,48,"Jul., 2020",2020/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,19
+603,Texas,48,"Aug., 2020",2020/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+604,Texas,48,"Sep., 2020",2020/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+605,Texas,48,"Oct., 2020",2020/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+606,Texas,48,"Nov., 2020",2020/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+607,Texas,48,"Dec., 2020",2020/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,30
+608,Texas,48,"Jan., 2021",2021/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,27
+609,Texas,48,"Feb., 2021",2021/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,23
+610,Texas,48,"Mar., 2021",2021/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,33
+611,Texas,48,"Apr., 2021",2021/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+612,Texas,48,"May, 2021",2021/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,21
+613,Texas,48,"Jun., 2021",2021/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,23
+614,Texas,48,"Jul., 2021",2021/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,21
+615,Texas,48,"Aug., 2021",2021/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,29
+616,Texas,48,"Sep., 2021",2021/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+617,Texas,48,"Oct., 2021",2021/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,21
+618,Texas,48,"Nov., 2021",2021/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+619,Texas,48,"Dec., 2021",2021/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+620,Texas,48,"Jan., 2022",2022/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+621,Texas,48,"Feb., 2022",2022/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,25
+622,Texas,48,"Mar., 2022",2022/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+623,Texas,48,"Apr., 2022",2022/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+624,Texas,48,"May, 2022",2022/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+625,Texas,48,"Jun., 2022",2022/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+626,Texas,48,"Jul., 2022",2022/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+627,Texas,48,"Aug., 2022",2022/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+628,Texas,48,"Sep., 2022",2022/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+629,Texas,48,"Oct., 2022",2022/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+630,Texas,48,"Nov., 2022",2022/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+631,Texas,48,"Dec., 2022",2022/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+632,Texas,48,"Jan., 2023",2023/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,21
+633,Texas,48,"Feb., 2023",2023/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,21
+634,Texas,48,"Mar., 2023",2023/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,22
+635,Texas,48,"Apr., 2023",2023/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+636,Texas,48,"May, 2023",2023/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+637,Texas,48,"Jun., 2023",2023/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+638,Texas,48,"Jul., 2023",2023/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+639,Texas,48,"Aug., 2023",2023/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+640,Texas,48,"Sep., 2023",2023/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+641,Texas,48,"Oct., 2023",2023/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+642,Texas,48,"Nov., 2023",2023/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,19
+643,Texas,48,"Dec., 2023",2023/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+644,Texas,48,"Jan., 2024 (provisional)",2024/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+645,Texas,48,"Feb., 2024 (provisional)",2024/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+646,Texas,48,"Mar., 2024 (provisional)",2024/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,21
+647,Texas,48,"Apr., 2024 (provisional)",2024/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+648,Texas,48,"May, 2024 (provisional)",2024/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+649,Texas,48,"Jun., 2024 (provisional)",2024/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+650,Texas,48,"Jul., 2024 (provisional)",2024/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,17
+651,Texas,48,"Aug., 2024 (provisional)",2024/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,25
+652,Texas,48,"Sep., 2024 (provisional)",2024/09,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+653,Texas,48,"Oct., 2024 (provisional)",2024/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+654,Texas,48,"Nov., 2024 (provisional)",2024/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,21
+655,Texas,48,"Dec., 2024 (provisional)",2024/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,20
+656,Texas,48,"Jan., 2025 (provisional and partial)",2025/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,25
+657,Texas,48,"Feb., 2025 (provisional and partial)",2025/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+658,Texas,48,"Mar., 2025 (provisional and partial)",2025/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,15
+659,Texas,48,"Apr., 2025 (provisional and partial)",2025/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,19
+660,Texas,48,"May, 2025 (provisional and partial)",2025/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,14
+661,Texas,48,"Jun., 2025 (provisional and partial)",2025/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,19
+662,Texas,48,"Jul., 2025 (provisional and partial)",2025/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+663,Texas,48,"Aug., 2025 (provisional and partial)",2025/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+664,Virginia,51,"Jan., 2018",2018/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+665,Virginia,51,"May, 2018",2018/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+666,Virginia,51,"Jan., 2019",2019/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+667,Virginia,51,"Oct., 2019",2019/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+668,Virginia,51,"Dec., 2019",2019/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+669,Virginia,51,"Mar., 2020",2020/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+670,Virginia,51,"Apr., 2020",2020/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+671,Virginia,51,"May, 2020",2020/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+672,Virginia,51,"Jul., 2020",2020/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+673,Virginia,51,"Nov., 2020",2020/11,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+674,Virginia,51,"Dec., 2020",2020/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+675,Virginia,51,"Jul., 2023",2023/07,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+676,Virginia,51,"Feb., 2024 (provisional)",2024/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+677,Washington,53,"Mar., 2020",2020/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+678,Washington,53,"Apr., 2020",2020/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+679,Washington,53,"Jun., 2020",2020/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+680,Washington,53,"Dec., 2020",2020/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+681,Washington,53,"Mar., 2021",2021/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+682,Washington,53,"May, 2022",2022/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+683,Washington,53,"Apr., 2023",2023/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+684,Washington,53,"Jun., 2023",2023/06,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+685,Washington,53,"Oct., 2023",2023/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+686,Washington,53,"Dec., 2023",2023/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+687,Washington,53,"Feb., 2024 (provisional)",2024/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,12
+688,Washington,53,"Apr., 2024 (provisional)",2024/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+689,Washington,53,"May, 2024 (provisional)",2024/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,13
+690,Washington,53,"Dec., 2024 (provisional)",2024/12,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+691,Washington,53,"Jan., 2025 (provisional and partial)",2025/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,16
+692,Washington,53,"Feb., 2025 (provisional and partial)",2025/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,18
+693,Washington,53,"Mar., 2025 (provisional and partial)",2025/03,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
+694,Washington,53,"Apr., 2025 (provisional and partial)",2025/04,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+695,Wisconsin,55,"Jan., 2019",2019/01,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+696,Wisconsin,55,"Feb., 2020",2020/02,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+697,Wisconsin,55,"Aug., 2021",2021/08,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+698,Wisconsin,55,"May, 2022",2022/05,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,10
+699,Wisconsin,55,"Oct., 2022",2022/10,Chronic lower respiratory diseases,J40-J47,"Asthma, unspecified",J45.9,11
