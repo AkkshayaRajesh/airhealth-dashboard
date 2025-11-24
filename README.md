@@ -26,4 +26,4 @@ The visualization dashboard is a D3 dashboard. Any local HTTP server can be used
 
 For execution, activate the installed environment and launch Jupyter. Open the notebooks organized in order, and execute them top-to-bottom to reproduce the results or modify parameters as needed. 
 
-To use the interactive dashoard, navigate to the `Visualization` directory and open it with a simple local HTTP server. Once the server is running, go to the corresponding URL to explore historical time-series, model-based forecasts, choropleth maps, and simulation views.
+To use the interactive dashoard, navigate to the `Visualization` directory and open it with a simple local HTTP server. Use the `AirHealth_dashboard.html` file to view and interact with the dashboard. Once the server is running, go to the corresponding URL to explore historical time-series, model-based forecasts, choropleth maps, and simulation views.
