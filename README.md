@@ -18,7 +18,7 @@ In the visualization dashboard, the user can:
 
 ## Installation
 
-For installation, clone the project's GitHub repository to a local machine. All data cleaning and modeling workflows are implemented in Jupyter notebooks, so ensure recent Python installation (e.g. >= 3.8.20), pip, and Jupyter Notebook. We recommend creating a virtual or conda environment and then install required dependencies with `pip install`. A `requirements.txt` file is provided for easy installation. This will set up everything needed to open and run the notebooks. 
+For installation, clone the project's GitHub repository to a local machine. All data cleaning and modeling workflows are implemented in Jupyter notebooks, so ensure recent Python installation (e.g. >= 3.8.20), pip, and Jupyter Notebook. We recommend creating a virtual or conda environment and then install required dependencies with `pip install`. This will set up everything needed to open and run the notebooks. 
 
 The visualization dashboard is a D3 dashboard. Any local HTTP server can be used to serve the dashboard files. More information is provided in the execution section.
 
