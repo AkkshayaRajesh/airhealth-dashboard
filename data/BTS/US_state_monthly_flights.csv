@@ -1,0 +1,5772 @@
+YEAR,MONTH,STATE,FLIGHTS_TOTAL
+2018,1,Alabama,6819.0
+2018,1,Alaska,64568.0
+2018,1,Alberta,3750.0
+2018,1,Arizona,38847.0
+2018,1,Arkansas,5225.0
+2018,1,British Columbia,5564.0
+2018,1,California,152136.0
+2018,1,Colorado,52045.0
+2018,1,Connecticut,5819.0
+2018,1,Delaware,19.0
+2018,1,Florida,106634.0
+2018,1,Georgia,65515.0
+2018,1,Hawaii,30985.0
+2018,1,Idaho,6039.0
+2018,1,Illinois,81557.0
+2018,1,Indiana,14215.0
+2018,1,Iowa,5956.0
+2018,1,Kansas,3006.0
+2018,1,Kentucky,23133.0
+2018,1,Louisiana,13927.0
+2018,1,Maine,3368.0
+2018,1,Manitoba,678.0
+2018,1,Maryland,19217.0
+2018,1,Massachusetts,28150.0
+2018,1,Michigan,37418.0
+2018,1,Minnesota,28964.0
+2018,1,Mississippi,2850.0
+2018,1,Missouri,25740.0
+2018,1,Montana,6620.0
+2018,1,Nebraska,5971.0
+2018,1,Nevada,33027.0
+2018,1,New Brunswick,10.0
+2018,1,New Hampshire,2406.0
+2018,1,New Jersey,29313.0
+2018,1,New Mexico,6549.0
+2018,1,New York,68184.0
+2018,1,Newfoundland and Labrador,20.0
+2018,1,North Carolina,55468.0
+2018,1,North Dakota,3784.0
+2018,1,Nova Scotia,370.0
+2018,1,Ohio,21115.0
+2018,1,Oklahoma,7320.0
+2018,1,Ontario,16049.0
+2018,1,Oregon,20309.0
+2018,1,Pennsylvania,41508.0
+2018,1,Puerto Rico,8878.0
+2018,1,Quebec,5067.0
+2018,1,Rhode Island,4019.0
+2018,1,Saskatchewan,211.0
+2018,1,South Carolina,8943.0
+2018,1,South Dakota,2839.0
+2018,1,Tennessee,31553.0
+2018,1,Texas,128110.0
+2018,1,U.S. Pacific Trust Territories and Possessions,5073.0
+2018,1,U.S. Virgin Islands,3865.0
+2018,1,Utah,21497.0
+2018,1,Vermont,1933.0
+2018,1,Virginia,49008.0
+2018,1,Washington,40382.0
+2018,1,West Virginia,1951.0
+2018,1,Wisconsin,12122.0
+2018,1,Wyoming,2358.0
+2018,2,Alabama,6417.0
+2018,2,Alaska,52547.0
+2018,2,Alberta,3424.0
+2018,2,Arizona,35614.0
+2018,2,Arkansas,4794.0
+2018,2,British Columbia,4930.0
+2018,2,California,137575.0
+2018,2,Colorado,46768.0
+2018,2,Connecticut,5554.0
+2018,2,Delaware,16.0
+2018,2,Florida,101467.0
+2018,2,Georgia,61921.0
+2018,2,Hawaii,27918.0
+2018,2,Idaho,5457.0
+2018,2,Illinois,71399.0
+2018,2,Indiana,13266.0
+2018,2,Iowa,5391.0
+2018,2,Kansas,2797.0
+2018,2,Kentucky,21525.0
+2018,2,Louisiana,13410.0
+2018,2,Maine,3184.0
+2018,2,Manitoba,624.0
+2018,2,Maryland,17088.0
+2018,2,Massachusetts,27393.0
+2018,2,Michigan,33860.0
+2018,2,Minnesota,27616.0
+2018,2,Mississippi,2695.0
+2018,2,Missouri,23080.0
+2018,2,Montana,5981.0
+2018,2,Nebraska,5506.0
+2018,2,Nevada,29523.0
+2018,2,New Brunswick,13.0
+2018,2,New Hampshire,2312.0
+2018,2,New Jersey,27917.0
+2018,2,New Mexico,5786.0
+2018,2,New York,65993.0
+2018,2,Newfoundland and Labrador,12.0
+2018,2,North Carolina,52686.0
+2018,2,North Dakota,3596.0
+2018,2,Nova Scotia,366.0
+2018,2,Nunavut Territory,2.0
+2018,2,Ohio,20094.0
+2018,2,Oklahoma,6543.0
+2018,2,Ontario,15141.0
+2018,2,Oregon,17787.0
+2018,2,Pennsylvania,38667.0
+2018,2,Puerto Rico,9020.0
+2018,2,Quebec,4878.0
+2018,2,Rhode Island,3807.0
+2018,2,Saskatchewan,199.0
+2018,2,South Carolina,8894.0
+2018,2,South Dakota,2600.0
+2018,2,Tennessee,30052.0
+2018,2,Texas,118138.0
+2018,2,U.S. Pacific Trust Territories and Possessions,5320.0
+2018,2,U.S. Virgin Islands,3679.0
+2018,2,Utah,19659.0
+2018,2,Vermont,1758.0
+2018,2,Virginia,46425.0
+2018,2,Washington,35634.0
+2018,2,West Virginia,1838.0
+2018,2,Wisconsin,11109.0
+2018,2,Wyoming,2119.0
+2018,3,Alabama,7507.0
+2018,3,Alaska,65386.0
+2018,3,Alberta,4072.0
+2018,3,Arizona,43404.0
+2018,3,Arkansas,5813.0
+2018,3,British Columbia,5805.0
+2018,3,California,157064.0
+2018,3,Colorado,54732.0
+2018,3,Connecticut,6057.0
+2018,3,Delaware,14.0
+2018,3,Florida,119641.0
+2018,3,Georgia,74178.0
+2018,3,Hawaii,31773.0
+2018,3,Idaho,6384.0
+2018,3,Illinois,87454.0
+2018,3,Indiana,15740.0
+2018,3,Iowa,6326.0
+2018,3,Kansas,3194.0
+2018,3,Kentucky,24803.0
+2018,3,Louisiana,15382.0
+2018,3,Maine,3433.0
+2018,3,Manitoba,704.0
+2018,3,Maryland,19600.0
+2018,3,Massachusetts,29491.0
+2018,3,Michigan,41065.0
+2018,3,Minnesota,33344.0
+2018,3,Mississippi,3035.0
+2018,3,Missouri,27639.0
+2018,3,Montana,6947.0
+2018,3,Nebraska,6662.0
+2018,3,Nevada,34589.0
+2018,3,New Brunswick,32.0
+2018,3,New Hampshire,2507.0
+2018,3,New Jersey,30481.0
+2018,3,New Mexico,6925.0
+2018,3,New York,72026.0
+2018,3,Newfoundland and Labrador,31.0
+2018,3,North Carolina,59961.0
+2018,3,North Dakota,4192.0
+2018,3,Northwest Territories,10.0
+2018,3,Nova Scotia,466.0
+2018,3,Ohio,23595.0
+2018,3,Oklahoma,7656.0
+2018,3,Ontario,17744.0
+2018,3,Oregon,21524.0
+2018,3,Pennsylvania,42043.0
+2018,3,Puerto Rico,10194.0
+2018,3,Quebec,5751.0
+2018,3,Rhode Island,4146.0
+2018,3,Saskatchewan,214.0
+2018,3,South Carolina,10861.0
+2018,3,South Dakota,3059.0
+2018,3,Tennessee,34583.0
+2018,3,Texas,136553.0
+2018,3,U.S. Pacific Trust Territories and Possessions,5688.0
+2018,3,U.S. Virgin Islands,4234.0
+2018,3,Utah,23276.0
+2018,3,Vermont,1884.0
+2018,3,Virginia,51408.0
+2018,3,Washington,43076.0
+2018,3,West Virginia,2110.0
+2018,3,Wisconsin,13434.0
+2018,3,Wyoming,2490.0
+2018,3,Yukon Territory,2.0
+2018,4,Alabama,7541.0
+2018,4,Alaska,69000.0
+2018,4,Alberta,3861.0
+2018,4,Arizona,39358.0
+2018,4,Arkansas,5841.0
+2018,4,British Columbia,5585.0
+2018,4,California,156363.0
+2018,4,Colorado,50584.0
+2018,4,Connecticut,6358.0
+2018,4,Delaware,11.0
+2018,4,Florida,108785.0
+2018,4,Georgia,72651.0
+2018,4,Hawaii,29887.0
+2018,4,Idaho,5960.0
+2018,4,Illinois,87296.0
+2018,4,Indiana,15004.0
+2018,4,Iowa,5869.0
+2018,4,Kansas,3189.0
+2018,4,Kentucky,24453.0
+2018,4,Louisiana,14828.0
+2018,4,Maine,4061.0
+2018,4,Manitoba,647.0
+2018,4,Maryland,20741.0
+2018,4,Massachusetts,33286.0
+2018,4,Michigan,39226.0
+2018,4,Minnesota,31430.0
+2018,4,Mississippi,3092.0
+2018,4,Missouri,26991.0
+2018,4,Montana,6374.0
+2018,4,Nebraska,6307.0
+2018,4,Nevada,34124.0
+2018,4,New Brunswick,25.0
+2018,4,New Hampshire,2811.0
+2018,4,New Jersey,31743.0
+2018,4,New Mexico,6904.0
+2018,4,New York,74736.0
+2018,4,Newfoundland and Labrador,29.0
+2018,4,North Carolina,60730.0
+2018,4,North Dakota,4111.0
+2018,4,Northwest Territories,3.0
+2018,4,Nova Scotia,494.0
+2018,4,Ohio,23290.0
+2018,4,Oklahoma,7556.0
+2018,4,Ontario,16428.0
+2018,4,Oregon,21362.0
+2018,4,Pennsylvania,45098.0
+2018,4,Puerto Rico,10574.0
+2018,4,Quebec,5508.0
+2018,4,Rhode Island,5003.0
+2018,4,Saskatchewan,206.0
+2018,4,South Carolina,11508.0
+2018,4,South Dakota,2892.0
+2018,4,Tennessee,33490.0
+2018,4,Texas,132969.0
+2018,4,U.S. Pacific Trust Territories and Possessions,5105.0
+2018,4,U.S. Virgin Islands,4151.0
+2018,4,Utah,21689.0
+2018,4,Vermont,2016.0
+2018,4,Virginia,53941.0
+2018,4,Washington,43339.0
+2018,4,West Virginia,2158.0
+2018,4,Wisconsin,12634.0
+2018,4,Wyoming,1930.0
+2018,4,Yukon Territory,10.0
+2018,5,Alabama,8002.0
+2018,5,Alaska,79138.0
+2018,5,Alberta,3731.0
+2018,5,Arizona,41583.0
+2018,5,Arkansas,6253.0
+2018,5,British Columbia,6169.0
+2018,5,California,163440.0
+2018,5,Colorado,52723.0
+2018,5,Connecticut,6421.0
+2018,5,Delaware,12.0
+2018,5,Florida,104182.0
+2018,5,Georgia,75192.0
+2018,5,Hawaii,30817.0
+2018,5,Idaho,6221.0
+2018,5,Illinois,91012.0
+2018,5,Indiana,15642.0
+2018,5,Iowa,6232.0
+2018,5,Kansas,3404.0
+2018,5,Kentucky,26363.0
+2018,5,Louisiana,15324.0
+2018,5,Maine,4458.0
+2018,5,Manitoba,599.0
+2018,5,Maryland,21325.0
+2018,5,Massachusetts,36910.0
+2018,5,Michigan,40678.0
+2018,5,Minnesota,33693.0
+2018,5,Mississippi,3228.0
+2018,5,Missouri,28065.0
+2018,5,Montana,6751.0
+2018,5,Nebraska,6966.0
+2018,5,Nevada,36040.0
+2018,5,New Brunswick,7.0
+2018,5,New Hampshire,2844.0
+2018,5,New Jersey,33629.0
+2018,5,New Mexico,7317.0
+2018,5,New York,78589.0
+2018,5,Newfoundland and Labrador,34.0
+2018,5,North Carolina,63296.0
+2018,5,North Dakota,4253.0
+2018,5,Nova Scotia,408.0
+2018,5,Ohio,23605.0
+2018,5,Oklahoma,8120.0
+2018,5,Ontario,17807.0
+2018,5,Oregon,23060.0
+2018,5,Pennsylvania,47484.0
+2018,5,Puerto Rico,10264.0
+2018,5,Quebec,5693.0
+2018,5,Rhode Island,5394.0
+2018,5,Saskatchewan,123.0
+2018,5,South Carolina,12557.0
+2018,5,South Dakota,3285.0
+2018,5,Tennessee,35782.0
+2018,5,Texas,138128.0
+2018,5,U.S. Pacific Trust Territories and Possessions,5954.0
+2018,5,U.S. Virgin Islands,4042.0
+2018,5,Utah,22316.0
+2018,5,Vermont,2132.0
+2018,5,Virginia,55700.0
+2018,5,Washington,47240.0
+2018,5,West Virginia,2344.0
+2018,5,Wisconsin,13360.0
+2018,5,Wyoming,1919.0
+2018,6,Alabama,8210.0
+2018,6,Alaska,87214.0
+2018,6,Alberta,3960.0
+2018,6,Arizona,39355.0
+2018,6,Arkansas,6303.0
+2018,6,British Columbia,6936.0
+2018,6,California,163459.0
+2018,6,Colorado,56519.0
+2018,6,Connecticut,6181.0
+2018,6,Delaware,14.0
+2018,6,Florida,101991.0
+2018,6,Georgia,75132.0
+2018,6,Hawaii,31206.0
+2018,6,Idaho,6388.0
+2018,6,Illinois,92494.0
+2018,6,Indiana,15590.0
+2018,6,Iowa,6212.0
+2018,6,Kansas,3297.0
+2018,6,Kentucky,25953.0
+2018,6,Louisiana,14641.0
+2018,6,Maine,4887.0
+2018,6,Manitoba,667.0
+2018,6,Maryland,21419.0
+2018,6,Massachusetts,39045.0
+2018,6,Michigan,41110.0
+2018,6,Minnesota,34859.0
+2018,6,Mississippi,3235.0
+2018,6,Missouri,28084.0
+2018,6,Montana,8229.0
+2018,6,Nebraska,7084.0
+2018,6,Nevada,35466.0
+2018,6,New Brunswick,2.0
+2018,6,New Hampshire,2715.0
+2018,6,New Jersey,33068.0
+2018,6,New Mexico,7335.0
+2018,6,New York,77919.0
+2018,6,Newfoundland and Labrador,31.0
+2018,6,North Carolina,60078.0
+2018,6,North Dakota,4290.0
+2018,6,Northwest Territories,1.0
+2018,6,Nova Scotia,415.0
+2018,6,Ohio,23625.0
+2018,6,Oklahoma,8557.0
+2018,6,Ontario,17672.0
+2018,6,Oregon,24324.0
+2018,6,Pennsylvania,48016.0
+2018,6,Puerto Rico,11323.0
+2018,6,Quebec,6124.0
+2018,6,Rhode Island,5540.0
+2018,6,Saskatchewan,124.0
+2018,6,South Carolina,12740.0
+2018,6,South Dakota,3525.0
+2018,6,Tennessee,35586.0
+2018,6,Texas,139795.0
+2018,6,U.S. Pacific Trust Territories and Possessions,4796.0
+2018,6,U.S. Virgin Islands,4174.0
+2018,6,Utah,22555.0
+2018,6,Vermont,2284.0
+2018,6,Virginia,54586.0
+2018,6,Washington,50166.0
+2018,6,West Virginia,2300.0
+2018,6,Wisconsin,13360.0
+2018,6,Wyoming,2672.0
+2018,6,Yukon Territory,12.0
+2018,7,Alabama,8245.0
+2018,7,Alaska,97393.0
+2018,7,Alberta,3980.0
+2018,7,Arizona,40167.0
+2018,7,Arkansas,6330.0
+2018,7,British Columbia,7373.0
+2018,7,California,169648.0
+2018,7,Colorado,58212.0
+2018,7,Connecticut,6277.0
+2018,7,Delaware,14.0
+2018,7,Florida,103948.0
+2018,7,Georgia,76963.0
+2018,7,Hawaii,32306.0
+2018,7,Idaho,6867.0
+2018,7,Illinois,96726.0
+2018,7,Indiana,15540.0
+2018,7,Iowa,6386.0
+2018,7,Kansas,3442.0
+2018,7,Kentucky,25933.0
+2018,7,Louisiana,14770.0
+2018,7,Maine,5459.0
+2018,7,Manitoba,705.0
+2018,7,Maryland,21559.0
+2018,7,Massachusetts,42197.0
+2018,7,Michigan,42113.0
+2018,7,Minnesota,36126.0
+2018,7,Mississippi,3266.0
+2018,7,Missouri,28635.0
+2018,7,Montana,9105.0
+2018,7,Nebraska,7067.0
+2018,7,Nevada,36694.0
+2018,7,New Brunswick,7.0
+2018,7,New Hampshire,2815.0
+2018,7,New Jersey,32809.0
+2018,7,New Mexico,7533.0
+2018,7,New York,77799.0
+2018,7,Newfoundland and Labrador,25.0
+2018,7,North Carolina,63451.0
+2018,7,North Dakota,4408.0
+2018,7,Northwest Territories,6.0
+2018,7,Nova Scotia,444.0
+2018,7,Ohio,23978.0
+2018,7,Oklahoma,8636.0
+2018,7,Ontario,18110.0
+2018,7,Oregon,25555.0
+2018,7,Pennsylvania,47515.0
+2018,7,Prince Edward Island,4.0
+2018,7,Puerto Rico,12168.0
+2018,7,Quebec,6284.0
+2018,7,Rhode Island,6743.0
+2018,7,Saskatchewan,130.0
+2018,7,South Carolina,13272.0
+2018,7,South Dakota,3734.0
+2018,7,Tennessee,35354.0
+2018,7,Texas,142692.0
+2018,7,U.S. Pacific Trust Territories and Possessions,5125.0
+2018,7,U.S. Virgin Islands,4305.0
+2018,7,Utah,23320.0
+2018,7,Vermont,2400.0
+2018,7,Virginia,55721.0
+2018,7,Washington,53282.0
+2018,7,West Virginia,2396.0
+2018,7,Wisconsin,13742.0
+2018,7,Wyoming,2875.0
+2018,7,Yukon Territory,28.0
+2018,8,Alabama,8431.0
+2018,8,Alaska,95466.0
+2018,8,Alberta,4034.0
+2018,8,Arizona,39671.0
+2018,8,Arkansas,6410.0
+2018,8,British Columbia,7261.0
+2018,8,California,171708.0
+2018,8,Colorado,58494.0
+2018,8,Connecticut,6615.0
+2018,8,Delaware,3.0
+2018,8,Florida,98197.0
+2018,8,Georgia,77607.0
+2018,8,Hawaii,31470.0
+2018,8,Idaho,6896.0
+2018,8,Illinois,95726.0
+2018,8,Indiana,15898.0
+2018,8,Iowa,6464.0
+2018,8,Kansas,3499.0
+2018,8,Kentucky,26545.0
+2018,8,Louisiana,14547.0
+2018,8,Maine,5647.0
+2018,8,Manitoba,663.0
+2018,8,Maryland,20990.0
+2018,8,Massachusetts,43419.0
+2018,8,Michigan,43308.0
+2018,8,Minnesota,36772.0
+2018,8,Mississippi,3343.0
+2018,8,Missouri,28525.0
+2018,8,Montana,8917.0
+2018,8,Nebraska,7161.0
+2018,8,Nevada,36791.0
+2018,8,New Brunswick,8.0
+2018,8,New Hampshire,2825.0
+2018,8,New Jersey,33082.0
+2018,8,New Mexico,7573.0
+2018,8,New York,79151.0
+2018,8,Newfoundland and Labrador,17.0
+2018,8,North Carolina,64842.0
+2018,8,North Dakota,4381.0
+2018,8,Northwest Territories,1.0
+2018,8,Nova Scotia,457.0
+2018,8,Ohio,23853.0
+2018,8,Oklahoma,8698.0
+2018,8,Ontario,18202.0
+2018,8,Oregon,25031.0
+2018,8,Pennsylvania,48375.0
+2018,8,Prince Edward Island,1.0
+2018,8,Puerto Rico,10781.0
+2018,8,Quebec,6313.0
+2018,8,Rhode Island,6473.0
+2018,8,Saskatchewan,125.0
+2018,8,South Carolina,13311.0
+2018,8,South Dakota,3743.0
+2018,8,Tennessee,36719.0
+2018,8,Texas,143585.0
+2018,8,U.S. Pacific Trust Territories and Possessions,5384.0
+2018,8,U.S. Virgin Islands,4522.0
+2018,8,Utah,23817.0
+2018,8,Vermont,2413.0
+2018,8,Virginia,56656.0
+2018,8,Washington,52940.0
+2018,8,West Virginia,2391.0
+2018,8,Wisconsin,13665.0
+2018,8,Wyoming,2922.0
+2018,8,Yukon Territory,25.0
+2018,9,Alabama,7769.0
+2018,9,Alaska,80823.0
+2018,9,Alberta,3836.0
+2018,9,Arizona,36712.0
+2018,9,Arkansas,5981.0
+2018,9,British Columbia,6533.0
+2018,9,California,155281.0
+2018,9,Colorado,53279.0
+2018,9,Connecticut,5898.0
+2018,9,Delaware,10.0
+2018,9,Florida,88618.0
+2018,9,Georgia,69764.0
+2018,9,Hawaii,28803.0
+2018,9,Idaho,5670.0
+2018,9,Illinois,89695.0
+2018,9,Indiana,14392.0
+2018,9,Iowa,6123.0
+2018,9,Kansas,3255.0
+2018,9,Kentucky,24473.0
+2018,9,Louisiana,13720.0
+2018,9,Maine,5200.0
+2018,9,Manitoba,677.0
+2018,9,Maryland,19595.0
+2018,9,Massachusetts,38022.0
+2018,9,Michigan,39341.0
+2018,9,Minnesota,32308.0
+2018,9,Mississippi,3144.0
+2018,9,Missouri,26602.0
+2018,9,Montana,7244.0
+2018,9,Nebraska,6628.0
+2018,9,Nevada,34247.0
+2018,9,New Brunswick,12.0
+2018,9,New Hampshire,2420.0
+2018,9,New Jersey,31429.0
+2018,9,New Mexico,6921.0
+2018,9,New York,73928.0
+2018,9,Newfoundland and Labrador,28.0
+2018,9,North Carolina,59083.0
+2018,9,North Dakota,3894.0
+2018,9,Nova Scotia,403.0
+2018,9,Ohio,22272.0
+2018,9,Oklahoma,8120.0
+2018,9,Ontario,17260.0
+2018,9,Oregon,22088.0
+2018,9,Pennsylvania,44708.0
+2018,9,Puerto Rico,8846.0
+2018,9,Quebec,5914.0
+2018,9,Rhode Island,5486.0
+2018,9,Saskatchewan,125.0
+2018,9,South Carolina,11116.0
+2018,9,South Dakota,3315.0
+2018,9,Tennessee,34327.0
+2018,9,Texas,131490.0
+2018,9,U.S. Pacific Trust Territories and Possessions,4683.0
+2018,9,U.S. Virgin Islands,3853.0
+2018,9,Utah,21625.0
+2018,9,Vermont,2357.0
+2018,9,Virginia,54178.0
+2018,9,Washington,46238.0
+2018,9,West Virginia,2118.0
+2018,9,Wisconsin,12550.0
+2018,9,Wyoming,2295.0
+2018,9,Yukon Territory,17.0
+2018,10,Alabama,8299.0
+2018,10,Alaska,77519.0
+2018,10,Alberta,3916.0
+2018,10,Arizona,39356.0
+2018,10,Arkansas,6283.0
+2018,10,British Columbia,7843.0
+2018,10,California,164674.0
+2018,10,Colorado,54934.0
+2018,10,Connecticut,6284.0
+2018,10,Delaware,10.0
+2018,10,Florida,97356.0
+2018,10,Georgia,73642.0
+2018,10,Hawaii,28893.0
+2018,10,Idaho,6451.0
+2018,10,Illinois,94962.0
+2018,10,Indiana,16208.0
+2018,10,Iowa,6608.0
+2018,10,Kansas,3453.0
+2018,10,Kentucky,26875.0
+2018,10,Louisiana,15000.0
+2018,10,Maine,5095.0
+2018,10,Manitoba,719.0
+2018,10,Maryland,20527.0
+2018,10,Massachusetts,36846.0
+2018,10,Michigan,41258.0
+2018,10,Minnesota,33700.0
+2018,10,Mississippi,3362.0
+2018,10,Missouri,28578.0
+2018,10,Montana,7029.0
+2018,10,Nebraska,7045.0
+2018,10,Nevada,36648.0
+2018,10,New Brunswick,6.0
+2018,10,New Hampshire,2526.0
+2018,10,New Jersey,33493.0
+2018,10,New Mexico,7063.0
+2018,10,New York,78467.0
+2018,10,Newfoundland and Labrador,28.0
+2018,10,North Carolina,65222.0
+2018,10,North Dakota,4344.0
+2018,10,Nova Scotia,394.0
+2018,10,Ohio,23896.0
+2018,10,Oklahoma,8495.0
+2018,10,Ontario,17818.0
+2018,10,Oregon,21625.0
+2018,10,Pennsylvania,47771.0
+2018,10,Puerto Rico,9377.0
+2018,10,Quebec,6157.0
+2018,10,Rhode Island,5146.0
+2018,10,Saskatchewan,160.0
+2018,10,South Carolina,12606.0
+2018,10,South Dakota,3373.0
+2018,10,Tennessee,37461.0
+2018,10,Texas,139040.0
+2018,10,U.S. Pacific Trust Territories and Possessions,4853.0
+2018,10,U.S. Virgin Islands,4047.0
+2018,10,Utah,22616.0
+2018,10,Vermont,2349.0
+2018,10,Virginia,57968.0
+2018,10,Washington,45143.0
+2018,10,West Virginia,2178.0
+2018,10,Wisconsin,13636.0
+2018,10,Wyoming,1999.0
+2018,10,Yukon Territory,6.0
+2018,11,Alabama,7949.0
+2018,11,Alaska,60981.0
+2018,11,Alberta,3885.0
+2018,11,Arizona,38318.0
+2018,11,Arkansas,5956.0
+2018,11,British Columbia,5726.0
+2018,11,California,155671.0
+2018,11,Colorado,50765.0
+2018,11,Connecticut,6086.0
+2018,11,Delaware,5.0
+2018,11,Florida,101771.0
+2018,11,Georgia,69423.0
+2018,11,Hawaii,30477.0
+2018,11,Idaho,5811.0
+2018,11,Illinois,86311.0
+2018,11,Indiana,15215.0
+2018,11,Iowa,6192.0
+2018,11,Kansas,3330.0
+2018,11,Kentucky,25929.0
+2018,11,Louisiana,14504.0
+2018,11,Maine,4095.0
+2018,11,Manitoba,710.0
+2018,11,Maryland,19810.0
+2018,11,Massachusetts,32459.0
+2018,11,Michigan,38278.0
+2018,11,Minnesota,30686.0
+2018,11,Mississippi,3166.0
+2018,11,Missouri,26495.0
+2018,11,Montana,6621.0
+2018,11,Nebraska,6622.0
+2018,11,Nevada,32973.0
+2018,11,New Brunswick,1.0
+2018,11,New Hampshire,2354.0
+2018,11,New Jersey,31090.0
+2018,11,New Mexico,6818.0
+2018,11,New York,72797.0
+2018,11,Newfoundland and Labrador,16.0
+2018,11,North Carolina,62176.0
+2018,11,North Dakota,4114.0
+2018,11,Nova Scotia,381.0
+2018,11,Ohio,22726.0
+2018,11,Oklahoma,8144.0
+2018,11,Ontario,15684.0
+2018,11,Oregon,21535.0
+2018,11,Pennsylvania,44286.0
+2018,11,Puerto Rico,9940.0
+2018,11,Quebec,5088.0
+2018,11,Rhode Island,4692.0
+2018,11,Saskatchewan,213.0
+2018,11,South Carolina,11369.0
+2018,11,South Dakota,3151.0
+2018,11,Tennessee,35817.0
+2018,11,Texas,135142.0
+2018,11,U.S. Pacific Trust Territories and Possessions,4896.0
+2018,11,U.S. Virgin Islands,4128.0
+2018,11,Utah,21274.0
+2018,11,Vermont,2065.0
+2018,11,Virginia,54346.0
+2018,11,Washington,42228.0
+2018,11,West Virginia,1925.0
+2018,11,Wisconsin,12669.0
+2018,11,Wyoming,1897.0
+2018,12,Alabama,7674.0
+2018,12,Alaska,61297.0
+2018,12,Alberta,4134.0
+2018,12,Arizona,39864.0
+2018,12,Arkansas,5784.0
+2018,12,British Columbia,6174.0
+2018,12,California,160243.0
+2018,12,Colorado,53532.0
+2018,12,Connecticut,6203.0
+2018,12,Delaware,6.0
+2018,12,Florida,112011.0
+2018,12,Georgia,69541.0
+2018,12,Hawaii,32607.0
+2018,12,Idaho,6088.0
+2018,12,Illinois,89320.0
+2018,12,Indiana,16000.0
+2018,12,Iowa,6405.0
+2018,12,Kansas,3403.0
+2018,12,Kentucky,27988.0
+2018,12,Louisiana,14287.0
+2018,12,Maine,3949.0
+2018,12,Manitoba,690.0
+2018,12,Maryland,19913.0
+2018,12,Massachusetts,31461.0
+2018,12,Michigan,38249.0
+2018,12,Minnesota,30977.0
+2018,12,Mississippi,3100.0
+2018,12,Missouri,26856.0
+2018,12,Montana,7392.0
+2018,12,Nebraska,6699.0
+2018,12,Nevada,32999.0
+2018,12,New Brunswick,8.0
+2018,12,New Hampshire,2401.0
+2018,12,New Jersey,31558.0
+2018,12,New Mexico,6760.0
+2018,12,New York,72998.0
+2018,12,Newfoundland and Labrador,14.0
+2018,12,North Carolina,59663.0
+2018,12,North Dakota,4130.0
+2018,12,Northwest Territories,2.0
+2018,12,Nova Scotia,425.0
+2018,12,Ohio,22325.0
+2018,12,Oklahoma,8107.0
+2018,12,Ontario,16504.0
+2018,12,Oregon,22671.0
+2018,12,Pennsylvania,45903.0
+2018,12,Puerto Rico,11880.0
+2018,12,Quebec,5419.0
+2018,12,Rhode Island,4372.0
+2018,12,Saskatchewan,217.0
+2018,12,South Carolina,10966.0
+2018,12,South Dakota,2849.0
+2018,12,Tennessee,36167.0
+2018,12,Texas,135489.0
+2018,12,U.S. Pacific Trust Territories and Possessions,5265.0
+2018,12,U.S. Virgin Islands,4623.0
+2018,12,Utah,22383.0
+2018,12,Vermont,2039.0
+2018,12,Virginia,53065.0
+2018,12,Washington,43646.0
+2018,12,West Virginia,2360.0
+2018,12,Wisconsin,12720.0
+2018,12,Wyoming,2316.0
+2018,12,Yukon Territory,1.0
+2019,1,Alabama,7701.0
+2019,1,Alaska,58702.0
+2019,1,Alberta,4152.0
+2019,1,Arizona,40992.0
+2019,1,Arkansas,5724.0
+2019,1,British Columbia,9681.0
+2019,1,California,158469.0
+2019,1,Colorado,53862.0
+2019,1,Connecticut,5779.0
+2019,1,Delaware,6.0
+2019,1,Florida,111251.0
+2019,1,Georgia,68305.0
+2019,1,Hawaii,30910.0
+2019,1,Idaho,6864.0
+2019,1,Illinois,75678.0
+2019,1,Indiana,14290.0
+2019,1,Iowa,5930.0
+2019,1,Kansas,3197.0
+2019,1,Kentucky,24358.0
+2019,1,Louisiana,14326.0
+2019,1,Maine,3444.0
+2019,1,Manitoba,735.0
+2019,1,Maryland,17625.0
+2019,1,Massachusetts,29294.0
+2019,1,Michigan,35943.0
+2019,1,Minnesota,29440.0
+2019,1,Mississippi,3166.0
+2019,1,Missouri,25241.0
+2019,1,Montana,7177.0
+2019,1,Nebraska,6397.0
+2019,1,Nevada,34440.0
+2019,1,New Brunswick,10.0
+2019,1,New Hampshire,2179.0
+2019,1,New Jersey,29328.0
+2019,1,New Mexico,6319.0
+2019,1,New York,70141.0
+2019,1,Newfoundland and Labrador,21.0
+2019,1,North Carolina,61069.0
+2019,1,North Dakota,3961.0
+2019,1,Northwest Territories,2.0
+2019,1,Nova Scotia,442.0
+2019,1,Nunavut Territory,1.0
+2019,1,Ohio,21054.0
+2019,1,Oklahoma,7687.0
+2019,1,Ontario,15592.0
+2019,1,Oregon,21378.0
+2019,1,Pennsylvania,42030.0
+2019,1,Puerto Rico,12376.0
+2019,1,Quebec,5388.0
+2019,1,Rhode Island,3812.0
+2019,1,Saskatchewan,216.0
+2019,1,South Carolina,10444.0
+2019,1,South Dakota,2582.0
+2019,1,Tennessee,35281.0
+2019,1,Texas,135807.0
+2019,1,U.S. Pacific Trust Territories and Possessions,5562.0
+2019,1,U.S. Virgin Islands,5445.0
+2019,1,Utah,22160.0
+2019,1,Vermont,1922.0
+2019,1,Virginia,50747.0
+2019,1,Washington,42658.0
+2019,1,West Virginia,2018.0
+2019,1,Wisconsin,11793.0
+2019,1,Wyoming,2473.0
+2019,1,Yukon Territory,1.0
+2019,2,Alabama,6954.0
+2019,2,Alaska,50257.0
+2019,2,Alberta,3728.0
+2019,2,Arizona,36257.0
+2019,2,Arkansas,5407.0
+2019,2,British Columbia,8697.0
+2019,2,California,142015.0
+2019,2,Colorado,48783.0
+2019,2,Connecticut,5294.0
+2019,2,Delaware,1.0
+2019,2,Florida,104315.0
+2019,2,Georgia,62186.0
+2019,2,Hawaii,27605.0
+2019,2,Idaho,5509.0
+2019,2,Illinois,72770.0
+2019,2,Indiana,13301.0
+2019,2,Iowa,5445.0
+2019,2,Kansas,3009.0
+2019,2,Kentucky,22037.0
+2019,2,Louisiana,13249.0
+2019,2,Maine,3277.0
+2019,2,Manitoba,691.0
+2019,2,Maryland,15482.0
+2019,2,Massachusetts,27227.0
+2019,2,Michigan,33053.0
+2019,2,Minnesota,26423.0
+2019,2,Mississippi,2829.0
+2019,2,Missouri,22879.0
+2019,2,Montana,6066.0
+2019,2,Nebraska,5895.0
+2019,2,Nevada,30802.0
+2019,2,New Brunswick,10.0
+2019,2,New Hampshire,2067.0
+2019,2,New Jersey,26923.0
+2019,2,New Mexico,5639.0
+2019,2,New York,64827.0
+2019,2,Newfoundland and Labrador,16.0
+2019,2,North Carolina,55857.0
+2019,2,North Dakota,3665.0
+2019,2,Northwest Territories,2.0
+2019,2,Nova Scotia,396.0
+2019,2,Ohio,19358.0
+2019,2,Oklahoma,7028.0
+2019,2,Ontario,13685.0
+2019,2,Oregon,18501.0
+2019,2,Pennsylvania,38348.0
+2019,2,Puerto Rico,11320.0
+2019,2,Quebec,4877.0
+2019,2,Rhode Island,3535.0
+2019,2,Saskatchewan,194.0
+2019,2,South Carolina,9729.0
+2019,2,South Dakota,2342.0
+2019,2,Tennessee,32362.0
+2019,2,Texas,123406.0
+2019,2,U.S. Pacific Trust Territories and Possessions,5714.0
+2019,2,U.S. Virgin Islands,4614.0
+2019,2,Utah,19988.0
+2019,2,Vermont,1864.0
+2019,2,Virginia,46880.0
+2019,2,Washington,36672.0
+2019,2,West Virginia,1837.0
+2019,2,Wisconsin,10658.0
+2019,2,Wyoming,2231.0
+2019,3,Alabama,8264.0
+2019,3,Alaska,68394.0
+2019,3,Alberta,4111.0
+2019,3,Arizona,43517.0
+2019,3,Arkansas,6285.0
+2019,3,British Columbia,10308.0
+2019,3,California,163830.0
+2019,3,Colorado,55333.0
+2019,3,Connecticut,6393.0
+2019,3,Delaware,9.0
+2019,3,Florida,126312.0
+2019,3,Georgia,75471.0
+2019,3,Hawaii,31578.0
+2019,3,Idaho,6679.0
+2019,3,Illinois,88751.0
+2019,3,Indiana,15983.0
+2019,3,Iowa,6731.0
+2019,3,Kansas,3682.0
+2019,3,Kentucky,25781.0
+2019,3,Louisiana,15514.0
+2019,3,Maine,3819.0
+2019,3,Manitoba,727.0
+2019,3,Maryland,19409.0
+2019,3,Massachusetts,32429.0
+2019,3,Michigan,41152.0
+2019,3,Minnesota,33543.0
+2019,3,Mississippi,3261.0
+2019,3,Missouri,27433.0
+2019,3,Montana,7367.0
+2019,3,Nebraska,6970.0
+2019,3,Nevada,36679.0
+2019,3,New Brunswick,17.0
+2019,3,New Hampshire,2393.0
+2019,3,New Jersey,31898.0
+2019,3,New Mexico,6537.0
+2019,3,New York,77565.0
+2019,3,Newfoundland and Labrador,35.0
+2019,3,North Carolina,64741.0
+2019,3,North Dakota,4826.0
+2019,3,Nova Scotia,501.0
+2019,3,Nunavut Territory,2.0
+2019,3,Ohio,23623.0
+2019,3,Oklahoma,8112.0
+2019,3,Ontario,17126.0
+2019,3,Oregon,21633.0
+2019,3,Pennsylvania,45910.0
+2019,3,Puerto Rico,13096.0
+2019,3,Quebec,6065.0
+2019,3,Rhode Island,4312.0
+2019,3,Saskatchewan,224.0
+2019,3,South Carolina,11985.0
+2019,3,South Dakota,2662.0
+2019,3,Tennessee,37530.0
+2019,3,Texas,143041.0
+2019,3,U.S. Pacific Trust Territories and Possessions,5913.0
+2019,3,U.S. Virgin Islands,5095.0
+2019,3,Utah,23526.0
+2019,3,Vermont,2160.0
+2019,3,Virginia,55388.0
+2019,3,Washington,45981.0
+2019,3,West Virginia,2166.0
+2019,3,Wisconsin,13533.0
+2019,3,Wyoming,2721.0
+2019,3,Yukon Territory,2.0
+2019,4,Alabama,7977.0
+2019,4,Alaska,73820.0
+2019,4,Alberta,4037.0
+2019,4,Arizona,42067.0
+2019,4,Arkansas,6250.0
+2019,4,British Columbia,11195.0
+2019,4,California,160894.0
+2019,4,Colorado,51693.0
+2019,4,Connecticut,6435.0
+2019,4,Delaware,7.0
+2019,4,Florida,113467.0
+2019,4,Georgia,73472.0
+2019,4,Hawaii,30485.0
+2019,4,Idaho,5656.0
+2019,4,Illinois,86819.0
+2019,4,Indiana,15418.0
+2019,4,Iowa,6460.0
+2019,4,Kansas,3254.0
+2019,4,Kentucky,25659.0
+2019,4,Louisiana,15209.0
+2019,4,Maine,3915.0
+2019,4,Manitoba,645.0
+2019,4,Maryland,19672.0
+2019,4,Massachusetts,33340.0
+2019,4,Michigan,39747.0
+2019,4,Minnesota,31763.0
+2019,4,Mississippi,3078.0
+2019,4,Missouri,26552.0
+2019,4,Montana,6854.0
+2019,4,Nebraska,6947.0
+2019,4,Nevada,35951.0
+2019,4,New Brunswick,22.0
+2019,4,New Hampshire,2535.0
+2019,4,New Jersey,31271.0
+2019,4,New Mexico,6584.0
+2019,4,New York,74943.0
+2019,4,Newfoundland and Labrador,45.0
+2019,4,North Carolina,63045.0
+2019,4,North Dakota,4324.0
+2019,4,Northwest Territories,1.0
+2019,4,Nova Scotia,473.0
+2019,4,Nunavut Territory,2.0
+2019,4,Ohio,22526.0
+2019,4,Oklahoma,8192.0
+2019,4,Ontario,16586.0
+2019,4,Oregon,21946.0
+2019,4,Pennsylvania,46218.0
+2019,4,Puerto Rico,12384.0
+2019,4,Quebec,5517.0
+2019,4,Rhode Island,4398.0
+2019,4,Saskatchewan,206.0
+2019,4,South Carolina,12332.0
+2019,4,South Dakota,2880.0
+2019,4,Tennessee,36464.0
+2019,4,Texas,136740.0
+2019,4,U.S. Pacific Trust Territories and Possessions,5195.0
+2019,4,U.S. Virgin Islands,4451.0
+2019,4,Utah,22041.0
+2019,4,Vermont,2177.0
+2019,4,Virginia,54809.0
+2019,4,Washington,47118.0
+2019,4,West Virginia,2184.0
+2019,4,Wisconsin,13068.0
+2019,4,Wyoming,1937.0
+2019,4,Yukon Territory,10.0
+2019,5,Alabama,8389.0
+2019,5,Alaska,79052.0
+2019,5,Alberta,3806.0
+2019,5,Arizona,40928.0
+2019,5,Arkansas,6592.0
+2019,5,British Columbia,9458.0
+2019,5,California,166035.0
+2019,5,Colorado,56355.0
+2019,5,Connecticut,6430.0
+2019,5,Delaware,7.0
+2019,5,Florida,107564.0
+2019,5,Georgia,76654.0
+2019,5,Hawaii,31766.0
+2019,5,Idaho,6122.0
+2019,5,Illinois,93214.0
+2019,5,Indiana,15750.0
+2019,5,Iowa,6835.0
+2019,5,Kansas,3364.0
+2019,5,Kentucky,27351.0
+2019,5,Louisiana,15667.0
+2019,5,Maine,4291.0
+2019,5,Manitoba,637.0
+2019,5,Maryland,20729.0
+2019,5,Massachusetts,36640.0
+2019,5,Michigan,41019.0
+2019,5,Minnesota,33160.0
+2019,5,Mississippi,3167.0
+2019,5,Missouri,28218.0
+2019,5,Montana,7474.0
+2019,5,Nebraska,7101.0
+2019,5,Nevada,38223.0
+2019,5,New Brunswick,16.0
+2019,5,New Hampshire,2620.0
+2019,5,New Jersey,31678.0
+2019,5,New Mexico,6840.0
+2019,5,New York,77069.0
+2019,5,Newfoundland and Labrador,36.0
+2019,5,North Carolina,66798.0
+2019,5,North Dakota,4796.0
+2019,5,Nova Scotia,457.0
+2019,5,Nunavut Territory,2.0
+2019,5,Ohio,23590.0
+2019,5,Oklahoma,8568.0
+2019,5,Ontario,17142.0
+2019,5,Oregon,22950.0
+2019,5,Pennsylvania,48925.0
+2019,5,Puerto Rico,12717.0
+2019,5,Quebec,5665.0
+2019,5,Rhode Island,5377.0
+2019,5,Saskatchewan,286.0
+2019,5,South Carolina,14037.0
+2019,5,South Dakota,3523.0
+2019,5,Tennessee,38634.0
+2019,5,Texas,145041.0
+2019,5,U.S. Pacific Trust Territories and Possessions,5812.0
+2019,5,U.S. Virgin Islands,4806.0
+2019,5,Utah,22788.0
+2019,5,Vermont,2132.0
+2019,5,Virginia,56958.0
+2019,5,Washington,51216.0
+2019,5,West Virginia,2127.0
+2019,5,Wisconsin,13278.0
+2019,5,Wyoming,2178.0
+2019,5,Yukon Territory,24.0
+2019,6,Alabama,8241.0
+2019,6,Alaska,82336.0
+2019,6,Alberta,3904.0
+2019,6,Arizona,38874.0
+2019,6,Arkansas,6595.0
+2019,6,British Columbia,10460.0
+2019,6,California,167586.0
+2019,6,Colorado,60054.0
+2019,6,Connecticut,6029.0
+2019,6,Delaware,5.0
+2019,6,Florida,102321.0
+2019,6,Georgia,76272.0
+2019,6,Hawaii,32338.0
+2019,6,Idaho,6359.0
+2019,6,Illinois,93674.0
+2019,6,Indiana,15160.0
+2019,6,Iowa,6790.0
+2019,6,Kansas,3410.0
+2019,6,Kentucky,26610.0
+2019,6,Louisiana,14826.0
+2019,6,Maine,4866.0
+2019,6,Manitoba,625.0
+2019,6,Maryland,20731.0
+2019,6,Massachusetts,38488.0
+2019,6,Michigan,40908.0
+2019,6,Minnesota,34755.0
+2019,6,Mississippi,2995.0
+2019,6,Missouri,28042.0
+2019,6,Montana,8815.0
+2019,6,Nebraska,6934.0
+2019,6,Nevada,36386.0
+2019,6,New Brunswick,11.0
+2019,6,New Hampshire,2642.0
+2019,6,New Jersey,30692.0
+2019,6,New Mexico,6895.0
+2019,6,New York,75046.0
+2019,6,Newfoundland and Labrador,29.0
+2019,6,North Carolina,65287.0
+2019,6,North Dakota,4472.0
+2019,6,Northwest Territories,4.0
+2019,6,Nova Scotia,460.0
+2019,6,Nunavut Territory,1.0
+2019,6,Ohio,23868.0
+2019,6,Oklahoma,8553.0
+2019,6,Ontario,16575.0
+2019,6,Oregon,24856.0
+2019,6,Pennsylvania,47704.0
+2019,6,Puerto Rico,12416.0
+2019,6,Quebec,5939.0
+2019,6,Rhode Island,5288.0
+2019,6,Saskatchewan,207.0
+2019,6,South Carolina,14385.0
+2019,6,South Dakota,3913.0
+2019,6,Tennessee,37720.0
+2019,6,Texas,144198.0
+2019,6,U.S. Pacific Trust Territories and Possessions,5118.0
+2019,6,U.S. Virgin Islands,4566.0
+2019,6,Utah,22479.0
+2019,6,Vermont,2349.0
+2019,6,Virginia,55241.0
+2019,6,Washington,53443.0
+2019,6,West Virginia,2206.0
+2019,6,Wisconsin,13094.0
+2019,6,Wyoming,3156.0
+2019,6,Yukon Territory,28.0
+2019,7,Alabama,8363.0
+2019,7,Alaska,94580.0
+2019,7,Alberta,3909.0
+2019,7,Arizona,39868.0
+2019,7,Arkansas,6723.0
+2019,7,British Columbia,9604.0
+2019,7,California,175162.0
+2019,7,Colorado,63775.0
+2019,7,Connecticut,6059.0
+2019,7,Delaware,5.0
+2019,7,Florida,106034.0
+2019,7,Georgia,78385.0
+2019,7,Hawaii,27072.0
+2019,7,Idaho,7094.0
+2019,7,Illinois,95513.0
+2019,7,Indiana,15483.0
+2019,7,Iowa,6989.0
+2019,7,Kansas,3760.0
+2019,7,Kentucky,27120.0
+2019,7,Louisiana,14671.0
+2019,7,Maine,5367.0
+2019,7,Manitoba,634.0
+2019,7,Maryland,21401.0
+2019,7,Massachusetts,41998.0
+2019,7,Michigan,42486.0
+2019,7,Minnesota,36495.0
+2019,7,Mississippi,3125.0
+2019,7,Missouri,28968.0
+2019,7,Montana,9670.0
+2019,7,Nebraska,7079.0
+2019,7,Nevada,37684.0
+2019,7,New Brunswick,7.0
+2019,7,New Hampshire,2648.0
+2019,7,New Jersey,31600.0
+2019,7,New Mexico,7238.0
+2019,7,New York,75602.0
+2019,7,Newfoundland and Labrador,23.0
+2019,7,North Carolina,66303.0
+2019,7,North Dakota,4637.0
+2019,7,Northwest Territories,3.0
+2019,7,Nova Scotia,530.0
+2019,7,Nunavut Territory,1.0
+2019,7,Ohio,24608.0
+2019,7,Oklahoma,8764.0
+2019,7,Ontario,17130.0
+2019,7,Oregon,25749.0
+2019,7,Pennsylvania,48680.0
+2019,7,Prince Edward Island,2.0
+2019,7,Puerto Rico,13566.0
+2019,7,Quebec,6198.0
+2019,7,Rhode Island,6503.0
+2019,7,Saskatchewan,127.0
+2019,7,South Carolina,14745.0
+2019,7,South Dakota,4098.0
+2019,7,Tennessee,38095.0
+2019,7,Texas,150535.0
+2019,7,U.S. Pacific Trust Territories and Possessions,5524.0
+2019,7,U.S. Virgin Islands,4865.0
+2019,7,Utah,23623.0
+2019,7,Vermont,2428.0
+2019,7,Virginia,56187.0
+2019,7,Washington,55840.0
+2019,7,West Virginia,2345.0
+2019,7,Wisconsin,13332.0
+2019,7,Wyoming,3447.0
+2019,7,Yukon Territory,89.0
+2019,8,Alabama,8563.0
+2019,8,Alaska,91281.0
+2019,8,Alberta,3932.0
+2019,8,Arizona,39525.0
+2019,8,Arkansas,6765.0
+2019,8,British Columbia,9338.0
+2019,8,California,179137.0
+2019,8,Colorado,63194.0
+2019,8,Connecticut,6187.0
+2019,8,Delaware,10.0
+2019,8,Florida,100423.0
+2019,8,Georgia,78956.0
+2019,8,Hawaii,26692.0
+2019,8,Idaho,6828.0
+2019,8,Illinois,96452.0
+2019,8,Indiana,15328.0
+2019,8,Iowa,6867.0
+2019,8,Kansas,3666.0
+2019,8,Kentucky,27319.0
+2019,8,Louisiana,14814.0
+2019,8,Maine,5557.0
+2019,8,Manitoba,678.0
+2019,8,Maryland,21390.0
+2019,8,Massachusetts,43676.0
+2019,8,Michigan,43519.0
+2019,8,Minnesota,37137.0
+2019,8,Mississippi,3374.0
+2019,8,Missouri,28834.0
+2019,8,Montana,9297.0
+2019,8,Nebraska,7129.0
+2019,8,Nevada,38352.0
+2019,8,New Brunswick,8.0
+2019,8,New Hampshire,2713.0
+2019,8,New Jersey,31958.0
+2019,8,New Mexico,7468.0
+2019,8,New York,77757.0
+2019,8,Newfoundland and Labrador,20.0
+2019,8,North Carolina,67096.0
+2019,8,North Dakota,4647.0
+2019,8,Northwest Territories,1.0
+2019,8,Nova Scotia,536.0
+2019,8,Nunavut Territory,2.0
+2019,8,Ohio,24513.0
+2019,8,Oklahoma,8769.0
+2019,8,Ontario,17618.0
+2019,8,Oregon,25740.0
+2019,8,Pennsylvania,50041.0
+2019,8,Prince Edward Island,1.0
+2019,8,Puerto Rico,12167.0
+2019,8,Quebec,6312.0
+2019,8,Rhode Island,6378.0
+2019,8,Saskatchewan,126.0
+2019,8,South Carolina,14603.0
+2019,8,South Dakota,4003.0
+2019,8,Tennessee,38566.0
+2019,8,Texas,151049.0
+2019,8,U.S. Pacific Trust Territories and Possessions,5996.0
+2019,8,U.S. Virgin Islands,4597.0
+2019,8,Utah,23707.0
+2019,8,Vermont,2453.0
+2019,8,Virginia,56716.0
+2019,8,Washington,56859.0
+2019,8,West Virginia,2279.0
+2019,8,Wisconsin,13645.0
+2019,8,Wyoming,3242.0
+2019,8,Yukon Territory,22.0
+2019,9,Alabama,8183.0
+2019,9,Alaska,78631.0
+2019,9,Alberta,3736.0
+2019,9,Arizona,37855.0
+2019,9,Arkansas,6619.0
+2019,9,British Columbia,7081.0
+2019,9,California,159515.0
+2019,9,Colorado,58816.0
+2019,9,Connecticut,5565.0
+2019,9,Delaware,13.0
+2019,9,Florida,86688.0
+2019,9,Georgia,70939.0
+2019,9,Hawaii,23531.0
+2019,9,Idaho,6162.0
+2019,9,Illinois,91175.0
+2019,9,Indiana,14128.0
+2019,9,Iowa,6419.0
+2019,9,Kansas,3374.0
+2019,9,Kentucky,25256.0
+2019,9,Louisiana,14574.0
+2019,9,Maine,5108.0
+2019,9,Manitoba,676.0
+2019,9,Maryland,19541.0
+2019,9,Massachusetts,38795.0
+2019,9,Michigan,39867.0
+2019,9,Minnesota,32780.0
+2019,9,Mississippi,3146.0
+2019,9,Missouri,27502.0
+2019,9,Montana,7462.0
+2019,9,Nebraska,6494.0
+2019,9,Nevada,37292.0
+2019,9,New Brunswick,6.0
+2019,9,New Hampshire,2485.0
+2019,9,New Jersey,31271.0
+2019,9,New Mexico,7113.0
+2019,9,New York,72566.0
+2019,9,Newfoundland and Labrador,24.0
+2019,9,North Carolina,64571.0
+2019,9,North Dakota,4268.0
+2019,9,Northwest Territories,2.0
+2019,9,Nova Scotia,345.0
+2019,9,Ohio,23235.0
+2019,9,Oklahoma,8209.0
+2019,9,Ontario,15977.0
+2019,9,Oregon,23145.0
+2019,9,Pennsylvania,45891.0
+2019,9,Puerto Rico,8471.0
+2019,9,Quebec,5286.0
+2019,9,Rhode Island,5729.0
+2019,9,Saskatchewan,126.0
+2019,9,South Carolina,12207.0
+2019,9,South Dakota,3599.0
+2019,9,Tennessee,35966.0
+2019,9,Texas,142224.0
+2019,9,U.S. Pacific Trust Territories and Possessions,4778.0
+2019,9,U.S. Virgin Islands,3981.0
+2019,9,Utah,21724.0
+2019,9,Vermont,2376.0
+2019,9,Virginia,53753.0
+2019,9,Washington,50153.0
+2019,9,West Virginia,2163.0
+2019,9,Wisconsin,12729.0
+2019,9,Wyoming,2614.0
+2019,9,Yukon Territory,18.0
+2019,10,Alabama,8656.0
+2019,10,Alaska,73625.0
+2019,10,Alberta,4162.0
+2019,10,Arizona,41438.0
+2019,10,Arkansas,6895.0
+2019,10,British Columbia,7999.0
+2019,10,California,169956.0
+2019,10,Colorado,59441.0
+2019,10,Connecticut,6081.0
+2019,10,Delaware,9.0
+2019,10,Florida,101015.0
+2019,10,Georgia,75433.0
+2019,10,Hawaii,25079.0
+2019,10,Idaho,6469.0
+2019,10,Illinois,97453.0
+2019,10,Indiana,16004.0
+2019,10,Iowa,6982.0
+2019,10,Kansas,3645.0
+2019,10,Kentucky,27881.0
+2019,10,Louisiana,15794.0
+2019,10,Maine,5138.0
+2019,10,Manitoba,665.0
+2019,10,Maryland,20793.0
+2019,10,Massachusetts,37790.0
+2019,10,Michigan,41797.0
+2019,10,Minnesota,34255.0
+2019,10,Mississippi,3336.0
+2019,10,Missouri,28734.0
+2019,10,Montana,7198.0
+2019,10,Nebraska,6854.0
+2019,10,Nevada,39096.0
+2019,10,New Brunswick,2.0
+2019,10,New Hampshire,2766.0
+2019,10,New Jersey,33928.0
+2019,10,New Mexico,7727.0
+2019,10,New York,75917.0
+2019,10,Newfoundland and Labrador,19.0
+2019,10,North Carolina,68293.0
+2019,10,North Dakota,4532.0
+2019,10,Nova Scotia,445.0
+2019,10,Ohio,24560.0
+2019,10,Oklahoma,8628.0
+2019,10,Ontario,16443.0
+2019,10,Oregon,24347.0
+2019,10,Pennsylvania,48718.0
+2019,10,Prince Edward Island,1.0
+2019,10,Puerto Rico,10385.0
+2019,10,Quebec,6083.0
+2019,10,Rhode Island,5102.0
+2019,10,Saskatchewan,164.0
+2019,10,South Carolina,13271.0
+2019,10,South Dakota,3670.0
+2019,10,Tennessee,39735.0
+2019,10,Texas,149174.0
+2019,10,U.S. Pacific Trust Territories and Possessions,4951.0
+2019,10,U.S. Virgin Islands,4406.0
+2019,10,Utah,22894.0
+2019,10,Vermont,2323.0
+2019,10,Virginia,57440.0
+2019,10,Washington,49512.0
+2019,10,West Virginia,2286.0
+2019,10,Wisconsin,13491.0
+2019,10,Wyoming,2178.0
+2019,11,Alabama,8255.0
+2019,11,Alaska,60658.0
+2019,11,Alberta,4009.0
+2019,11,Arizona,39760.0
+2019,11,Arkansas,6504.0
+2019,11,British Columbia,8129.0
+2019,11,California,158844.0
+2019,11,Colorado,53194.0
+2019,11,Connecticut,5993.0
+2019,11,Delaware,18.0
+2019,11,Florida,108724.0
+2019,11,Georgia,69925.0
+2019,11,Hawaii,23688.0
+2019,11,Idaho,6106.0
+2019,11,Illinois,88188.0
+2019,11,Indiana,14976.0
+2019,11,Iowa,6402.0
+2019,11,Kansas,3435.0
+2019,11,Kentucky,26116.0
+2019,11,Louisiana,15175.0
+2019,11,Maine,4240.0
+2019,11,Manitoba,623.0
+2019,11,Maryland,20232.0
+2019,11,Massachusetts,33664.0
+2019,11,Michigan,38680.0
+2019,11,Minnesota,31009.0
+2019,11,Mississippi,3273.0
+2019,11,Missouri,26089.0
+2019,11,Montana,6807.0
+2019,11,Nebraska,6331.0
+2019,11,Nevada,35114.0
+2019,11,New Hampshire,2547.0
+2019,11,New Jersey,31366.0
+2019,11,New Mexico,6994.0
+2019,11,New York,71664.0
+2019,11,Newfoundland and Labrador,26.0
+2019,11,North Carolina,65249.0
+2019,11,North Dakota,4245.0
+2019,11,Northwest Territories,1.0
+2019,11,Nova Scotia,357.0
+2019,11,Nunavut Territory,1.0
+2019,11,Ohio,23074.0
+2019,11,Oklahoma,8117.0
+2019,11,Ontario,14953.0
+2019,11,Oregon,21979.0
+2019,11,Pennsylvania,45322.0
+2019,11,Puerto Rico,12952.0
+2019,11,Quebec,5291.0
+2019,11,Rhode Island,4590.0
+2019,11,Saskatchewan,157.0
+2019,11,South Carolina,12160.0
+2019,11,South Dakota,3184.0
+2019,11,Tennessee,36759.0
+2019,11,Texas,142552.0
+2019,11,U.S. Pacific Trust Territories and Possessions,4914.0
+2019,11,U.S. Virgin Islands,4592.0
+2019,11,Utah,20884.0
+2019,11,Vermont,2099.0
+2019,11,Virginia,54103.0
+2019,11,Washington,46119.0
+2019,11,West Virginia,2210.0
+2019,11,Wisconsin,12615.0
+2019,11,Wyoming,1717.0
+2019,12,Alabama,7981.0
+2019,12,Alaska,64414.0
+2019,12,Alberta,3934.0
+2019,12,Arizona,42235.0
+2019,12,Arkansas,6356.0
+2019,12,British Columbia,5825.0
+2019,12,California,167724.0
+2019,12,Colorado,58351.0
+2019,12,Connecticut,6017.0
+2019,12,Delaware,6.0
+2019,12,Florida,121548.0
+2019,12,Georgia,72232.0
+2019,12,Hawaii,27866.0
+2019,12,Idaho,6722.0
+2019,12,Illinois,90411.0
+2019,12,Indiana,16489.0
+2019,12,Iowa,6731.0
+2019,12,Kansas,3560.0
+2019,12,Kentucky,29308.0
+2019,12,Louisiana,15314.0
+2019,12,Maine,3916.0
+2019,12,Manitoba,545.0
+2019,12,Maryland,20679.0
+2019,12,Massachusetts,32310.0
+2019,12,Michigan,39810.0
+2019,12,Minnesota,32216.0
+2019,12,Mississippi,3126.0
+2019,12,Missouri,26031.0
+2019,12,Montana,7627.0
+2019,12,Nebraska,6686.0
+2019,12,Nevada,34886.0
+2019,12,New Brunswick,4.0
+2019,12,New Hampshire,2500.0
+2019,12,New Jersey,32337.0
+2019,12,New Mexico,7089.0
+2019,12,New York,72588.0
+2019,12,Newfoundland and Labrador,17.0
+2019,12,North Carolina,65799.0
+2019,12,North Dakota,4535.0
+2019,12,Nova Scotia,387.0
+2019,12,Nunavut Territory,3.0
+2019,12,Ohio,23347.0
+2019,12,Oklahoma,8311.0
+2019,12,Ontario,14947.0
+2019,12,Oregon,23033.0
+2019,12,Pennsylvania,45973.0
+2019,12,Puerto Rico,14301.0
+2019,12,Quebec,5338.0
+2019,12,Rhode Island,4240.0
+2019,12,Saskatchewan,160.0
+2019,12,South Carolina,12067.0
+2019,12,South Dakota,3373.0
+2019,12,Tennessee,38115.0
+2019,12,Texas,146734.0
+2019,12,U.S. Pacific Trust Territories and Possessions,5696.0
+2019,12,U.S. Virgin Islands,5328.0
+2019,12,Utah,23006.0
+2019,12,Vermont,2165.0
+2019,12,Virginia,54391.0
+2019,12,Washington,47221.0
+2019,12,West Virginia,2193.0
+2019,12,Wisconsin,12918.0
+2019,12,Wyoming,2230.0
+2019,12,Yukon Territory,4.0
+2020,1,Alabama,7929.0
+2020,1,Alaska,63959.0
+2020,1,Alberta,3908.0
+2020,1,Arizona,41529.0
+2020,1,Arkansas,6255.0
+2020,1,British Columbia,5616.0
+2020,1,California,160827.0
+2020,1,Colorado,56901.0
+2020,1,Connecticut,5732.0
+2020,1,Delaware,7.0
+2020,1,Florida,119071.0
+2020,1,Georgia,71528.0
+2020,1,Hawaii,26342.0
+2020,1,Idaho,6411.0
+2020,1,Illinois,82715.0
+2020,1,Indiana,14956.0
+2020,1,Iowa,6597.0
+2020,1,Kansas,3342.0
+2020,1,Kentucky,25445.0
+2020,1,Louisiana,14660.0
+2020,1,Maine,3896.0
+2020,1,Manitoba,669.0
+2020,1,Maryland,18266.0
+2020,1,Massachusetts,31528.0
+2020,1,Michigan,37873.0
+2020,1,Minnesota,30562.0
+2020,1,Mississippi,3213.0
+2020,1,Missouri,25346.0
+2020,1,Montana,7685.0
+2020,1,Nebraska,6609.0
+2020,1,Nevada,36564.0
+2020,1,New Brunswick,12.0
+2020,1,New Hampshire,2239.0
+2020,1,New Jersey,31772.0
+2020,1,New Mexico,6688.0
+2020,1,New York,71558.0
+2020,1,Newfoundland and Labrador,13.0
+2020,1,North Carolina,65167.0
+2020,1,North Dakota,4310.0
+2020,1,Nova Scotia,368.0
+2020,1,Nunavut Territory,1.0
+2020,1,Ohio,22149.0
+2020,1,Oklahoma,7922.0
+2020,1,Ontario,14612.0
+2020,1,Oregon,21819.0
+2020,1,Pennsylvania,42990.0
+2020,1,Puerto Rico,14526.0
+2020,1,Quebec,5106.0
+2020,1,Rhode Island,4166.0
+2020,1,Saskatchewan,209.0
+2020,1,South Carolina,11182.0
+2020,1,South Dakota,3066.0
+2020,1,Tennessee,35987.0
+2020,1,Texas,139486.0
+2020,1,U.S. Pacific Trust Territories and Possessions,6149.0
+2020,1,U.S. Virgin Islands,5242.0
+2020,1,Utah,22962.0
+2020,1,Vermont,1958.0
+2020,1,Virginia,53608.0
+2020,1,Washington,44202.0
+2020,1,West Virginia,2123.0
+2020,1,Wisconsin,12769.0
+2020,1,Wyoming,2484.0
+2020,2,Alabama,7543.0
+2020,2,Alaska,56364.0
+2020,2,Alberta,3647.0
+2020,2,Arizona,40006.0
+2020,2,Arkansas,6032.0
+2020,2,British Columbia,5302.0
+2020,2,California,150699.0
+2020,2,Colorado,53453.0
+2020,2,Connecticut,5549.0
+2020,2,Delaware,2.0
+2020,2,Florida,115212.0
+2020,2,Georgia,66598.0
+2020,2,Hawaii,24783.0
+2020,2,Idaho,5947.0
+2020,2,Illinois,79382.0
+2020,2,Indiana,13908.0
+2020,2,Iowa,6280.0
+2020,2,Kansas,3170.0
+2020,2,Kentucky,23780.0
+2020,2,Louisiana,14443.0
+2020,2,Maine,3689.0
+2020,2,Manitoba,643.0
+2020,2,Maryland,16695.0
+2020,2,Massachusetts,29969.0
+2020,2,Michigan,36157.0
+2020,2,Minnesota,28814.0
+2020,2,Mississippi,3084.0
+2020,2,Missouri,23961.0
+2020,2,Montana,7116.0
+2020,2,Nebraska,6250.0
+2020,2,Nevada,33777.0
+2020,2,New Brunswick,11.0
+2020,2,New Hampshire,2235.0
+2020,2,New Jersey,29870.0
+2020,2,New Mexico,6307.0
+2020,2,New York,67563.0
+2020,2,Newfoundland and Labrador,18.0
+2020,2,North Carolina,60184.0
+2020,2,North Dakota,4253.0
+2020,2,Nova Scotia,376.0
+2020,2,Ohio,20859.0
+2020,2,Oklahoma,7272.0
+2020,2,Ontario,13582.0
+2020,2,Oregon,20339.0
+2020,2,Pennsylvania,40637.0
+2020,2,Puerto Rico,13559.0
+2020,2,Quebec,4827.0
+2020,2,Rhode Island,3777.0
+2020,2,Saskatchewan,202.0
+2020,2,South Carolina,10705.0
+2020,2,South Dakota,3026.0
+2020,2,Tennessee,34041.0
+2020,2,Texas,132373.0
+2020,2,U.S. Pacific Trust Territories and Possessions,4242.0
+2020,2,U.S. Virgin Islands,5122.0
+2020,2,Utah,21334.0
+2020,2,Vermont,1784.0
+2020,2,Virginia,50597.0
+2020,2,Washington,42054.0
+2020,2,West Virginia,1982.0
+2020,2,Wisconsin,12189.0
+2020,2,Wyoming,2271.0
+2020,3,Alabama,7178.0
+2020,3,Alaska,42663.0
+2020,3,Alberta,2949.0
+2020,3,Arizona,38621.0
+2020,3,Arkansas,5849.0
+2020,3,British Columbia,4258.0
+2020,3,California,139009.0
+2020,3,Colorado,49770.0
+2020,3,Connecticut,5080.0
+2020,3,Delaware,10.0
+2020,3,Florida,111187.0
+2020,3,Georgia,61365.0
+2020,3,Hawaii,24495.0
+2020,3,Idaho,5848.0
+2020,3,Illinois,75352.0
+2020,3,Indiana,14210.0
+2020,3,Iowa,6366.0
+2020,3,Kansas,2925.0
+2020,3,Kentucky,24147.0
+2020,3,Louisiana,13358.0
+2020,3,Maine,3715.0
+2020,3,Manitoba,607.0
+2020,3,Maryland,16929.0
+2020,3,Massachusetts,27550.0
+2020,3,Michigan,35894.0
+2020,3,Minnesota,28582.0
+2020,3,Mississippi,2829.0
+2020,3,Missouri,23265.0
+2020,3,Montana,6947.0
+2020,3,Nebraska,6112.0
+2020,3,Nevada,27239.0
+2020,3,New Brunswick,6.0
+2020,3,New Hampshire,2303.0
+2020,3,New Jersey,26740.0
+2020,3,New Mexico,6287.0
+2020,3,New York,61796.0
+2020,3,Newfoundland and Labrador,21.0
+2020,3,North Carolina,56170.0
+2020,3,North Dakota,4146.0
+2020,3,Nova Scotia,315.0
+2020,3,Ohio,20568.0
+2020,3,Oklahoma,7157.0
+2020,3,Ontario,11152.0
+2020,3,Oregon,19645.0
+2020,3,Pennsylvania,39647.0
+2020,3,Puerto Rico,11137.0
+2020,3,Quebec,4142.0
+2020,3,Rhode Island,3461.0
+2020,3,Saskatchewan,173.0
+2020,3,South Carolina,10775.0
+2020,3,South Dakota,2883.0
+2020,3,Tennessee,33530.0
+2020,3,Texas,124757.0
+2020,3,U.S. Pacific Trust Territories and Possessions,2853.0
+2020,3,U.S. Virgin Islands,3206.0
+2020,3,Utah,20453.0
+2020,3,Vermont,1784.0
+2020,3,Virginia,46741.0
+2020,3,Washington,38906.0
+2020,3,West Virginia,1908.0
+2020,3,Wisconsin,11930.0
+2020,3,Wyoming,2059.0
+2020,4,Alabama,2865.0
+2020,4,Alaska,35659.0
+2020,4,Alberta,375.0
+2020,4,Arizona,15273.0
+2020,4,Arkansas,2480.0
+2020,4,British Columbia,601.0
+2020,4,California,48349.0
+2020,4,Colorado,19656.0
+2020,4,Connecticut,2229.0
+2020,4,Delaware,2.0
+2020,4,Florida,34263.0
+2020,4,Georgia,20990.0
+2020,4,Hawaii,9422.0
+2020,4,Idaho,2436.0
+2020,4,Illinois,31283.0
+2020,4,Indiana,6553.0
+2020,4,Iowa,2828.0
+2020,4,Kansas,1515.0
+2020,4,Kentucky,14862.0
+2020,4,Louisiana,4762.0
+2020,4,Maine,1698.0
+2020,4,Manitoba,152.0
+2020,4,Maryland,7956.0
+2020,4,Massachusetts,8420.0
+2020,4,Michigan,14543.0
+2020,4,Minnesota,10760.0
+2020,4,Mississippi,1415.0
+2020,4,Missouri,10202.0
+2020,4,Montana,4017.0
+2020,4,Nebraska,2969.0
+2020,4,Nevada,9333.0
+2020,4,New Brunswick,2.0
+2020,4,New Hampshire,1468.0
+2020,4,New Jersey,3766.0
+2020,4,New Mexico,3283.0
+2020,4,New York,12286.0
+2020,4,Newfoundland and Labrador,1.0
+2020,4,North Carolina,22910.0
+2020,4,North Dakota,2040.0
+2020,4,Northwest Territories,2.0
+2020,4,Nova Scotia,21.0
+2020,4,Ohio,6954.0
+2020,4,Oklahoma,3113.0
+2020,4,Ontario,1387.0
+2020,4,Oregon,8127.0
+2020,4,Pennsylvania,18207.0
+2020,4,Puerto Rico,4257.0
+2020,4,Quebec,515.0
+2020,4,Rhode Island,1388.0
+2020,4,Saskatchewan,12.0
+2020,4,South Carolina,3879.0
+2020,4,South Dakota,1605.0
+2020,4,Tennessee,20019.0
+2020,4,Texas,52438.0
+2020,4,U.S. Pacific Trust Territories and Possessions,891.0
+2020,4,U.S. Virgin Islands,1180.0
+2020,4,Utah,9644.0
+2020,4,Vermont,665.0
+2020,4,Virginia,15323.0
+2020,4,Washington,15507.0
+2020,4,West Virginia,1350.0
+2020,4,Wisconsin,5090.0
+2020,4,Wyoming,908.0
+2020,4,Yukon Territory,30.0
+2020,5,Alabama,2868.0
+2020,5,Alaska,45652.0
+2020,5,Alberta,334.0
+2020,5,Arizona,17588.0
+2020,5,Arkansas,2569.0
+2020,5,British Columbia,465.0
+2020,5,California,58741.0
+2020,5,Colorado,26665.0
+2020,5,Connecticut,2367.0
+2020,5,Delaware,5.0
+2020,5,Florida,38506.0
+2020,5,Georgia,21888.0
+2020,5,Hawaii,11526.0
+2020,5,Idaho,2593.0
+2020,5,Illinois,35555.0
+2020,5,Indiana,6535.0
+2020,5,Iowa,2940.0
+2020,5,Kansas,1720.0
+2020,5,Kentucky,15452.0
+2020,5,Louisiana,5506.0
+2020,5,Maine,1843.0
+2020,5,Manitoba,157.0
+2020,5,Maryland,13464.0
+2020,5,Massachusetts,9242.0
+2020,5,Michigan,12128.0
+2020,5,Minnesota,8982.0
+2020,5,Mississippi,1376.0
+2020,5,Missouri,13182.0
+2020,5,Montana,4250.0
+2020,5,Nebraska,3709.0
+2020,5,Nevada,15703.0
+2020,5,New Brunswick,3.0
+2020,5,New Hampshire,1508.0
+2020,5,New Jersey,3591.0
+2020,5,New Mexico,3727.0
+2020,5,New York,11049.0
+2020,5,Newfoundland and Labrador,15.0
+2020,5,North Carolina,24674.0
+2020,5,North Dakota,1935.0
+2020,5,Nova Scotia,26.0
+2020,5,Nunavut Territory,2.0
+2020,5,Ohio,7421.0
+2020,5,Oklahoma,3649.0
+2020,5,Ontario,1065.0
+2020,5,Oregon,8785.0
+2020,5,Pennsylvania,16904.0
+2020,5,Puerto Rico,4865.0
+2020,5,Quebec,425.0
+2020,5,Rhode Island,1604.0
+2020,5,South Carolina,4586.0
+2020,5,South Dakota,1703.0
+2020,5,Tennessee,23114.0
+2020,5,Texas,65489.0
+2020,5,U.S. Pacific Trust Territories and Possessions,1456.0
+2020,5,U.S. Virgin Islands,1915.0
+2020,5,Utah,8885.0
+2020,5,Vermont,709.0
+2020,5,Virginia,13364.0
+2020,5,Washington,16785.0
+2020,5,West Virginia,1409.0
+2020,5,Wisconsin,4869.0
+2020,5,Wyoming,1101.0
+2020,5,Yukon Territory,2.0
+2020,6,Alabama,2808.0
+2020,6,Alaska,53072.0
+2020,6,Alberta,365.0
+2020,6,Arizona,18080.0
+2020,6,Arkansas,2458.0
+2020,6,British Columbia,611.0
+2020,6,California,60031.0
+2020,6,Colorado,25787.0
+2020,6,Connecticut,2458.0
+2020,6,Delaware,5.0
+2020,6,Florida,46705.0
+2020,6,Georgia,24843.0
+2020,6,Hawaii,12647.0
+2020,6,Idaho,3094.0
+2020,6,Illinois,33698.0
+2020,6,Indiana,7279.0
+2020,6,Iowa,3060.0
+2020,6,Kansas,1649.0
+2020,6,Kentucky,16139.0
+2020,6,Louisiana,4991.0
+2020,6,Maine,1890.0
+2020,6,Manitoba,188.0
+2020,6,Maryland,11623.0
+2020,6,Massachusetts,12868.0
+2020,6,Michigan,13880.0
+2020,6,Minnesota,9981.0
+2020,6,Mississippi,1399.0
+2020,6,Missouri,12233.0
+2020,6,Montana,4921.0
+2020,6,Nebraska,3532.0
+2020,6,Nevada,14433.0
+2020,6,New Brunswick,8.0
+2020,6,New Hampshire,1332.0
+2020,6,New Jersey,6051.0
+2020,6,New Mexico,3566.0
+2020,6,New York,16253.0
+2020,6,Newfoundland and Labrador,23.0
+2020,6,North Carolina,26647.0
+2020,6,North Dakota,1983.0
+2020,6,Nova Scotia,36.0
+2020,6,Nunavut Territory,2.0
+2020,6,Ohio,7741.0
+2020,6,Oklahoma,3455.0
+2020,6,Ontario,1372.0
+2020,6,Oregon,10685.0
+2020,6,Pennsylvania,17096.0
+2020,6,Puerto Rico,7277.0
+2020,6,Quebec,505.0
+2020,6,Rhode Island,2552.0
+2020,6,South Carolina,5461.0
+2020,6,South Dakota,1883.0
+2020,6,Tennessee,22702.0
+2020,6,Texas,63484.0
+2020,6,U.S. Pacific Trust Territories and Possessions,2356.0
+2020,6,U.S. Virgin Islands,3078.0
+2020,6,Utah,10673.0
+2020,6,Vermont,761.0
+2020,6,Virginia,16498.0
+2020,6,Washington,22610.0
+2020,6,West Virginia,1329.0
+2020,6,Wisconsin,4593.0
+2020,6,Wyoming,1230.0
+2020,7,Alabama,4262.0
+2020,7,Alaska,58782.0
+2020,7,Alberta,540.0
+2020,7,Arizona,24504.0
+2020,7,Arkansas,3559.0
+2020,7,British Columbia,910.0
+2020,7,California,83823.0
+2020,7,Colorado,36362.0
+2020,7,Connecticut,3308.0
+2020,7,Delaware,10.0
+2020,7,Florida,69060.0
+2020,7,Georgia,40980.0
+2020,7,Hawaii,17340.0
+2020,7,Idaho,4244.0
+2020,7,Illinois,52103.0
+2020,7,Indiana,10220.0
+2020,7,Iowa,4277.0
+2020,7,Kansas,2178.0
+2020,7,Kentucky,19354.0
+2020,7,Louisiana,7873.0
+2020,7,Maine,2900.0
+2020,7,Manitoba,211.0
+2020,7,Maryland,15270.0
+2020,7,Massachusetts,19845.0
+2020,7,Michigan,23301.0
+2020,7,Minnesota,17699.0
+2020,7,Mississippi,1944.0
+2020,7,Missouri,17710.0
+2020,7,Montana,7474.0
+2020,7,Nebraska,4476.0
+2020,7,Nevada,21357.0
+2020,7,New Brunswick,4.0
+2020,7,New Hampshire,1637.0
+2020,7,New Jersey,12786.0
+2020,7,New Mexico,4217.0
+2020,7,New York,26260.0
+2020,7,Newfoundland and Labrador,10.0
+2020,7,North Carolina,37443.0
+2020,7,North Dakota,2654.0
+2020,7,Nova Scotia,32.0
+2020,7,Ohio,12125.0
+2020,7,Oklahoma,5015.0
+2020,7,Ontario,2080.0
+2020,7,Oregon,13703.0
+2020,7,Pennsylvania,27583.0
+2020,7,Puerto Rico,9946.0
+2020,7,Quebec,722.0
+2020,7,Rhode Island,3980.0
+2020,7,Saskatchewan,1.0
+2020,7,South Carolina,8801.0
+2020,7,South Dakota,2484.0
+2020,7,Tennessee,28563.0
+2020,7,Texas,90979.0
+2020,7,U.S. Pacific Trust Territories and Possessions,3012.0
+2020,7,U.S. Virgin Islands,3660.0
+2020,7,Utah,16623.0
+2020,7,Vermont,1089.0
+2020,7,Virginia,24635.0
+2020,7,Washington,30938.0
+2020,7,West Virginia,1794.0
+2020,7,Wisconsin,7200.0
+2020,7,Wyoming,1980.0
+2020,7,Yukon Territory,16.0
+2020,8,Alabama,5466.0
+2020,8,Alaska,60423.0
+2020,8,Alberta,503.0
+2020,8,Arizona,25242.0
+2020,8,Arkansas,3490.0
+2020,8,British Columbia,862.0
+2020,8,California,85260.0
+2020,8,Colorado,42467.0
+2020,8,Connecticut,3337.0
+2020,8,Delaware,3.0
+2020,8,Florida,62017.0
+2020,8,Georgia,48700.0
+2020,8,Hawaii,14546.0
+2020,8,Idaho,5064.0
+2020,8,Illinois,55070.0
+2020,8,Indiana,10706.0
+2020,8,Iowa,4816.0
+2020,8,Kansas,2389.0
+2020,8,Kentucky,19599.0
+2020,8,Louisiana,8529.0
+2020,8,Maine,3408.0
+2020,8,Manitoba,171.0
+2020,8,Maryland,14768.0
+2020,8,Massachusetts,18793.0
+2020,8,Michigan,26642.0
+2020,8,Minnesota,21434.0
+2020,8,Mississippi,2374.0
+2020,8,Missouri,19267.0
+2020,8,Montana,8173.0
+2020,8,Nebraska,4651.0
+2020,8,Nevada,23162.0
+2020,8,New Brunswick,10.0
+2020,8,New Hampshire,1674.0
+2020,8,New Jersey,13026.0
+2020,8,New Mexico,4510.0
+2020,8,New York,26481.0
+2020,8,Newfoundland and Labrador,5.0
+2020,8,North Carolina,43923.0
+2020,8,North Dakota,3067.0
+2020,8,Northwest Territories,1.0
+2020,8,Nova Scotia,33.0
+2020,8,Ohio,13103.0
+2020,8,Oklahoma,5697.0
+2020,8,Ontario,1969.0
+2020,8,Oregon,15218.0
+2020,8,Pennsylvania,31260.0
+2020,8,Puerto Rico,8037.0
+2020,8,Quebec,686.0
+2020,8,Rhode Island,4305.0
+2020,8,South Carolina,8877.0
+2020,8,South Dakota,2792.0
+2020,8,Tennessee,29930.0
+2020,8,Texas,96297.0
+2020,8,U.S. Pacific Trust Territories and Possessions,3332.0
+2020,8,U.S. Virgin Islands,3399.0
+2020,8,Utah,18820.0
+2020,8,Vermont,1265.0
+2020,8,Virginia,27112.0
+2020,8,Washington,36379.0
+2020,8,West Virginia,1823.0
+2020,8,Wisconsin,8781.0
+2020,8,Wyoming,2232.0
+2020,8,Yukon Territory,2.0
+2020,9,Alabama,4420.0
+2020,9,Alaska,54681.0
+2020,9,Alberta,470.0
+2020,9,Arizona,23669.0
+2020,9,Arkansas,3486.0
+2020,9,British Columbia,770.0
+2020,9,California,76209.0
+2020,9,Colorado,37772.0
+2020,9,Connecticut,2669.0
+2020,9,Delaware,16.0
+2020,9,Florida,50260.0
+2020,9,Georgia,44908.0
+2020,9,Hawaii,11435.0
+2020,9,Idaho,4805.0
+2020,9,Illinois,49288.0
+2020,9,Indiana,9739.0
+2020,9,Iowa,4206.0
+2020,9,Kansas,2286.0
+2020,9,Kentucky,19008.0
+2020,9,Louisiana,7022.0
+2020,9,Maine,2620.0
+2020,9,Manitoba,175.0
+2020,9,Maryland,12550.0
+2020,9,Massachusetts,16396.0
+2020,9,Michigan,24382.0
+2020,9,Minnesota,19705.0
+2020,9,Mississippi,2050.0
+2020,9,Missouri,14718.0
+2020,9,Montana,7281.0
+2020,9,Nebraska,4270.0
+2020,9,Nevada,19843.0
+2020,9,New Brunswick,19.0
+2020,9,New Hampshire,1358.0
+2020,9,New Jersey,11257.0
+2020,9,New Mexico,3958.0
+2020,9,New York,22629.0
+2020,9,Newfoundland and Labrador,1.0
+2020,9,North Carolina,39107.0
+2020,9,North Dakota,3087.0
+2020,9,Nova Scotia,42.0
+2020,9,Ohio,10877.0
+2020,9,Oklahoma,5066.0
+2020,9,Ontario,1745.0
+2020,9,Oregon,13599.0
+2020,9,Pennsylvania,22444.0
+2020,9,Puerto Rico,7401.0
+2020,9,Quebec,580.0
+2020,9,Rhode Island,3229.0
+2020,9,South Carolina,7224.0
+2020,9,South Dakota,2657.0
+2020,9,Tennessee,27367.0
+2020,9,Texas,87602.0
+2020,9,U.S. Pacific Trust Territories and Possessions,3494.0
+2020,9,U.S. Virgin Islands,2773.0
+2020,9,Utah,17511.0
+2020,9,Vermont,926.0
+2020,9,Virginia,21745.0
+2020,9,Washington,31892.0
+2020,9,West Virginia,1600.0
+2020,9,Wisconsin,7718.0
+2020,9,Wyoming,1783.0
+2020,10,Alabama,5023.0
+2020,10,Alaska,52912.0
+2020,10,Alberta,484.0
+2020,10,Arizona,26141.0
+2020,10,Arkansas,3759.0
+2020,10,British Columbia,779.0
+2020,10,California,82608.0
+2020,10,Colorado,42196.0
+2020,10,Connecticut,2774.0
+2020,10,Delaware,57.0
+2020,10,Florida,62134.0
+2020,10,Georgia,47869.0
+2020,10,Hawaii,14507.0
+2020,10,Idaho,5396.0
+2020,10,Illinois,49625.0
+2020,10,Indiana,10699.0
+2020,10,Iowa,4486.0
+2020,10,Kansas,2400.0
+2020,10,Kentucky,20149.0
+2020,10,Louisiana,8083.0
+2020,10,Maine,2685.0
+2020,10,Manitoba,171.0
+2020,10,Maryland,12802.0
+2020,10,Massachusetts,15641.0
+2020,10,Michigan,25864.0
+2020,10,Minnesota,21404.0
+2020,10,Mississippi,2269.0
+2020,10,Missouri,14989.0
+2020,10,Montana,6814.0
+2020,10,Nebraska,4449.0
+2020,10,Nevada,22134.0
+2020,10,New Brunswick,5.0
+2020,10,New Hampshire,1428.0
+2020,10,New Jersey,14053.0
+2020,10,New Mexico,4265.0
+2020,10,New York,24790.0
+2020,10,Newfoundland and Labrador,7.0
+2020,10,North Carolina,41469.0
+2020,10,North Dakota,3573.0
+2020,10,Northwest Territories,1.0
+2020,10,Nova Scotia,31.0
+2020,10,Ohio,11317.0
+2020,10,Oklahoma,5092.0
+2020,10,Ontario,1852.0
+2020,10,Oregon,15826.0
+2020,10,Pennsylvania,23209.0
+2020,10,Puerto Rico,8542.0
+2020,10,Quebec,602.0
+2020,10,Rhode Island,2851.0
+2020,10,South Carolina,7531.0
+2020,10,South Dakota,2874.0
+2020,10,Tennessee,29573.0
+2020,10,Texas,93567.0
+2020,10,U.S. Pacific Trust Territories and Possessions,3620.0
+2020,10,U.S. Virgin Islands,3821.0
+2020,10,Utah,18732.0
+2020,10,Vermont,997.0
+2020,10,Virginia,22466.0
+2020,10,Washington,33114.0
+2020,10,West Virginia,1687.0
+2020,10,Wisconsin,7887.0
+2020,10,Wyoming,1713.0
+2020,11,Alabama,5003.0
+2020,11,Alaska,44205.0
+2020,11,Alberta,479.0
+2020,11,Arizona,27182.0
+2020,11,Arkansas,3749.0
+2020,11,British Columbia,789.0
+2020,11,California,85351.0
+2020,11,Colorado,41929.0
+2020,11,Connecticut,3113.0
+2020,11,Delaware,14.0
+2020,11,Florida,74550.0
+2020,11,Georgia,49217.0
+2020,11,Hawaii,18504.0
+2020,11,Idaho,5408.0
+2020,11,Illinois,47425.0
+2020,11,Indiana,9978.0
+2020,11,Iowa,4308.0
+2020,11,Kansas,2362.0
+2020,11,Kentucky,19624.0
+2020,11,Louisiana,8640.0
+2020,11,Maine,2583.0
+2020,11,Manitoba,157.0
+2020,11,Maryland,12763.0
+2020,11,Massachusetts,14773.0
+2020,11,Michigan,26143.0
+2020,11,Minnesota,21185.0
+2020,11,Mississippi,2283.0
+2020,11,Missouri,15233.0
+2020,11,Montana,6710.0
+2020,11,Nebraska,4333.0
+2020,11,Nevada,22339.0
+2020,11,New Hampshire,1457.0
+2020,11,New Jersey,14492.0
+2020,11,New Mexico,3955.0
+2020,11,New York,25853.0
+2020,11,Newfoundland and Labrador,9.0
+2020,11,North Carolina,39958.0
+2020,11,North Dakota,3507.0
+2020,11,Nova Scotia,50.0
+2020,11,Ohio,11838.0
+2020,11,Oklahoma,5129.0
+2020,11,Ontario,2022.0
+2020,11,Oregon,15559.0
+2020,11,Pennsylvania,24991.0
+2020,11,Puerto Rico,9595.0
+2020,11,Quebec,744.0
+2020,11,Rhode Island,2586.0
+2020,11,Saskatchewan,1.0
+2020,11,South Carolina,7602.0
+2020,11,South Dakota,2702.0
+2020,11,Tennessee,28130.0
+2020,11,Texas,95681.0
+2020,11,U.S. Pacific Trust Territories and Possessions,3171.0
+2020,11,U.S. Virgin Islands,4135.0
+2020,11,Utah,18903.0
+2020,11,Vermont,962.0
+2020,11,Virginia,23052.0
+2020,11,Washington,31852.0
+2020,11,West Virginia,1543.0
+2020,11,Wisconsin,7834.0
+2020,11,Wyoming,1743.0
+2020,12,Alabama,5167.0
+2020,12,Alaska,45691.0
+2020,12,Alberta,720.0
+2020,12,Arizona,28361.0
+2020,12,Arkansas,3881.0
+2020,12,British Columbia,956.0
+2020,12,California,90894.0
+2020,12,Colorado,44954.0
+2020,12,Connecticut,3203.0
+2020,12,Delaware,14.0
+2020,12,Florida,84248.0
+2020,12,Georgia,51563.0
+2020,12,Hawaii,20045.0
+2020,12,Idaho,5987.0
+2020,12,Illinois,46901.0
+2020,12,Indiana,11559.0
+2020,12,Iowa,4407.0
+2020,12,Kansas,2420.0
+2020,12,Kentucky,23574.0
+2020,12,Louisiana,8555.0
+2020,12,Maine,2471.0
+2020,12,Manitoba,202.0
+2020,12,Maryland,12307.0
+2020,12,Massachusetts,14122.0
+2020,12,Michigan,26851.0
+2020,12,Minnesota,21712.0
+2020,12,Mississippi,2424.0
+2020,12,Missouri,14951.0
+2020,12,Montana,7499.0
+2020,12,Nebraska,4476.0
+2020,12,Nevada,21311.0
+2020,12,New Hampshire,1614.0
+2020,12,New Jersey,14828.0
+2020,12,New Mexico,4060.0
+2020,12,New York,26458.0
+2020,12,Newfoundland and Labrador,7.0
+2020,12,North Carolina,41940.0
+2020,12,North Dakota,3507.0
+2020,12,Nova Scotia,44.0
+2020,12,Ohio,11980.0
+2020,12,Oklahoma,5212.0
+2020,12,Ontario,2287.0
+2020,12,Oregon,16599.0
+2020,12,Pennsylvania,25880.0
+2020,12,Puerto Rico,10459.0
+2020,12,Quebec,945.0
+2020,12,Rhode Island,2296.0
+2020,12,South Carolina,7898.0
+2020,12,South Dakota,2822.0
+2020,12,Tennessee,30083.0
+2020,12,Texas,99458.0
+2020,12,U.S. Pacific Trust Territories and Possessions,3870.0
+2020,12,U.S. Virgin Islands,4430.0
+2020,12,Utah,20165.0
+2020,12,Vermont,915.0
+2020,12,Virginia,23204.0
+2020,12,Washington,32729.0
+2020,12,West Virginia,1498.0
+2020,12,Wisconsin,7662.0
+2020,12,Wyoming,2342.0
+2020,12,Yukon Territory,4.0
+2021,1,Alabama,4912.0
+2021,1,Alaska,46496.0
+2021,1,Alberta,783.0
+2021,1,Arizona,28027.0
+2021,1,Arkansas,3944.0
+2021,1,British Columbia,823.0
+2021,1,California,83527.0
+2021,1,Colorado,43416.0
+2021,1,Connecticut,2983.0
+2021,1,Delaware,27.0
+2021,1,Florida,80060.0
+2021,1,Georgia,49420.0
+2021,1,Hawaii,19147.0
+2021,1,Idaho,5687.0
+2021,1,Illinois,42103.0
+2021,1,Indiana,9336.0
+2021,1,Iowa,3975.0
+2021,1,Kansas,2207.0
+2021,1,Kentucky,19018.0
+2021,1,Louisiana,8419.0
+2021,1,Maine,2228.0
+2021,1,Manitoba,256.0
+2021,1,Maryland,11500.0
+2021,1,Massachusetts,12521.0
+2021,1,Michigan,25184.0
+2021,1,Minnesota,20341.0
+2021,1,Mississippi,2315.0
+2021,1,Missouri,14030.0
+2021,1,Montana,6896.0
+2021,1,Nebraska,4181.0
+2021,1,Nevada,19805.0
+2021,1,New Brunswick,10.0
+2021,1,New Hampshire,1378.0
+2021,1,New Jersey,12665.0
+2021,1,New Mexico,3862.0
+2021,1,New York,23641.0
+2021,1,Newfoundland and Labrador,6.0
+2021,1,North Carolina,40419.0
+2021,1,North Dakota,3304.0
+2021,1,Nova Scotia,59.0
+2021,1,Ohio,11150.0
+2021,1,Oklahoma,4982.0
+2021,1,Ontario,1996.0
+2021,1,Oregon,14221.0
+2021,1,Pennsylvania,22898.0
+2021,1,Puerto Rico,9740.0
+2021,1,Quebec,804.0
+2021,1,Rhode Island,2204.0
+2021,1,Saskatchewan,4.0
+2021,1,South Carolina,6727.0
+2021,1,South Dakota,2609.0
+2021,1,Tennessee,27146.0
+2021,1,Texas,95643.0
+2021,1,U.S. Pacific Trust Territories and Possessions,3609.0
+2021,1,U.S. Virgin Islands,4296.0
+2021,1,Utah,19244.0
+2021,1,Vermont,826.0
+2021,1,Virginia,22415.0
+2021,1,Washington,29627.0
+2021,1,West Virginia,1538.0
+2021,1,Wisconsin,7382.0
+2021,1,Wyoming,2262.0
+2021,2,Alabama,4081.0
+2021,2,Alaska,43623.0
+2021,2,Alberta,522.0
+2021,2,Arizona,25459.0
+2021,2,Arkansas,3037.0
+2021,2,British Columbia,675.0
+2021,2,California,73912.0
+2021,2,Colorado,38921.0
+2021,2,Connecticut,2609.0
+2021,2,Delaware,18.0
+2021,2,Florida,74655.0
+2021,2,Georgia,43973.0
+2021,2,Hawaii,18324.0
+2021,2,Idaho,5105.0
+2021,2,Illinois,38122.0
+2021,2,Indiana,8835.0
+2021,2,Iowa,3701.0
+2021,2,Kansas,1910.0
+2021,2,Kentucky,16816.0
+2021,2,Louisiana,7073.0
+2021,2,Maine,1951.0
+2021,2,Manitoba,130.0
+2021,2,Maryland,9271.0
+2021,2,Massachusetts,11293.0
+2021,2,Michigan,22628.0
+2021,2,Minnesota,18329.0
+2021,2,Mississippi,1794.0
+2021,2,Missouri,11604.0
+2021,2,Montana,6133.0
+2021,2,Nebraska,3867.0
+2021,2,Nevada,17805.0
+2021,2,New Brunswick,3.0
+2021,2,New Hampshire,1161.0
+2021,2,New Jersey,11186.0
+2021,2,New Mexico,3224.0
+2021,2,New York,20842.0
+2021,2,Newfoundland and Labrador,8.0
+2021,2,North Carolina,36512.0
+2021,2,North Dakota,3073.0
+2021,2,Nova Scotia,45.0
+2021,2,Nunavut Territory,1.0
+2021,2,Ohio,9782.0
+2021,2,Oklahoma,4112.0
+2021,2,Ontario,1338.0
+2021,2,Oregon,12497.0
+2021,2,Pennsylvania,19886.0
+2021,2,Puerto Rico,8715.0
+2021,2,Quebec,624.0
+2021,2,Rhode Island,1779.0
+2021,2,Saskatchewan,1.0
+2021,2,South Carolina,6235.0
+2021,2,South Dakota,2462.0
+2021,2,Tennessee,21480.0
+2021,2,Texas,75318.0
+2021,2,U.S. Pacific Trust Territories and Possessions,3817.0
+2021,2,U.S. Virgin Islands,3395.0
+2021,2,Utah,17101.0
+2021,2,Vermont,733.0
+2021,2,Virginia,19286.0
+2021,2,Washington,27394.0
+2021,2,West Virginia,1294.0
+2021,2,Wisconsin,6720.0
+2021,2,Wyoming,1978.0
+2021,3,Alabama,5744.0
+2021,3,Alaska,49826.0
+2021,3,Alberta,444.0
+2021,3,Arizona,35753.0
+2021,3,Arkansas,4255.0
+2021,3,British Columbia,609.0
+2021,3,California,96023.0
+2021,3,Colorado,47946.0
+2021,3,Connecticut,3651.0
+2021,3,Delaware,31.0
+2021,3,Florida,108722.0
+2021,3,Georgia,58092.0
+2021,3,Hawaii,22408.0
+2021,3,Idaho,5967.0
+2021,3,Illinois,52619.0
+2021,3,Indiana,11846.0
+2021,3,Iowa,4692.0
+2021,3,Kansas,2510.0
+2021,3,Kentucky,21465.0
+2021,3,Louisiana,10296.0
+2021,3,Maine,2621.0
+2021,3,Manitoba,145.0
+2021,3,Maryland,13827.0
+2021,3,Massachusetts,15262.0
+2021,3,Michigan,28530.0
+2021,3,Minnesota,22956.0
+2021,3,Mississippi,2649.0
+2021,3,Missouri,16384.0
+2021,3,Montana,7820.0
+2021,3,Nebraska,5011.0
+2021,3,Nevada,25388.0
+2021,3,New Brunswick,4.0
+2021,3,New Hampshire,1448.0
+2021,3,New Jersey,16126.0
+2021,3,New Mexico,4435.0
+2021,3,New York,30510.0
+2021,3,Newfoundland and Labrador,8.0
+2021,3,North Carolina,52016.0
+2021,3,North Dakota,3920.0
+2021,3,Nova Scotia,60.0
+2021,3,Ohio,13364.0
+2021,3,Oklahoma,5771.0
+2021,3,Ontario,1424.0
+2021,3,Oregon,16276.0
+2021,3,Pennsylvania,26124.0
+2021,3,Puerto Rico,12101.0
+2021,3,Quebec,566.0
+2021,3,Rhode Island,2709.0
+2021,3,South Carolina,9914.0
+2021,3,South Dakota,3064.0
+2021,3,Tennessee,31580.0
+2021,3,Texas,115890.0
+2021,3,U.S. Pacific Trust Territories and Possessions,3785.0
+2021,3,U.S. Virgin Islands,5455.0
+2021,3,Utah,21306.0
+2021,3,Vermont,980.0
+2021,3,Virginia,26937.0
+2021,3,Washington,34609.0
+2021,3,West Virginia,1861.0
+2021,3,Wisconsin,9393.0
+2021,3,Wyoming,2276.0
+2021,3,Yukon Territory,2.0
+2021,4,Alabama,5945.0
+2021,4,Alaska,58989.0
+2021,4,Alberta,425.0
+2021,4,Arizona,34317.0
+2021,4,Arkansas,4539.0
+2021,4,British Columbia,577.0
+2021,4,California,98530.0
+2021,4,Colorado,47824.0
+2021,4,Connecticut,4053.0
+2021,4,Delaware,39.0
+2021,4,Florida,107451.0
+2021,4,Georgia,58088.0
+2021,4,Hawaii,24593.0
+2021,4,Idaho,5515.0
+2021,4,Illinois,55321.0
+2021,4,Indiana,11875.0
+2021,4,Iowa,4484.0
+2021,4,Kansas,2580.0
+2021,4,Kentucky,21251.0
+2021,4,Louisiana,10840.0
+2021,4,Maine,3002.0
+2021,4,Manitoba,138.0
+2021,4,Maryland,13798.0
+2021,4,Massachusetts,16833.0
+2021,4,Michigan,28631.0
+2021,4,Minnesota,22923.0
+2021,4,Mississippi,2723.0
+2021,4,Missouri,16294.0
+2021,4,Montana,7063.0
+2021,4,Nebraska,4991.0
+2021,4,Nevada,26284.0
+2021,4,New Brunswick,8.0
+2021,4,New Hampshire,1577.0
+2021,4,New Jersey,16428.0
+2021,4,New Mexico,4656.0
+2021,4,New York,34295.0
+2021,4,Newfoundland and Labrador,11.0
+2021,4,North Carolina,54451.0
+2021,4,North Dakota,3759.0
+2021,4,Nova Scotia,45.0
+2021,4,Ohio,13870.0
+2021,4,Oklahoma,5834.0
+2021,4,Ontario,1428.0
+2021,4,Oregon,16367.0
+2021,4,Pennsylvania,27190.0
+2021,4,Puerto Rico,12014.0
+2021,4,Quebec,736.0
+2021,4,Rhode Island,3392.0
+2021,4,South Carolina,11161.0
+2021,4,South Dakota,2882.0
+2021,4,Tennessee,31772.0
+2021,4,Texas,114894.0
+2021,4,U.S. Pacific Trust Territories and Possessions,4007.0
+2021,4,U.S. Virgin Islands,5017.0
+2021,4,Utah,21237.0
+2021,4,Vermont,1023.0
+2021,4,Virginia,30541.0
+2021,4,Washington,36703.0
+2021,4,West Virginia,1782.0
+2021,4,Wisconsin,9429.0
+2021,4,Wyoming,1665.0
+2021,5,Alabama,6507.0
+2021,5,Alaska,66357.0
+2021,5,Alberta,417.0
+2021,5,Arizona,36663.0
+2021,5,Arkansas,4902.0
+2021,5,British Columbia,628.0
+2021,5,California,108300.0
+2021,5,Colorado,51171.0
+2021,5,Connecticut,4196.0
+2021,5,Delaware,44.0
+2021,5,Florida,111236.0
+2021,5,Georgia,61372.0
+2021,5,Hawaii,27489.0
+2021,5,Idaho,5829.0
+2021,5,Illinois,64175.0
+2021,5,Indiana,12652.0
+2021,5,Iowa,4821.0
+2021,5,Kansas,2811.0
+2021,5,Kentucky,21833.0
+2021,5,Louisiana,11770.0
+2021,5,Maine,3302.0
+2021,5,Manitoba,137.0
+2021,5,Maryland,14849.0
+2021,5,Massachusetts,20048.0
+2021,5,Michigan,30618.0
+2021,5,Minnesota,24252.0
+2021,5,Mississippi,2851.0
+2021,5,Missouri,18071.0
+2021,5,Montana,7937.0
+2021,5,Nebraska,5489.0
+2021,5,Nevada,30328.0
+2021,5,New Brunswick,8.0
+2021,5,New Hampshire,1594.0
+2021,5,New Jersey,17820.0
+2021,5,New Mexico,4787.0
+2021,5,New York,39145.0
+2021,5,Newfoundland and Labrador,10.0
+2021,5,North Carolina,57517.0
+2021,5,North Dakota,3611.0
+2021,5,Nova Scotia,54.0
+2021,5,Ohio,15133.0
+2021,5,Oklahoma,6457.0
+2021,5,Ontario,1374.0
+2021,5,Oregon,17339.0
+2021,5,Pennsylvania,30151.0
+2021,5,Puerto Rico,13183.0
+2021,5,Quebec,674.0
+2021,5,Rhode Island,4111.0
+2021,5,South Carolina,12959.0
+2021,5,South Dakota,3256.0
+2021,5,Tennessee,33510.0
+2021,5,Texas,124446.0
+2021,5,U.S. Pacific Trust Territories and Possessions,4651.0
+2021,5,U.S. Virgin Islands,5033.0
+2021,5,Utah,23201.0
+2021,5,Vermont,1283.0
+2021,5,Virginia,33453.0
+2021,5,Washington,41129.0
+2021,5,West Virginia,1906.0
+2021,5,Wisconsin,9794.0
+2021,5,Wyoming,2044.0
+2021,5,Yukon Territory,2.0
+2021,6,Alabama,6597.0
+2021,6,Alaska,73675.0
+2021,6,Alberta,465.0
+2021,6,Arizona,37027.0
+2021,6,Arkansas,5177.0
+2021,6,British Columbia,710.0
+2021,6,California,122171.0
+2021,6,Colorado,57743.0
+2021,6,Connecticut,4475.0
+2021,6,Delaware,33.0
+2021,6,Florida,109676.0
+2021,6,Georgia,62625.0
+2021,6,Hawaii,32039.0
+2021,6,Idaho,6926.0
+2021,6,Illinois,74196.0
+2021,6,Indiana,13731.0
+2021,6,Iowa,5731.0
+2021,6,Kansas,2977.0
+2021,6,Kentucky,23898.0
+2021,6,Louisiana,12031.0
+2021,6,Maine,5168.0
+2021,6,Manitoba,145.0
+2021,6,Maryland,15058.0
+2021,6,Massachusetts,27014.0
+2021,6,Michigan,33079.0
+2021,6,Minnesota,26971.0
+2021,6,Mississippi,3336.0
+2021,6,Missouri,21100.0
+2021,6,Montana,10605.0
+2021,6,Nebraska,5959.0
+2021,6,Nevada,32095.0
+2021,6,New Brunswick,10.0
+2021,6,New Hampshire,1870.0
+2021,6,New Jersey,19765.0
+2021,6,New Mexico,5462.0
+2021,6,New York,45044.0
+2021,6,Newfoundland and Labrador,5.0
+2021,6,North Carolina,57467.0
+2021,6,North Dakota,3918.0
+2021,6,Northwest Territories,1.0
+2021,6,Nova Scotia,57.0
+2021,6,Nunavut Territory,2.0
+2021,6,Ohio,17030.0
+2021,6,Oklahoma,6936.0
+2021,6,Ontario,2282.0
+2021,6,Oregon,18462.0
+2021,6,Pennsylvania,36012.0
+2021,6,Puerto Rico,11475.0
+2021,6,Quebec,1136.0
+2021,6,Rhode Island,4087.0
+2021,6,South Carolina,15133.0
+2021,6,South Dakota,3876.0
+2021,6,Tennessee,34875.0
+2021,6,Texas,132485.0
+2021,6,U.S. Pacific Trust Territories and Possessions,4339.0
+2021,6,U.S. Virgin Islands,5163.0
+2021,6,Utah,24374.0
+2021,6,Vermont,1544.0
+2021,6,Virginia,36486.0
+2021,6,Washington,45495.0
+2021,6,West Virginia,2474.0
+2021,6,Wisconsin,10644.0
+2021,6,Wyoming,3408.0
+2021,7,Alabama,6843.0
+2021,7,Alaska,76903.0
+2021,7,Alberta,558.0
+2021,7,Arizona,37655.0
+2021,7,Arkansas,5366.0
+2021,7,British Columbia,1035.0
+2021,7,California,132823.0
+2021,7,Colorado,62044.0
+2021,7,Connecticut,4986.0
+2021,7,Delaware,35.0
+2021,7,Florida,112749.0
+2021,7,Georgia,65100.0
+2021,7,Hawaii,33549.0
+2021,7,Idaho,8068.0
+2021,7,Illinois,82807.0
+2021,7,Indiana,14454.0
+2021,7,Iowa,6063.0
+2021,7,Kansas,3102.0
+2021,7,Kentucky,24757.0
+2021,7,Louisiana,12443.0
+2021,7,Maine,5888.0
+2021,7,Manitoba,144.0
+2021,7,Maryland,15724.0
+2021,7,Massachusetts,30940.0
+2021,7,Michigan,34844.0
+2021,7,Minnesota,28713.0
+2021,7,Mississippi,3332.0
+2021,7,Missouri,22210.0
+2021,7,Montana,11660.0
+2021,7,Nebraska,6307.0
+2021,7,Nevada,34186.0
+2021,7,New Brunswick,5.0
+2021,7,New Hampshire,2014.0
+2021,7,New Jersey,21223.0
+2021,7,New Mexico,5926.0
+2021,7,New York,49588.0
+2021,7,Newfoundland and Labrador,7.0
+2021,7,North Carolina,59473.0
+2021,7,North Dakota,4155.0
+2021,7,Nova Scotia,51.0
+2021,7,Ohio,18387.0
+2021,7,Oklahoma,7529.0
+2021,7,Ontario,2802.0
+2021,7,Oregon,19604.0
+2021,7,Pennsylvania,37785.0
+2021,7,Puerto Rico,14114.0
+2021,7,Quebec,1425.0
+2021,7,Rhode Island,5038.0
+2021,7,South Carolina,16905.0
+2021,7,South Dakota,4417.0
+2021,7,Tennessee,36428.0
+2021,7,Texas,141509.0
+2021,7,U.S. Pacific Trust Territories and Possessions,4846.0
+2021,7,U.S. Virgin Islands,4809.0
+2021,7,Utah,25599.0
+2021,7,Vermont,1668.0
+2021,7,Virginia,42188.0
+2021,7,Washington,50023.0
+2021,7,West Virginia,2224.0
+2021,7,Wisconsin,11753.0
+2021,7,Wyoming,3785.0
+2021,8,Alabama,6716.0
+2021,8,Alaska,76672.0
+2021,8,Alberta,761.0
+2021,8,Arizona,37287.0
+2021,8,Arkansas,5300.0
+2021,8,British Columbia,1584.0
+2021,8,California,133758.0
+2021,8,Colorado,62522.0
+2021,8,Connecticut,4971.0
+2021,8,Delaware,28.0
+2021,8,Florida,104945.0
+2021,8,Georgia,63278.0
+2021,8,Hawaii,33396.0
+2021,8,Idaho,7862.0
+2021,8,Illinois,84690.0
+2021,8,Indiana,14415.0
+2021,8,Iowa,6043.0
+2021,8,Kansas,3026.0
+2021,8,Kentucky,24154.0
+2021,8,Louisiana,11362.0
+2021,8,Maine,5994.0
+2021,8,Manitoba,137.0
+2021,8,Maryland,15561.0
+2021,8,Massachusetts,31573.0
+2021,8,Michigan,34338.0
+2021,8,Minnesota,28195.0
+2021,8,Mississippi,3204.0
+2021,8,Missouri,22073.0
+2021,8,Montana,11353.0
+2021,8,Nebraska,6226.0
+2021,8,Nevada,33891.0
+2021,8,New Brunswick,1.0
+2021,8,New Hampshire,2214.0
+2021,8,New Jersey,21643.0
+2021,8,New Mexico,6029.0
+2021,8,New York,50672.0
+2021,8,Newfoundland and Labrador,12.0
+2021,8,North Carolina,58646.0
+2021,8,North Dakota,4034.0
+2021,8,Northwest Territories,1.0
+2021,8,Nova Scotia,43.0
+2021,8,Nunavut Territory,1.0
+2021,8,Ohio,18804.0
+2021,8,Oklahoma,7509.0
+2021,8,Ontario,4251.0
+2021,8,Oregon,19576.0
+2021,8,Pennsylvania,38149.0
+2021,8,Puerto Rico,13057.0
+2021,8,Quebec,1653.0
+2021,8,Rhode Island,5147.0
+2021,8,Saskatchewan,2.0
+2021,8,South Carolina,16463.0
+2021,8,South Dakota,4265.0
+2021,8,Tennessee,35702.0
+2021,8,Texas,138750.0
+2021,8,U.S. Pacific Trust Territories and Possessions,4681.0
+2021,8,U.S. Virgin Islands,4767.0
+2021,8,Utah,25144.0
+2021,8,Vermont,1894.0
+2021,8,Virginia,47450.0
+2021,8,Washington,55115.0
+2021,8,West Virginia,2117.0
+2021,8,Wisconsin,12679.0
+2021,8,Wyoming,3550.0
+2021,8,Yukon Territory,2.0
+2021,9,Alabama,6425.0
+2021,9,Alaska,64689.0
+2021,9,Alberta,957.0
+2021,9,Arizona,36100.0
+2021,9,Arkansas,5373.0
+2021,9,British Columbia,1912.0
+2021,9,California,131479.0
+2021,9,Colorado,58694.0
+2021,9,Connecticut,4899.0
+2021,9,Delaware,29.0
+2021,9,Florida,91976.0
+2021,9,Georgia,60358.0
+2021,9,Hawaii,30733.0
+2021,9,Idaho,7033.0
+2021,9,Illinois,77467.0
+2021,9,Indiana,13612.0
+2021,9,Iowa,5753.0
+2021,9,Kansas,2922.0
+2021,9,Kentucky,23601.0
+2021,9,Louisiana,8194.0
+2021,9,Maine,5048.0
+2021,9,Manitoba,180.0
+2021,9,Maryland,15133.0
+2021,9,Massachusetts,30072.0
+2021,9,Michigan,32426.0
+2021,9,Minnesota,26460.0
+2021,9,Mississippi,3337.0
+2021,9,Missouri,21221.0
+2021,9,Montana,9138.0
+2021,9,Nebraska,5943.0
+2021,9,Nevada,34369.0
+2021,9,New Hampshire,1897.0
+2021,9,New Jersey,20938.0
+2021,9,New Mexico,5762.0
+2021,9,New York,48425.0
+2021,9,Newfoundland and Labrador,8.0
+2021,9,North Carolina,54178.0
+2021,9,North Dakota,3912.0
+2021,9,Nova Scotia,44.0
+2021,9,Nunavut Territory,1.0
+2021,9,Ohio,17428.0
+2021,9,Oklahoma,7142.0
+2021,9,Ontario,5603.0
+2021,9,Oregon,17639.0
+2021,9,Pennsylvania,34720.0
+2021,9,Puerto Rico,11134.0
+2021,9,Quebec,1917.0
+2021,9,Rhode Island,4617.0
+2021,9,Saskatchewan,2.0
+2021,9,South Carolina,13555.0
+2021,9,South Dakota,3798.0
+2021,9,Tennessee,34667.0
+2021,9,Texas,134388.0
+2021,9,U.S. Pacific Trust Territories and Possessions,4490.0
+2021,9,U.S. Virgin Islands,3889.0
+2021,9,Utah,23812.0
+2021,9,Vermont,1798.0
+2021,9,Virginia,42344.0
+2021,9,Washington,44052.0
+2021,9,West Virginia,1859.0
+2021,9,Wisconsin,11067.0
+2021,9,Wyoming,2871.0
+2021,10,Alabama,6952.0
+2021,10,Alaska,62350.0
+2021,10,Alberta,1936.0
+2021,10,Arizona,38004.0
+2021,10,Arkansas,5728.0
+2021,10,British Columbia,2467.0
+2021,10,California,136239.0
+2021,10,Colorado,55750.0
+2021,10,Connecticut,5040.0
+2021,10,Delaware,32.0
+2021,10,Florida,102874.0
+2021,10,Georgia,63510.0
+2021,10,Hawaii,31017.0
+2021,10,Idaho,6687.0
+2021,10,Illinois,78965.0
+2021,10,Indiana,14635.0
+2021,10,Iowa,5819.0
+2021,10,Kansas,2948.0
+2021,10,Kentucky,24970.0
+2021,10,Louisiana,12404.0
+2021,10,Maine,4734.0
+2021,10,Manitoba,204.0
+2021,10,Maryland,15657.0
+2021,10,Massachusetts,28684.0
+2021,10,Michigan,32451.0
+2021,10,Minnesota,26623.0
+2021,10,Mississippi,3425.0
+2021,10,Missouri,21439.0
+2021,10,Montana,7280.0
+2021,10,Nebraska,5975.0
+2021,10,Nevada,35207.0
+2021,10,New Brunswick,1.0
+2021,10,New Hampshire,2179.0
+2021,10,New Jersey,25634.0
+2021,10,New Mexico,6256.0
+2021,10,New York,53971.0
+2021,10,Newfoundland and Labrador,5.0
+2021,10,North Carolina,58372.0
+2021,10,North Dakota,3905.0
+2021,10,Nova Scotia,45.0
+2021,10,Nunavut Territory,1.0
+2021,10,Ohio,18465.0
+2021,10,Oklahoma,7372.0
+2021,10,Ontario,7391.0
+2021,10,Oregon,18102.0
+2021,10,Pennsylvania,37144.0
+2021,10,Puerto Rico,11496.0
+2021,10,Quebec,2300.0
+2021,10,Rhode Island,4220.0
+2021,10,South Carolina,13814.0
+2021,10,South Dakota,3637.0
+2021,10,Tennessee,36628.0
+2021,10,Texas,139587.0
+2021,10,U.S. Pacific Trust Territories and Possessions,6184.0
+2021,10,U.S. Virgin Islands,4068.0
+2021,10,Utah,23392.0
+2021,10,Vermont,1800.0
+2021,10,Virginia,46275.0
+2021,10,Washington,42053.0
+2021,10,West Virginia,1922.0
+2021,10,Wisconsin,11459.0
+2021,10,Wyoming,1954.0
+2021,10,Yukon Territory,2.0
+2021,11,Alabama,6562.0
+2021,11,Alaska,58598.0
+2021,11,Alberta,1640.0
+2021,11,Arizona,37926.0
+2021,11,Arkansas,5363.0
+2021,11,British Columbia,2648.0
+2021,11,California,131495.0
+2021,11,Colorado,52835.0
+2021,11,Connecticut,4806.0
+2021,11,Delaware,20.0
+2021,11,Florida,111673.0
+2021,11,Georgia,60513.0
+2021,11,Hawaii,30805.0
+2021,11,Idaho,6170.0
+2021,11,Illinois,70722.0
+2021,11,Indiana,14274.0
+2021,11,Iowa,5463.0
+2021,11,Kansas,2985.0
+2021,11,Kentucky,24405.0
+2021,11,Louisiana,12535.0
+2021,11,Maine,3510.0
+2021,11,Manitoba,218.0
+2021,11,Maryland,15320.0
+2021,11,Massachusetts,28044.0
+2021,11,Michigan,31418.0
+2021,11,Minnesota,25323.0
+2021,11,Mississippi,3173.0
+2021,11,Missouri,21525.0
+2021,11,Montana,6284.0
+2021,11,Nebraska,5872.0
+2021,11,Nevada,32379.0
+2021,11,New Brunswick,1.0
+2021,11,New Hampshire,1938.0
+2021,11,New Jersey,30098.0
+2021,11,New Mexico,5769.0
+2021,11,New York,66430.0
+2021,11,Newfoundland and Labrador,11.0
+2021,11,North Carolina,55308.0
+2021,11,North Dakota,3751.0
+2021,11,Nova Scotia,13.0
+2021,11,Nunavut Territory,3.0
+2021,11,Ohio,18760.0
+2021,11,Oklahoma,7073.0
+2021,11,Ontario,7816.0
+2021,11,Oregon,17140.0
+2021,11,Pennsylvania,34817.0
+2021,11,Puerto Rico,11658.0
+2021,11,Quebec,2542.0
+2021,11,Rhode Island,3961.0
+2021,11,Saskatchewan,3.0
+2021,11,South Carolina,11970.0
+2021,11,South Dakota,3082.0
+2021,11,Tennessee,35015.0
+2021,11,Texas,134081.0
+2021,11,U.S. Pacific Trust Territories and Possessions,5322.0
+2021,11,U.S. Virgin Islands,4247.0
+2021,11,Utah,21040.0
+2021,11,Vermont,1757.0
+2021,11,Virginia,50245.0
+2021,11,Washington,36597.0
+2021,11,West Virginia,1762.0
+2021,11,Wisconsin,10915.0
+2021,11,Wyoming,1827.0
+2021,12,Alabama,6335.0
+2021,12,Alaska,47291.0
+2021,12,Alberta,1956.0
+2021,12,Arizona,37344.0
+2021,12,Arkansas,5400.0
+2021,12,British Columbia,3028.0
+2021,12,California,133148.0
+2021,12,Colorado,54266.0
+2021,12,Connecticut,5087.0
+2021,12,Delaware,23.0
+2021,12,Florida,120798.0
+2021,12,Georgia,59262.0
+2021,12,Hawaii,33284.0
+2021,12,Idaho,6096.0
+2021,12,Illinois,70633.0
+2021,12,Indiana,15704.0
+2021,12,Iowa,5476.0
+2021,12,Kansas,3034.0
+2021,12,Kentucky,27365.0
+2021,12,Louisiana,12157.0
+2021,12,Maine,3353.0
+2021,12,Manitoba,266.0
+2021,12,Maryland,15244.0
+2021,12,Massachusetts,26859.0
+2021,12,Michigan,31193.0
+2021,12,Minnesota,24605.0
+2021,12,Mississippi,3097.0
+2021,12,Missouri,21028.0
+2021,12,Montana,6967.0
+2021,12,Nebraska,5805.0
+2021,12,Nevada,31871.0
+2021,12,New Brunswick,2.0
+2021,12,New Hampshire,2102.0
+2021,12,New Jersey,29951.0
+2021,12,New Mexico,6024.0
+2021,12,New York,65985.0
+2021,12,Newfoundland and Labrador,9.0
+2021,12,North Carolina,55529.0
+2021,12,North Dakota,3670.0
+2021,12,Nova Scotia,36.0
+2021,12,Nunavut Territory,1.0
+2021,12,Ohio,18712.0
+2021,12,Oklahoma,6937.0
+2021,12,Ontario,8642.0
+2021,12,Oregon,16906.0
+2021,12,Pennsylvania,35884.0
+2021,12,Puerto Rico,13129.0
+2021,12,Quebec,3013.0
+2021,12,Rhode Island,3769.0
+2021,12,Saskatchewan,4.0
+2021,12,South Carolina,11582.0
+2021,12,South Dakota,3185.0
+2021,12,Tennessee,36706.0
+2021,12,Texas,134718.0
+2021,12,U.S. Pacific Trust Territories and Possessions,3067.0
+2021,12,U.S. Virgin Islands,4698.0
+2021,12,Utah,20862.0
+2021,12,Vermont,1748.0
+2021,12,Virginia,50119.0
+2021,12,Washington,35448.0
+2021,12,West Virginia,1856.0
+2021,12,Wisconsin,10995.0
+2021,12,Wyoming,2287.0
+2021,12,Yukon Territory,1.0
+2022,1,Alabama,5645.0
+2022,1,Alaska,52933.0
+2022,1,Alberta,1681.0
+2022,1,Arizona,34826.0
+2022,1,Arkansas,5242.0
+2022,1,British Columbia,2773.0
+2022,1,California,124819.0
+2022,1,Colorado,50653.0
+2022,1,Connecticut,4316.0
+2022,1,Delaware,22.0
+2022,1,Florida,112009.0
+2022,1,Georgia,55517.0
+2022,1,Hawaii,30394.0
+2022,1,Idaho,6034.0
+2022,1,Illinois,61310.0
+2022,1,Indiana,12851.0
+2022,1,Iowa,4904.0
+2022,1,Kansas,2789.0
+2022,1,Kentucky,22461.0
+2022,1,Louisiana,11799.0
+2022,1,Maine,2899.0
+2022,1,Manitoba,280.0
+2022,1,Maryland,13353.0
+2022,1,Massachusetts,23106.0
+2022,1,Michigan,28695.0
+2022,1,Minnesota,23140.0
+2022,1,Mississippi,2911.0
+2022,1,Missouri,19509.0
+2022,1,Montana,6698.0
+2022,1,Nebraska,5234.0
+2022,1,Nevada,31245.0
+2022,1,New Brunswick,7.0
+2022,1,New Hampshire,1724.0
+2022,1,New Jersey,25292.0
+2022,1,New Mexico,5403.0
+2022,1,New York,63405.0
+2022,1,Newfoundland and Labrador,8.0
+2022,1,North Carolina,49260.0
+2022,1,North Dakota,3349.0
+2022,1,Northwest Territories,2.0
+2022,1,Nova Scotia,25.0
+2022,1,Nunavut Territory,1.0
+2022,1,Ohio,16839.0
+2022,1,Oklahoma,6280.0
+2022,1,Ontario,6840.0
+2022,1,Oregon,15963.0
+2022,1,Pennsylvania,29594.0
+2022,1,Puerto Rico,12421.0
+2022,1,Quebec,2659.0
+2022,1,Rhode Island,3343.0
+2022,1,Saskatchewan,1.0
+2022,1,South Carolina,9806.0
+2022,1,South Dakota,2629.0
+2022,1,Tennessee,30531.0
+2022,1,Texas,123967.0
+2022,1,U.S. Pacific Trust Territories and Possessions,3601.0
+2022,1,U.S. Virgin Islands,4074.0
+2022,1,Utah,20095.0
+2022,1,Vermont,1496.0
+2022,1,Virginia,44410.0
+2022,1,Washington,34469.0
+2022,1,West Virginia,1461.0
+2022,1,Wisconsin,10196.0
+2022,1,Wyoming,2205.0
+2022,2,Alabama,5365.0
+2022,2,Alaska,46131.0
+2022,2,Alberta,1666.0
+2022,2,Arizona,33079.0
+2022,2,Arkansas,4352.0
+2022,2,British Columbia,2452.0
+2022,2,California,118302.0
+2022,2,Colorado,48860.0
+2022,2,Connecticut,4457.0
+2022,2,Delaware,27.0
+2022,2,Florida,106027.0
+2022,2,Georgia,51389.0
+2022,2,Hawaii,27977.0
+2022,2,Idaho,5484.0
+2022,2,Illinois,57304.0
+2022,2,Indiana,11634.0
+2022,2,Iowa,4603.0
+2022,2,Kansas,2261.0
+2022,2,Kentucky,20374.0
+2022,2,Louisiana,11360.0
+2022,2,Maine,2729.0
+2022,2,Manitoba,272.0
+2022,2,Maryland,13236.0
+2022,2,Massachusetts,22419.0
+2022,2,Michigan,25899.0
+2022,2,Minnesota,21556.0
+2022,2,Mississippi,2606.0
+2022,2,Missouri,17341.0
+2022,2,Montana,6237.0
+2022,2,Nebraska,4972.0
+2022,2,Nevada,29602.0
+2022,2,New Brunswick,3.0
+2022,2,New Hampshire,1702.0
+2022,2,New Jersey,24901.0
+2022,2,New Mexico,4879.0
+2022,2,New York,61985.0
+2022,2,Newfoundland and Labrador,7.0
+2022,2,North Carolina,48204.0
+2022,2,North Dakota,3212.0
+2022,2,Nova Scotia,18.0
+2022,2,Nunavut Territory,2.0
+2022,2,Ohio,15499.0
+2022,2,Oklahoma,5315.0
+2022,2,Ontario,6282.0
+2022,2,Oregon,14139.0
+2022,2,Pennsylvania,28618.0
+2022,2,Puerto Rico,11297.0
+2022,2,Quebec,2447.0
+2022,2,Rhode Island,3358.0
+2022,2,Saskatchewan,5.0
+2022,2,South Carolina,9823.0
+2022,2,South Dakota,2453.0
+2022,2,Tennessee,29880.0
+2022,2,Texas,107811.0
+2022,2,U.S. Pacific Trust Territories and Possessions,3542.0
+2022,2,U.S. Virgin Islands,3909.0
+2022,2,Utah,18154.0
+2022,2,Vermont,1384.0
+2022,2,Virginia,43829.0
+2022,2,Washington,32919.0
+2022,2,West Virginia,1512.0
+2022,2,Wisconsin,9459.0
+2022,2,Wyoming,2187.0
+2022,3,Alabama,6150.0
+2022,3,Alaska,62062.0
+2022,3,Alberta,2074.0
+2022,3,Arizona,39712.0
+2022,3,Arkansas,5120.0
+2022,3,British Columbia,3446.0
+2022,3,California,135712.0
+2022,3,Colorado,55272.0
+2022,3,Connecticut,5255.0
+2022,3,Delaware,21.0
+2022,3,Florida,126320.0
+2022,3,Georgia,59990.0
+2022,3,Hawaii,33547.0
+2022,3,Idaho,6071.0
+2022,3,Illinois,68818.0
+2022,3,Indiana,14364.0
+2022,3,Iowa,5504.0
+2022,3,Kansas,2859.0
+2022,3,Kentucky,24101.0
+2022,3,Louisiana,12943.0
+2022,3,Maine,3290.0
+2022,3,Manitoba,334.0
+2022,3,Maryland,15485.0
+2022,3,Massachusetts,27744.0
+2022,3,Michigan,31094.0
+2022,3,Minnesota,25828.0
+2022,3,Mississippi,3082.0
+2022,3,Missouri,21448.0
+2022,3,Montana,7050.0
+2022,3,Nebraska,5680.0
+2022,3,Nevada,34151.0
+2022,3,New Brunswick,1.0
+2022,3,New Hampshire,1954.0
+2022,3,New Jersey,29287.0
+2022,3,New Mexico,5938.0
+2022,3,New York,71096.0
+2022,3,Newfoundland and Labrador,26.0
+2022,3,North Carolina,53795.0
+2022,3,North Dakota,3881.0
+2022,3,Nova Scotia,43.0
+2022,3,Nunavut Territory,1.0
+2022,3,Ohio,18802.0
+2022,3,Oklahoma,6830.0
+2022,3,Ontario,8887.0
+2022,3,Oregon,17610.0
+2022,3,Pennsylvania,33433.0
+2022,3,Puerto Rico,13003.0
+2022,3,Quebec,3244.0
+2022,3,Rhode Island,4131.0
+2022,3,Saskatchewan,14.0
+2022,3,South Carolina,12063.0
+2022,3,South Dakota,2795.0
+2022,3,Tennessee,35516.0
+2022,3,Texas,132030.0
+2022,3,U.S. Pacific Trust Territories and Possessions,4774.0
+2022,3,U.S. Virgin Islands,4442.0
+2022,3,Utah,20957.0
+2022,3,Vermont,1771.0
+2022,3,Virginia,50037.0
+2022,3,Washington,39541.0
+2022,3,West Virginia,2078.0
+2022,3,Wisconsin,10889.0
+2022,3,Wyoming,2613.0
+2022,3,Yukon Territory,1.0
+2022,4,Alabama,6229.0
+2022,4,Alaska,63732.0
+2022,4,Alberta,2413.0
+2022,4,Arizona,37565.0
+2022,4,Arkansas,5217.0
+2022,4,British Columbia,3862.0
+2022,4,California,137734.0
+2022,4,Colorado,50681.0
+2022,4,Connecticut,5185.0
+2022,4,Delaware,29.0
+2022,4,Florida,115074.0
+2022,4,Georgia,59110.0
+2022,4,Hawaii,32581.0
+2022,4,Idaho,5708.0
+2022,4,Illinois,68347.0
+2022,4,Indiana,13278.0
+2022,4,Iowa,5150.0
+2022,4,Kansas,2908.0
+2022,4,Kentucky,22882.0
+2022,4,Louisiana,12601.0
+2022,4,Maine,3580.0
+2022,4,Manitoba,286.0
+2022,4,Maryland,15296.0
+2022,4,Massachusetts,29255.0
+2022,4,Michigan,30047.0
+2022,4,Minnesota,24750.0
+2022,4,Mississippi,2914.0
+2022,4,Missouri,20943.0
+2022,4,Montana,5769.0
+2022,4,Nebraska,5515.0
+2022,4,Nevada,33677.0
+2022,4,New Hampshire,1901.0
+2022,4,New Jersey,28961.0
+2022,4,New Mexico,5801.0
+2022,4,New York,69322.0
+2022,4,Newfoundland and Labrador,23.0
+2022,4,North Carolina,50852.0
+2022,4,North Dakota,3280.0
+2022,4,Nova Scotia,41.0
+2022,4,Nunavut Territory,2.0
+2022,4,Ohio,17751.0
+2022,4,Oklahoma,6618.0
+2022,4,Ontario,10396.0
+2022,4,Oregon,17743.0
+2022,4,Pennsylvania,33888.0
+2022,4,Puerto Rico,13078.0
+2022,4,Quebec,3532.0
+2022,4,Rhode Island,4236.0
+2022,4,Saskatchewan,12.0
+2022,4,South Carolina,12536.0
+2022,4,South Dakota,2738.0
+2022,4,Tennessee,34896.0
+2022,4,Texas,130254.0
+2022,4,U.S. Pacific Trust Territories and Possessions,4608.0
+2022,4,U.S. Virgin Islands,4175.0
+2022,4,Utah,20175.0
+2022,4,Vermont,1733.0
+2022,4,Virginia,49295.0
+2022,4,Washington,40772.0
+2022,4,West Virginia,1796.0
+2022,4,Wisconsin,10067.0
+2022,4,Wyoming,1482.0
+2022,4,Yukon Territory,32.0
+2022,5,Alabama,6543.0
+2022,5,Alaska,69514.0
+2022,5,Alberta,2576.0
+2022,5,Arizona,35800.0
+2022,5,Arkansas,5666.0
+2022,5,British Columbia,4573.0
+2022,5,California,143260.0
+2022,5,Colorado,53443.0
+2022,5,Connecticut,5274.0
+2022,5,Delaware,20.0
+2022,5,Florida,112481.0
+2022,5,Georgia,62236.0
+2022,5,Hawaii,33039.0
+2022,5,Idaho,6145.0
+2022,5,Illinois,71931.0
+2022,5,Indiana,13734.0
+2022,5,Iowa,5220.0
+2022,5,Kansas,3060.0
+2022,5,Kentucky,23738.0
+2022,5,Louisiana,13189.0
+2022,5,Maine,3802.0
+2022,5,Manitoba,264.0
+2022,5,Maryland,16109.0
+2022,5,Massachusetts,32240.0
+2022,5,Michigan,30548.0
+2022,5,Minnesota,25110.0
+2022,5,Mississippi,3140.0
+2022,5,Missouri,22435.0
+2022,5,Montana,6194.0
+2022,5,Nebraska,5845.0
+2022,5,Nevada,36059.0
+2022,5,New Hampshire,1866.0
+2022,5,New Jersey,31119.0
+2022,5,New Mexico,5920.0
+2022,5,New York,71892.0
+2022,5,Newfoundland and Labrador,19.0
+2022,5,North Carolina,54121.0
+2022,5,North Dakota,3568.0
+2022,5,Nova Scotia,28.0
+2022,5,Nunavut Territory,1.0
+2022,5,Ohio,18372.0
+2022,5,Oklahoma,7094.0
+2022,5,Ontario,12006.0
+2022,5,Oregon,18488.0
+2022,5,Pennsylvania,35052.0
+2022,5,Prince Edward Island,1.0
+2022,5,Puerto Rico,12775.0
+2022,5,Quebec,4144.0
+2022,5,Rhode Island,4289.0
+2022,5,Saskatchewan,3.0
+2022,5,South Carolina,13777.0
+2022,5,South Dakota,2813.0
+2022,5,Tennessee,36109.0
+2022,5,Texas,136771.0
+2022,5,U.S. Pacific Trust Territories and Possessions,5235.0
+2022,5,U.S. Virgin Islands,3995.0
+2022,5,Utah,20588.0
+2022,5,Vermont,1899.0
+2022,5,Virginia,51568.0
+2022,5,Washington,45370.0
+2022,5,West Virginia,1911.0
+2022,5,Wisconsin,10076.0
+2022,5,Wyoming,1314.0
+2022,5,Yukon Territory,30.0
+2022,6,Alabama,6255.0
+2022,6,Alaska,78672.0
+2022,6,Alberta,2642.0
+2022,6,Arizona,34929.0
+2022,6,Arkansas,5541.0
+2022,6,British Columbia,5195.0
+2022,6,California,146254.0
+2022,6,Colorado,56771.0
+2022,6,Connecticut,5206.0
+2022,6,Delaware,10.0
+2022,6,Florida,100325.0
+2022,6,Georgia,59924.0
+2022,6,Hawaii,33421.0
+2022,6,Idaho,7003.0
+2022,6,Illinois,73478.0
+2022,6,Indiana,13640.0
+2022,6,Iowa,5246.0
+2022,6,Kansas,3126.0
+2022,6,Kentucky,24143.0
+2022,6,Louisiana,12597.0
+2022,6,Maine,4402.0
+2022,6,Manitoba,277.0
+2022,6,Maryland,15636.0
+2022,6,Massachusetts,33087.0
+2022,6,Michigan,30794.0
+2022,6,Minnesota,25724.0
+2022,6,Mississippi,3120.0
+2022,6,Missouri,22526.0
+2022,6,Montana,7575.0
+2022,6,Nebraska,5779.0
+2022,6,Nevada,36776.0
+2022,6,New Brunswick,9.0
+2022,6,New Hampshire,2057.0
+2022,6,New Jersey,28446.0
+2022,6,New Mexico,5854.0
+2022,6,New York,69172.0
+2022,6,Newfoundland and Labrador,14.0
+2022,6,North Carolina,54845.0
+2022,6,North Dakota,3723.0
+2022,6,Northwest Territories,1.0
+2022,6,Nova Scotia,119.0
+2022,6,Ohio,17816.0
+2022,6,Oklahoma,7355.0
+2022,6,Ontario,13193.0
+2022,6,Oregon,18836.0
+2022,6,Pennsylvania,33914.0
+2022,6,Puerto Rico,11286.0
+2022,6,Quebec,4929.0
+2022,6,Rhode Island,5063.0
+2022,6,Saskatchewan,2.0
+2022,6,South Carolina,13937.0
+2022,6,South Dakota,3358.0
+2022,6,Tennessee,35881.0
+2022,6,Texas,135486.0
+2022,6,U.S. Pacific Trust Territories and Possessions,5104.0
+2022,6,U.S. Virgin Islands,3412.0
+2022,6,Utah,21052.0
+2022,6,Vermont,1924.0
+2022,6,Virginia,49601.0
+2022,6,Washington,49938.0
+2022,6,West Virginia,2027.0
+2022,6,Wisconsin,9573.0
+2022,6,Wyoming,1493.0
+2022,6,Yukon Territory,8.0
+2022,7,Alabama,6288.0
+2022,7,Alaska,78221.0
+2022,7,Alberta,2631.0
+2022,7,Arizona,36244.0
+2022,7,Arkansas,5541.0
+2022,7,British Columbia,5613.0
+2022,7,California,150694.0
+2022,7,Colorado,58759.0
+2022,7,Connecticut,5600.0
+2022,7,Delaware,14.0
+2022,7,Florida,104617.0
+2022,7,Georgia,62290.0
+2022,7,Hawaii,35135.0
+2022,7,Idaho,7315.0
+2022,7,Illinois,75717.0
+2022,7,Indiana,13760.0
+2022,7,Iowa,5198.0
+2022,7,Kansas,3197.0
+2022,7,Kentucky,24427.0
+2022,7,Louisiana,12803.0
+2022,7,Maine,5020.0
+2022,7,Manitoba,227.0
+2022,7,Maryland,17260.0
+2022,7,Massachusetts,36796.0
+2022,7,Michigan,31206.0
+2022,7,Minnesota,26652.0
+2022,7,Mississippi,2980.0
+2022,7,Missouri,22766.0
+2022,7,Montana,8461.0
+2022,7,Nebraska,5915.0
+2022,7,Nevada,38616.0
+2022,7,New Brunswick,9.0
+2022,7,New Hampshire,2165.0
+2022,7,New Jersey,28305.0
+2022,7,New Mexico,6084.0
+2022,7,New York,73322.0
+2022,7,Newfoundland and Labrador,16.0
+2022,7,North Carolina,55955.0
+2022,7,North Dakota,3694.0
+2022,7,Nova Scotia,184.0
+2022,7,Ohio,17682.0
+2022,7,Oklahoma,7609.0
+2022,7,Ontario,12694.0
+2022,7,Oregon,18872.0
+2022,7,Pennsylvania,35095.0
+2022,7,Prince Edward Island,2.0
+2022,7,Puerto Rico,11971.0
+2022,7,Quebec,5107.0
+2022,7,Rhode Island,5951.0
+2022,7,Saskatchewan,4.0
+2022,7,South Carolina,14455.0
+2022,7,South Dakota,3429.0
+2022,7,Tennessee,36410.0
+2022,7,Texas,138628.0
+2022,7,U.S. Pacific Trust Territories and Possessions,4863.0
+2022,7,U.S. Virgin Islands,3608.0
+2022,7,Utah,21928.0
+2022,7,Vermont,1956.0
+2022,7,Virginia,50935.0
+2022,7,Washington,56563.0
+2022,7,West Virginia,1930.0
+2022,7,Wisconsin,9816.0
+2022,7,Wyoming,2851.0
+2022,7,Yukon Territory,20.0
+2022,8,Alabama,6205.0
+2022,8,Alaska,82358.0
+2022,8,Alberta,2609.0
+2022,8,Arizona,35696.0
+2022,8,Arkansas,5503.0
+2022,8,British Columbia,5687.0
+2022,8,California,150186.0
+2022,8,Colorado,58968.0
+2022,8,Connecticut,5823.0
+2022,8,Delaware,6.0
+2022,8,Florida,100066.0
+2022,8,Georgia,61934.0
+2022,8,Hawaii,34571.0
+2022,8,Idaho,7306.0
+2022,8,Illinois,74653.0
+2022,8,Indiana,13322.0
+2022,8,Iowa,5011.0
+2022,8,Kansas,3068.0
+2022,8,Kentucky,24515.0
+2022,8,Louisiana,12836.0
+2022,8,Maine,4992.0
+2022,8,Manitoba,223.0
+2022,8,Maryland,17335.0
+2022,8,Massachusetts,37018.0
+2022,8,Michigan,31162.0
+2022,8,Minnesota,26701.0
+2022,8,Mississippi,2925.0
+2022,8,Missouri,22915.0
+2022,8,Montana,8496.0
+2022,8,Nebraska,5817.0
+2022,8,Nevada,38947.0
+2022,8,New Brunswick,2.0
+2022,8,New Hampshire,2144.0
+2022,8,New Jersey,28072.0
+2022,8,New Mexico,6192.0
+2022,8,New York,72948.0
+2022,8,Newfoundland and Labrador,19.0
+2022,8,North Carolina,55665.0
+2022,8,North Dakota,3686.0
+2022,8,Northwest Territories,1.0
+2022,8,Nova Scotia,177.0
+2022,8,Nunavut Territory,1.0
+2022,8,Ohio,17290.0
+2022,8,Oklahoma,7577.0
+2022,8,Ontario,12684.0
+2022,8,Oregon,18894.0
+2022,8,Pennsylvania,34095.0
+2022,8,Prince Edward Island,1.0
+2022,8,Puerto Rico,11671.0
+2022,8,Quebec,5050.0
+2022,8,Rhode Island,4577.0
+2022,8,Saskatchewan,2.0
+2022,8,South Carolina,13577.0
+2022,8,South Dakota,3242.0
+2022,8,Tennessee,36510.0
+2022,8,Texas,138024.0
+2022,8,U.S. Pacific Trust Territories and Possessions,5366.0
+2022,8,U.S. Virgin Islands,3315.0
+2022,8,Utah,22035.0
+2022,8,Vermont,1953.0
+2022,8,Virginia,50104.0
+2022,8,Washington,54788.0
+2022,8,West Virginia,1831.0
+2022,8,Wisconsin,9733.0
+2022,8,Wyoming,2746.0
+2022,8,Yukon Territory,4.0
+2022,9,Alabama,6309.0
+2022,9,Alaska,68748.0
+2022,9,Alberta,2563.0
+2022,9,Arizona,34885.0
+2022,9,Arkansas,5209.0
+2022,9,British Columbia,4962.0
+2022,9,California,143427.0
+2022,9,Colorado,57168.0
+2022,9,Connecticut,5536.0
+2022,9,Delaware,17.0
+2022,9,Florida,87275.0
+2022,9,Georgia,59662.0
+2022,9,Hawaii,31422.0
+2022,9,Idaho,6886.0
+2022,9,Illinois,72824.0
+2022,9,Indiana,12667.0
+2022,9,Iowa,4668.0
+2022,9,Kansas,2997.0
+2022,9,Kentucky,23752.0
+2022,9,Louisiana,12611.0
+2022,9,Maine,4675.0
+2022,9,Manitoba,220.0
+2022,9,Maryland,16334.0
+2022,9,Massachusetts,34150.0
+2022,9,Michigan,28822.0
+2022,9,Minnesota,24209.0
+2022,9,Mississippi,3044.0
+2022,9,Missouri,22313.0
+2022,9,Montana,7629.0
+2022,9,Nebraska,5734.0
+2022,9,Nevada,38796.0
+2022,9,New Hampshire,2051.0
+2022,9,New Jersey,26235.0
+2022,9,New Mexico,6246.0
+2022,9,New York,72211.0
+2022,9,Newfoundland and Labrador,11.0
+2022,9,North Carolina,52189.0
+2022,9,North Dakota,3633.0
+2022,9,Nova Scotia,178.0
+2022,9,Nunavut Territory,3.0
+2022,9,Ohio,17109.0
+2022,9,Oklahoma,7420.0
+2022,9,Ontario,12638.0
+2022,9,Oregon,18249.0
+2022,9,Pennsylvania,32340.0
+2022,9,Puerto Rico,8645.0
+2022,9,Quebec,4993.0
+2022,9,Rhode Island,4911.0
+2022,9,South Carolina,12175.0
+2022,9,South Dakota,3126.0
+2022,9,Tennessee,35762.0
+2022,9,Texas,135875.0
+2022,9,U.S. Pacific Trust Territories and Possessions,5141.0
+2022,9,U.S. Virgin Islands,2511.0
+2022,9,Utah,21049.0
+2022,9,Vermont,1821.0
+2022,9,Virginia,49454.0
+2022,9,Washington,50607.0
+2022,9,West Virginia,1762.0
+2022,9,Wisconsin,9702.0
+2022,9,Wyoming,2492.0
+2022,9,Yukon Territory,13.0
+2022,10,Alabama,6307.0
+2022,10,Alaska,68077.0
+2022,10,Alberta,2705.0
+2022,10,Arizona,37815.0
+2022,10,Arkansas,5343.0
+2022,10,British Columbia,4517.0
+2022,10,California,145331.0
+2022,10,Colorado,57645.0
+2022,10,Connecticut,5830.0
+2022,10,Delaware,8.0
+2022,10,Florida,99148.0
+2022,10,Georgia,61769.0
+2022,10,Hawaii,32166.0
+2022,10,Idaho,6341.0
+2022,10,Illinois,72906.0
+2022,10,Indiana,13395.0
+2022,10,Iowa,4837.0
+2022,10,Kansas,3066.0
+2022,10,Kentucky,24311.0
+2022,10,Louisiana,13527.0
+2022,10,Maine,4225.0
+2022,10,Manitoba,229.0
+2022,10,Maryland,17018.0
+2022,10,Massachusetts,32727.0
+2022,10,Michigan,28829.0
+2022,10,Minnesota,24475.0
+2022,10,Mississippi,3113.0
+2022,10,Missouri,22870.0
+2022,10,Montana,6847.0
+2022,10,Nebraska,5752.0
+2022,10,Nevada,40370.0
+2022,10,New Brunswick,1.0
+2022,10,New Hampshire,2143.0
+2022,10,New Jersey,29575.0
+2022,10,New Mexico,6312.0
+2022,10,New York,73399.0
+2022,10,Newfoundland and Labrador,18.0
+2022,10,North Carolina,55555.0
+2022,10,North Dakota,3769.0
+2022,10,Northwest Territories,1.0
+2022,10,Nova Scotia,194.0
+2022,10,Nunavut Territory,2.0
+2022,10,Ohio,17803.0
+2022,10,Oklahoma,7624.0
+2022,10,Ontario,12911.0
+2022,10,Oregon,17509.0
+2022,10,Pennsylvania,34189.0
+2022,10,Puerto Rico,9556.0
+2022,10,Quebec,5011.0
+2022,10,Rhode Island,4358.0
+2022,10,Saskatchewan,2.0
+2022,10,South Carolina,12736.0
+2022,10,South Dakota,2906.0
+2022,10,Tennessee,36993.0
+2022,10,Texas,139972.0
+2022,10,U.S. Pacific Trust Territories and Possessions,5338.0
+2022,10,U.S. Virgin Islands,2979.0
+2022,10,Utah,20674.0
+2022,10,Vermont,1882.0
+2022,10,Virginia,51322.0
+2022,10,Washington,44414.0
+2022,10,West Virginia,1785.0
+2022,10,Wisconsin,9993.0
+2022,10,Wyoming,1917.0
+2022,10,Yukon Territory,6.0
+2022,11,Alabama,6029.0
+2022,11,Alaska,57807.0
+2022,11,Alberta,2635.0
+2022,11,Arizona,36841.0
+2022,11,Arkansas,5060.0
+2022,11,British Columbia,4112.0
+2022,11,California,140438.0
+2022,11,Colorado,53930.0
+2022,11,Connecticut,5287.0
+2022,11,Delaware,21.0
+2022,11,Florida,104505.0
+2022,11,Georgia,59731.0
+2022,11,Hawaii,32068.0
+2022,11,Idaho,6069.0
+2022,11,Illinois,68849.0
+2022,11,Indiana,13363.0
+2022,11,Iowa,4529.0
+2022,11,Kansas,2850.0
+2022,11,Kentucky,24352.0
+2022,11,Louisiana,12592.0
+2022,11,Maine,3374.0
+2022,11,Manitoba,323.0
+2022,11,Maryland,15769.0
+2022,11,Massachusetts,30216.0
+2022,11,Michigan,28036.0
+2022,11,Minnesota,23286.0
+2022,11,Mississippi,2916.0
+2022,11,Missouri,21415.0
+2022,11,Montana,6148.0
+2022,11,Nebraska,5562.0
+2022,11,Nevada,36812.0
+2022,11,New Hampshire,1895.0
+2022,11,New Jersey,29436.0
+2022,11,New Mexico,5774.0
+2022,11,New York,71451.0
+2022,11,Newfoundland and Labrador,21.0
+2022,11,North Carolina,51874.0
+2022,11,North Dakota,3405.0
+2022,11,Nova Scotia,155.0
+2022,11,Nunavut Territory,3.0
+2022,11,Ohio,16906.0
+2022,11,Oklahoma,7108.0
+2022,11,Ontario,13722.0
+2022,11,Oregon,16709.0
+2022,11,Pennsylvania,31502.0
+2022,11,Puerto Rico,10478.0
+2022,11,Quebec,4517.0
+2022,11,Rhode Island,4238.0
+2022,11,Saskatchewan,64.0
+2022,11,South Carolina,10832.0
+2022,11,South Dakota,2654.0
+2022,11,Tennessee,35625.0
+2022,11,Texas,130555.0
+2022,11,U.S. Pacific Trust Territories and Possessions,5061.0
+2022,11,U.S. Virgin Islands,3073.0
+2022,11,Utah,19370.0
+2022,11,Vermont,1622.0
+2022,11,Virginia,48932.0
+2022,11,Washington,39169.0
+2022,11,West Virginia,1689.0
+2022,11,Wisconsin,9766.0
+2022,11,Wyoming,1693.0
+2022,11,Yukon Territory,14.0
+2022,12,Alabama,5716.0
+2022,12,Alaska,59280.0
+2022,12,Alberta,2644.0
+2022,12,Arizona,37339.0
+2022,12,Arkansas,5455.0
+2022,12,British Columbia,4230.0
+2022,12,California,136081.0
+2022,12,Colorado,54296.0
+2022,12,Connecticut,5302.0
+2022,12,Delaware,19.0
+2022,12,Florida,113177.0
+2022,12,Georgia,58683.0
+2022,12,Hawaii,40614.0
+2022,12,Idaho,6081.0
+2022,12,Illinois,67939.0
+2022,12,Indiana,13760.0
+2022,12,Iowa,4651.0
+2022,12,Kansas,2790.0
+2022,12,Kentucky,25756.0
+2022,12,Louisiana,11926.0
+2022,12,Maine,3147.0
+2022,12,Manitoba,342.0
+2022,12,Maryland,15138.0
+2022,12,Massachusetts,27930.0
+2022,12,Michigan,27304.0
+2022,12,Minnesota,22565.0
+2022,12,Mississippi,2828.0
+2022,12,Missouri,20317.0
+2022,12,Montana,6529.0
+2022,12,Nebraska,5537.0
+2022,12,Nevada,35598.0
+2022,12,New Brunswick,2.0
+2022,12,New Hampshire,1918.0
+2022,12,New Jersey,29109.0
+2022,12,New Mexico,5683.0
+2022,12,New York,67767.0
+2022,12,Newfoundland and Labrador,12.0
+2022,12,North Carolina,51784.0
+2022,12,North Dakota,3360.0
+2022,12,Nova Scotia,214.0
+2022,12,Nunavut Territory,1.0
+2022,12,Ohio,15982.0
+2022,12,Oklahoma,6738.0
+2022,12,Ontario,12957.0
+2022,12,Oregon,16027.0
+2022,12,Pennsylvania,32029.0
+2022,12,Puerto Rico,12393.0
+2022,12,Quebec,4623.0
+2022,12,Rhode Island,3772.0
+2022,12,Saskatchewan,78.0
+2022,12,South Carolina,10168.0
+2022,12,South Dakota,2490.0
+2022,12,Tennessee,35344.0
+2022,12,Texas,129229.0
+2022,12,U.S. Pacific Trust Territories and Possessions,5288.0
+2022,12,U.S. Virgin Islands,3495.0
+2022,12,Utah,19431.0
+2022,12,Vermont,1545.0
+2022,12,Virginia,47615.0
+2022,12,Washington,36761.0
+2022,12,West Virginia,1890.0
+2022,12,Wisconsin,9362.0
+2022,12,Wyoming,2119.0
+2022,12,Yukon Territory,6.0
+2023,1,Alabama,5884.0
+2023,1,Alaska,53670.0
+2023,1,Alberta,2717.0
+2023,1,Arizona,39028.0
+2023,1,Arkansas,5091.0
+2023,1,British Columbia,4636.0
+2023,1,California,135011.0
+2023,1,Colorado,56186.0
+2023,1,Connecticut,4945.0
+2023,1,Delaware,5.0
+2023,1,Florida,113648.0
+2023,1,Georgia,59533.0
+2023,1,Hawaii,34036.0
+2023,1,Idaho,5769.0
+2023,1,Illinois,66526.0
+2023,1,Indiana,12687.0
+2023,1,Iowa,4550.0
+2023,1,Kansas,2701.0
+2023,1,Kentucky,23050.0
+2023,1,Louisiana,12234.0
+2023,1,Maine,3011.0
+2023,1,Manitoba,353.0
+2023,1,Maryland,16064.0
+2023,1,Massachusetts,27058.0
+2023,1,Michigan,27714.0
+2023,1,Minnesota,22753.0
+2023,1,Mississippi,2771.0
+2023,1,Missouri,20882.0
+2023,1,Montana,6672.0
+2023,1,Nebraska,5483.0
+2023,1,Nevada,38125.0
+2023,1,New Brunswick,4.0
+2023,1,New Hampshire,1807.0
+2023,1,New Jersey,29340.0
+2023,1,New Mexico,5680.0
+2023,1,New York,69531.0
+2023,1,Newfoundland and Labrador,15.0
+2023,1,North Carolina,51199.0
+2023,1,North Dakota,3568.0
+2023,1,Nova Scotia,224.0
+2023,1,Ohio,16949.0
+2023,1,Oklahoma,6885.0
+2023,1,Ontario,12758.0
+2023,1,Oregon,16488.0
+2023,1,Pennsylvania,31207.0
+2023,1,Puerto Rico,12543.0
+2023,1,Quebec,4644.0
+2023,1,Rhode Island,3496.0
+2023,1,Saskatchewan,66.0
+2023,1,South Carolina,9787.0
+2023,1,South Dakota,2671.0
+2023,1,Tennessee,34573.0
+2023,1,Texas,127781.0
+2023,1,U.S. Pacific Trust Territories and Possessions,4826.0
+2023,1,U.S. Virgin Islands,3539.0
+2023,1,Utah,20031.0
+2023,1,Vermont,1576.0
+2023,1,Virginia,47877.0
+2023,1,Washington,38073.0
+2023,1,West Virginia,1600.0
+2023,1,Wisconsin,9186.0
+2023,1,Wyoming,2269.0
+2023,1,Yukon Territory,6.0
+2023,2,Alabama,5735.0
+2023,2,Alaska,51987.0
+2023,2,Alberta,2511.0
+2023,2,Arizona,37489.0
+2023,2,Arkansas,4799.0
+2023,2,British Columbia,4168.0
+2023,2,California,124325.0
+2023,2,Colorado,52577.0
+2023,2,Connecticut,4982.0
+2023,2,Delaware,97.0
+2023,2,Florida,108204.0
+2023,2,Georgia,54171.0
+2023,2,Hawaii,30270.0
+2023,2,Idaho,5506.0
+2023,2,Illinois,62597.0
+2023,2,Indiana,11540.0
+2023,2,Iowa,4169.0
+2023,2,Kansas,2657.0
+2023,2,Kentucky,22094.0
+2023,2,Louisiana,12059.0
+2023,2,Maine,3056.0
+2023,2,Manitoba,319.0
+2023,2,Maryland,14521.0
+2023,2,Massachusetts,25750.0
+2023,2,Michigan,25461.0
+2023,2,Minnesota,20847.0
+2023,2,Mississippi,2701.0
+2023,2,Missouri,19502.0
+2023,2,Montana,6390.0
+2023,2,Nebraska,5114.0
+2023,2,Nevada,34344.0
+2023,2,New Brunswick,13.0
+2023,2,New Hampshire,1812.0
+2023,2,New Jersey,28118.0
+2023,2,New Mexico,5474.0
+2023,2,New York,67575.0
+2023,2,Newfoundland and Labrador,13.0
+2023,2,North Carolina,48129.0
+2023,2,North Dakota,3303.0
+2023,2,Nova Scotia,227.0
+2023,2,Ohio,15910.0
+2023,2,Oklahoma,6482.0
+2023,2,Ontario,11817.0
+2023,2,Oregon,14800.0
+2023,2,Pennsylvania,29113.0
+2023,2,Puerto Rico,11136.0
+2023,2,Quebec,4309.0
+2023,2,Rhode Island,3376.0
+2023,2,Saskatchewan,65.0
+2023,2,South Carolina,9415.0
+2023,2,South Dakota,2418.0
+2023,2,Tennessee,32014.0
+2023,2,Texas,120611.0
+2023,2,U.S. Pacific Trust Territories and Possessions,4824.0
+2023,2,U.S. Virgin Islands,3212.0
+2023,2,Utah,18372.0
+2023,2,Vermont,1531.0
+2023,2,Virginia,45312.0
+2023,2,Washington,34850.0
+2023,2,West Virginia,1493.0
+2023,2,Wisconsin,8507.0
+2023,2,Wyoming,2127.0
+2023,2,Yukon Territory,2.0
+2023,3,Alabama,6651.0
+2023,3,Alaska,61539.0
+2023,3,Alberta,2961.0
+2023,3,Arizona,42153.0
+2023,3,Arkansas,5523.0
+2023,3,British Columbia,4806.0
+2023,3,California,141841.0
+2023,3,Colorado,60885.0
+2023,3,Connecticut,5909.0
+2023,3,Delaware,129.0
+2023,3,Florida,128255.0
+2023,3,Georgia,63403.0
+2023,3,Hawaii,34767.0
+2023,3,Idaho,6055.0
+2023,3,Illinois,71267.0
+2023,3,Indiana,13721.0
+2023,3,Iowa,4747.0
+2023,3,Kansas,2882.0
+2023,3,Kentucky,25546.0
+2023,3,Louisiana,13730.0
+2023,3,Maine,3294.0
+2023,3,Manitoba,405.0
+2023,3,Maryland,16528.0
+2023,3,Massachusetts,30014.0
+2023,3,Michigan,30135.0
+2023,3,Minnesota,25626.0
+2023,3,Mississippi,2939.0
+2023,3,Missouri,22934.0
+2023,3,Montana,7189.0
+2023,3,Nebraska,5795.0
+2023,3,Nevada,39127.0
+2023,3,New Brunswick,17.0
+2023,3,New Hampshire,1981.0
+2023,3,New Jersey,32495.0
+2023,3,New Mexico,5905.0
+2023,3,New York,76986.0
+2023,3,Newfoundland and Labrador,14.0
+2023,3,North Carolina,56105.0
+2023,3,North Dakota,3797.0
+2023,3,Nova Scotia,255.0
+2023,3,Ohio,18309.0
+2023,3,Oklahoma,7531.0
+2023,3,Ontario,13554.0
+2023,3,Oregon,17518.0
+2023,3,Pennsylvania,33743.0
+2023,3,Puerto Rico,11967.0
+2023,3,Quebec,5022.0
+2023,3,Rhode Island,4213.0
+2023,3,Saskatchewan,86.0
+2023,3,South Carolina,11727.0
+2023,3,South Dakota,2861.0
+2023,3,Tennessee,37487.0
+2023,3,Texas,138729.0
+2023,3,U.S. Pacific Trust Territories and Possessions,5543.0
+2023,3,U.S. Virgin Islands,3581.0
+2023,3,Utah,21246.0
+2023,3,Vermont,1722.0
+2023,3,Virginia,51579.0
+2023,3,Washington,40775.0
+2023,3,West Virginia,1644.0
+2023,3,Wisconsin,10055.0
+2023,3,Wyoming,2509.0
+2023,3,Yukon Territory,4.0
+2023,4,Alabama,6392.0
+2023,4,Alaska,62121.0
+2023,4,Alberta,2956.0
+2023,4,Arizona,39534.0
+2023,4,Arkansas,5239.0
+2023,4,British Columbia,4615.0
+2023,4,California,137964.0
+2023,4,Colorado,55359.0
+2023,4,Connecticut,5573.0
+2023,4,Delaware,109.0
+2023,4,Florida,120758.0
+2023,4,Georgia,61948.0
+2023,4,Hawaii,32247.0
+2023,4,Idaho,5784.0
+2023,4,Illinois,69564.0
+2023,4,Indiana,12694.0
+2023,4,Iowa,4522.0
+2023,4,Kansas,2812.0
+2023,4,Kentucky,24387.0
+2023,4,Louisiana,13268.0
+2023,4,Maine,3501.0
+2023,4,Manitoba,378.0
+2023,4,Maryland,16767.0
+2023,4,Massachusetts,30203.0
+2023,4,Michigan,28970.0
+2023,4,Minnesota,24486.0
+2023,4,Mississippi,2748.0
+2023,4,Missouri,22446.0
+2023,4,Montana,6336.0
+2023,4,Nebraska,5688.0
+2023,4,Nevada,38195.0
+2023,4,New Brunswick,15.0
+2023,4,New Hampshire,2032.0
+2023,4,New Jersey,30504.0
+2023,4,New Mexico,6030.0
+2023,4,New York,73114.0
+2023,4,Newfoundland and Labrador,26.0
+2023,4,North Carolina,54814.0
+2023,4,North Dakota,3582.0
+2023,4,Nova Scotia,240.0
+2023,4,Nunavut Territory,2.0
+2023,4,Ohio,17675.0
+2023,4,Oklahoma,7348.0
+2023,4,Ontario,13267.0
+2023,4,Oregon,17352.0
+2023,4,Pennsylvania,33046.0
+2023,4,Prince Edward Island,1.0
+2023,4,Puerto Rico,11748.0
+2023,4,Quebec,4845.0
+2023,4,Rhode Island,4001.0
+2023,4,Saskatchewan,64.0
+2023,4,South Carolina,12516.0
+2023,4,South Dakota,2718.0
+2023,4,Tennessee,35884.0
+2023,4,Texas,133171.0
+2023,4,U.S. Pacific Trust Territories and Possessions,4514.0
+2023,4,U.S. Virgin Islands,3415.0
+2023,4,Utah,19929.0
+2023,4,Vermont,1720.0
+2023,4,Virginia,49467.0
+2023,4,Washington,41042.0
+2023,4,West Virginia,1606.0
+2023,4,Wisconsin,9784.0
+2023,4,Wyoming,1586.0
+2023,4,Yukon Territory,6.0
+2023,5,Alabama,6791.0
+2023,5,Alaska,72618.0
+2023,5,Alberta,3024.0
+2023,5,Arizona,38441.0
+2023,5,Arkansas,5527.0
+2023,5,British Columbia,4710.0
+2023,5,California,147045.0
+2023,5,Colorado,57847.0
+2023,5,Connecticut,5419.0
+2023,5,Delaware,148.0
+2023,5,Florida,116022.0
+2023,5,Georgia,64817.0
+2023,5,Hawaii,33308.0
+2023,5,Idaho,6037.0
+2023,5,Illinois,73868.0
+2023,5,Indiana,13156.0
+2023,5,Iowa,4852.0
+2023,5,Kansas,2674.0
+2023,5,Kentucky,25864.0
+2023,5,Louisiana,13796.0
+2023,5,Maine,3792.0
+2023,5,Manitoba,300.0
+2023,5,Maryland,18206.0
+2023,5,Massachusetts,33055.0
+2023,5,Michigan,30075.0
+2023,5,Minnesota,25387.0
+2023,5,Mississippi,2977.0
+2023,5,Missouri,23900.0
+2023,5,Montana,6670.0
+2023,5,Nebraska,5979.0
+2023,5,Nevada,40014.0
+2023,5,New Brunswick,19.0
+2023,5,New Hampshire,2035.0
+2023,5,New Jersey,32175.0
+2023,5,New Mexico,6363.0
+2023,5,New York,76635.0
+2023,5,Newfoundland and Labrador,9.0
+2023,5,North Carolina,57566.0
+2023,5,North Dakota,3639.0
+2023,5,Nova Scotia,213.0
+2023,5,Nunavut Territory,1.0
+2023,5,Ohio,18622.0
+2023,5,Oklahoma,7665.0
+2023,5,Ontario,13890.0
+2023,5,Oregon,18459.0
+2023,5,Pennsylvania,34318.0
+2023,5,Puerto Rico,13064.0
+2023,5,Quebec,5451.0
+2023,5,Rhode Island,4748.0
+2023,5,South Carolina,13560.0
+2023,5,South Dakota,2754.0
+2023,5,Tennessee,37543.0
+2023,5,Texas,141281.0
+2023,5,U.S. Pacific Trust Territories and Possessions,4269.0
+2023,5,U.S. Virgin Islands,5241.0
+2023,5,Utah,20561.0
+2023,5,Vermont,1749.0
+2023,5,Virginia,52125.0
+2023,5,Washington,45281.0
+2023,5,West Virginia,1754.0
+2023,5,Wisconsin,10017.0
+2023,5,Wyoming,1672.0
+2023,5,Yukon Territory,4.0
+2023,6,Alabama,6951.0
+2023,6,Alaska,81976.0
+2023,6,Alberta,3431.0
+2023,6,Arizona,35596.0
+2023,6,Arkansas,5673.0
+2023,6,British Columbia,5510.0
+2023,6,California,145167.0
+2023,6,Colorado,59063.0
+2023,6,Connecticut,5412.0
+2023,6,Delaware,174.0
+2023,6,Florida,108580.0
+2023,6,Georgia,64225.0
+2023,6,Hawaii,32849.0
+2023,6,Idaho,6071.0
+2023,6,Illinois,73287.0
+2023,6,Indiana,13320.0
+2023,6,Iowa,5113.0
+2023,6,Kansas,2640.0
+2023,6,Kentucky,25750.0
+2023,6,Louisiana,12736.0
+2023,6,Maine,4581.0
+2023,6,Manitoba,293.0
+2023,6,Maryland,17241.0
+2023,6,Massachusetts,32722.0
+2023,6,Michigan,30321.0
+2023,6,Minnesota,26405.0
+2023,6,Mississippi,3045.0
+2023,6,Missouri,23665.0
+2023,6,Montana,8108.0
+2023,6,Nebraska,5901.0
+2023,6,Nevada,38761.0
+2023,6,New Brunswick,22.0
+2023,6,New Hampshire,2082.0
+2023,6,New Jersey,27803.0
+2023,6,New Mexico,6139.0
+2023,6,New York,69403.0
+2023,6,Newfoundland and Labrador,18.0
+2023,6,North Carolina,59066.0
+2023,6,North Dakota,3590.0
+2023,6,Northwest Territories,2.0
+2023,6,Nova Scotia,254.0
+2023,6,Ohio,19042.0
+2023,6,Oklahoma,8033.0
+2023,6,Ontario,13199.0
+2023,6,Oregon,19106.0
+2023,6,Pennsylvania,34798.0
+2023,6,Puerto Rico,12824.0
+2023,6,Quebec,5408.0
+2023,6,Rhode Island,4603.0
+2023,6,Saskatchewan,13.0
+2023,6,South Carolina,13654.0
+2023,6,South Dakota,3021.0
+2023,6,Tennessee,37667.0
+2023,6,Texas,142509.0
+2023,6,U.S. Pacific Trust Territories and Possessions,5146.0
+2023,6,U.S. Virgin Islands,5567.0
+2023,6,Utah,20704.0
+2023,6,Vermont,1742.0
+2023,6,Virginia,49806.0
+2023,6,Washington,47698.0
+2023,6,West Virginia,1983.0
+2023,6,Wisconsin,9816.0
+2023,6,Wyoming,2351.0
+2023,6,Yukon Territory,2.0
+2023,7,Alabama,7020.0
+2023,7,Alaska,81167.0
+2023,7,Alberta,3591.0
+2023,7,Arizona,36909.0
+2023,7,Arkansas,5929.0
+2023,7,British Columbia,6375.0
+2023,7,California,149949.0
+2023,7,Colorado,62788.0
+2023,7,Connecticut,5511.0
+2023,7,Delaware,272.0
+2023,7,Florida,112046.0
+2023,7,Georgia,66585.0
+2023,7,Hawaii,34378.0
+2023,7,Idaho,6355.0
+2023,7,Illinois,75771.0
+2023,7,Indiana,13282.0
+2023,7,Iowa,5124.0
+2023,7,Kansas,2762.0
+2023,7,Kentucky,25205.0
+2023,7,Louisiana,12877.0
+2023,7,Maine,4907.0
+2023,7,Manitoba,283.0
+2023,7,Maryland,18074.0
+2023,7,Massachusetts,34160.0
+2023,7,Michigan,31490.0
+2023,7,Minnesota,28188.0
+2023,7,Mississippi,3111.0
+2023,7,Missouri,24599.0
+2023,7,Montana,8902.0
+2023,7,Nebraska,6023.0
+2023,7,Nevada,39456.0
+2023,7,New Brunswick,3.0
+2023,7,New Hampshire,2142.0
+2023,7,New Jersey,27632.0
+2023,7,New Mexico,6442.0
+2023,7,New York,68632.0
+2023,7,Newfoundland and Labrador,12.0
+2023,7,North Carolina,60458.0
+2023,7,North Dakota,3580.0
+2023,7,Nova Scotia,263.0
+2023,7,Nunavut Territory,2.0
+2023,7,Ohio,19337.0
+2023,7,Oklahoma,8105.0
+2023,7,Ontario,13358.0
+2023,7,Oregon,19477.0
+2023,7,Pennsylvania,35537.0
+2023,7,Prince Edward Island,2.0
+2023,7,Puerto Rico,13588.0
+2023,7,Quebec,5366.0
+2023,7,Rhode Island,5128.0
+2023,7,Saskatchewan,27.0
+2023,7,South Carolina,14451.0
+2023,7,South Dakota,3057.0
+2023,7,Tennessee,37669.0
+2023,7,Texas,146982.0
+2023,7,U.S. Pacific Trust Territories and Possessions,5012.0
+2023,7,U.S. Virgin Islands,3324.0
+2023,7,Utah,21668.0
+2023,7,Vermont,1768.0
+2023,7,Virginia,50408.0
+2023,7,Washington,51761.0
+2023,7,West Virginia,2043.0
+2023,7,Wisconsin,10393.0
+2023,7,Wyoming,2526.0
+2023,7,Yukon Territory,2.0
+2023,8,Alabama,7145.0
+2023,8,Alaska,86283.0
+2023,8,Alberta,3572.0
+2023,8,Arizona,37587.0
+2023,8,Arkansas,5817.0
+2023,8,British Columbia,6397.0
+2023,8,California,151172.0
+2023,8,Colorado,64722.0
+2023,8,Connecticut,5645.0
+2023,8,Delaware,257.0
+2023,8,Florida,106757.0
+2023,8,Georgia,64940.0
+2023,8,Hawaii,34350.0
+2023,8,Idaho,6414.0
+2023,8,Illinois,78311.0
+2023,8,Indiana,13570.0
+2023,8,Iowa,5115.0
+2023,8,Kansas,2791.0
+2023,8,Kentucky,25729.0
+2023,8,Louisiana,12803.0
+2023,8,Maine,5297.0
+2023,8,Manitoba,319.0
+2023,8,Maryland,18154.0
+2023,8,Massachusetts,36489.0
+2023,8,Michigan,32501.0
+2023,8,Minnesota,28568.0
+2023,8,Mississippi,3162.0
+2023,8,Missouri,24387.0
+2023,8,Montana,8956.0
+2023,8,Nebraska,6035.0
+2023,8,Nevada,39275.0
+2023,8,New Brunswick,12.0
+2023,8,New Hampshire,2148.0
+2023,8,New Jersey,30573.0
+2023,8,New Mexico,6746.0
+2023,8,New York,74750.0
+2023,8,Newfoundland and Labrador,15.0
+2023,8,North Carolina,62003.0
+2023,8,North Dakota,3701.0
+2023,8,Northwest Territories,3.0
+2023,8,Nova Scotia,258.0
+2023,8,Nunavut Territory,2.0
+2023,8,Ohio,19861.0
+2023,8,Oklahoma,8290.0
+2023,8,Ontario,13579.0
+2023,8,Oregon,20199.0
+2023,8,Pennsylvania,36488.0
+2023,8,Puerto Rico,10790.0
+2023,8,Quebec,5743.0
+2023,8,Rhode Island,5160.0
+2023,8,Saskatchewan,27.0
+2023,8,South Carolina,14024.0
+2023,8,South Dakota,3119.0
+2023,8,Tennessee,38818.0
+2023,8,Texas,149313.0
+2023,8,U.S. Pacific Trust Territories and Possessions,5144.0
+2023,8,U.S. Virgin Islands,5939.0
+2023,8,Utah,21781.0
+2023,8,Vermont,1874.0
+2023,8,Virginia,52811.0
+2023,8,Washington,52641.0
+2023,8,West Virginia,1991.0
+2023,8,Wisconsin,10857.0
+2023,8,Wyoming,2596.0
+2023,8,Yukon Territory,2.0
+2023,9,Alabama,7002.0
+2023,9,Alaska,75263.0
+2023,9,Alberta,3333.0
+2023,9,Arizona,37675.0
+2023,9,Arkansas,5488.0
+2023,9,British Columbia,5287.0
+2023,9,California,143178.0
+2023,9,Colorado,60504.0
+2023,9,Connecticut,5363.0
+2023,9,Delaware,256.0
+2023,9,Florida,98434.0
+2023,9,Georgia,63622.0
+2023,9,Hawaii,30902.0
+2023,9,Idaho,6200.0
+2023,9,Illinois,74062.0
+2023,9,Indiana,12794.0
+2023,9,Iowa,4937.0
+2023,9,Kansas,2778.0
+2023,9,Kentucky,24165.0
+2023,9,Louisiana,12250.0
+2023,9,Maine,4804.0
+2023,9,Manitoba,327.0
+2023,9,Maryland,17232.0
+2023,9,Massachusetts,32304.0
+2023,9,Michigan,31066.0
+2023,9,Minnesota,25809.0
+2023,9,Mississippi,3060.0
+2023,9,Missouri,23156.0
+2023,9,Montana,7584.0
+2023,9,Nebraska,5690.0
+2023,9,Nevada,39854.0
+2023,9,New Brunswick,5.0
+2023,9,New Hampshire,2007.0
+2023,9,New Jersey,28607.0
+2023,9,New Mexico,6677.0
+2023,9,New York,68191.0
+2023,9,Newfoundland and Labrador,19.0
+2023,9,North Carolina,58775.0
+2023,9,North Dakota,3508.0
+2023,9,Nova Scotia,232.0
+2023,9,Nunavut Territory,1.0
+2023,9,Ohio,19031.0
+2023,9,Oklahoma,7853.0
+2023,9,Ontario,12849.0
+2023,9,Oregon,18906.0
+2023,9,Pennsylvania,34945.0
+2023,9,Puerto Rico,8451.0
+2023,9,Quebec,5433.0
+2023,9,Rhode Island,4156.0
+2023,9,Saskatchewan,28.0
+2023,9,South Carolina,12638.0
+2023,9,South Dakota,2972.0
+2023,9,Tennessee,37363.0
+2023,9,Texas,141447.0
+2023,9,U.S. Pacific Trust Territories and Possessions,4048.0
+2023,9,U.S. Virgin Islands,3096.0
+2023,9,Utah,20793.0
+2023,9,Vermont,1736.0
+2023,9,Virginia,49764.0
+2023,9,Washington,48782.0
+2023,9,West Virginia,1805.0
+2023,9,Wisconsin,10476.0
+2023,9,Wyoming,2293.0
+2023,9,Yukon Territory,4.0
+2023,10,Alabama,7291.0
+2023,10,Alaska,72054.0
+2023,10,Alberta,3317.0
+2023,10,Arizona,41182.0
+2023,10,Arkansas,5715.0
+2023,10,British Columbia,4885.0
+2023,10,California,147910.0
+2023,10,Colorado,61626.0
+2023,10,Connecticut,5576.0
+2023,10,Delaware,249.0
+2023,10,Florida,111737.0
+2023,10,Georgia,65904.0
+2023,10,Hawaii,32165.0
+2023,10,Idaho,6447.0
+2023,10,Illinois,76683.0
+2023,10,Indiana,13941.0
+2023,10,Iowa,5143.0
+2023,10,Kansas,3052.0
+2023,10,Kentucky,25745.0
+2023,10,Louisiana,13905.0
+2023,10,Maine,4407.0
+2023,10,Manitoba,351.0
+2023,10,Maryland,18964.0
+2023,10,Massachusetts,32754.0
+2023,10,Michigan,31821.0
+2023,10,Minnesota,27177.0
+2023,10,Mississippi,3119.0
+2023,10,Missouri,24648.0
+2023,10,Montana,6876.0
+2023,10,Nebraska,6069.0
+2023,10,Nevada,43137.0
+2023,10,New Hampshire,2091.0
+2023,10,New Jersey,30907.0
+2023,10,New Mexico,7190.0
+2023,10,New York,73674.0
+2023,10,Newfoundland and Labrador,15.0
+2023,10,North Carolina,63319.0
+2023,10,North Dakota,3758.0
+2023,10,Northwest Territories,2.0
+2023,10,Nova Scotia,240.0
+2023,10,Nunavut Territory,1.0
+2023,10,Ohio,20130.0
+2023,10,Oklahoma,8191.0
+2023,10,Ontario,13650.0
+2023,10,Oregon,19251.0
+2023,10,Pennsylvania,36030.0
+2023,10,Puerto Rico,8878.0
+2023,10,Quebec,5328.0
+2023,10,Rhode Island,4450.0
+2023,10,Saskatchewan,60.0
+2023,10,South Carolina,13228.0
+2023,10,South Dakota,2915.0
+2023,10,Tennessee,40254.0
+2023,10,Texas,149372.0
+2023,10,U.S. Pacific Trust Territories and Possessions,3368.0
+2023,10,U.S. Virgin Islands,5087.0
+2023,10,Utah,21802.0
+2023,10,Vermont,1940.0
+2023,10,Virginia,52745.0
+2023,10,Washington,45612.0
+2023,10,West Virginia,1893.0
+2023,10,Wisconsin,11009.0
+2023,10,Wyoming,1902.0
+2023,10,Yukon Territory,2.0
+2023,11,Alabama,7017.0
+2023,11,Alaska,61439.0
+2023,11,Alberta,2991.0
+2023,11,Arizona,41592.0
+2023,11,Arkansas,5444.0
+2023,11,British Columbia,4846.0
+2023,11,California,141783.0
+2023,11,Colorado,58398.0
+2023,11,Connecticut,5437.0
+2023,11,Delaware,248.0
+2023,11,Florida,119382.0
+2023,11,Georgia,62034.0
+2023,11,Hawaii,31787.0
+2023,11,Idaho,6247.0
+2023,11,Illinois,68962.0
+2023,11,Indiana,12957.0
+2023,11,Iowa,4965.0
+2023,11,Kansas,2944.0
+2023,11,Kentucky,25084.0
+2023,11,Louisiana,13324.0
+2023,11,Maine,3389.0
+2023,11,Manitoba,399.0
+2023,11,Maryland,17896.0
+2023,11,Massachusetts,29077.0
+2023,11,Michigan,29632.0
+2023,11,Minnesota,25063.0
+2023,11,Mississippi,3001.0
+2023,11,Missouri,22973.0
+2023,11,Montana,6380.0
+2023,11,Nebraska,5864.0
+2023,11,Nevada,40092.0
+2023,11,New Hampshire,1860.0
+2023,11,New Jersey,28660.0
+2023,11,New Mexico,6354.0
+2023,11,New York,70522.0
+2023,11,Newfoundland and Labrador,22.0
+2023,11,North Carolina,59598.0
+2023,11,North Dakota,3605.0
+2023,11,Northwest Territories,1.0
+2023,11,Nova Scotia,235.0
+2023,11,Ohio,18926.0
+2023,11,Oklahoma,7589.0
+2023,11,Ontario,13311.0
+2023,11,Oregon,18454.0
+2023,11,Pennsylvania,33468.0
+2023,11,Puerto Rico,10285.0
+2023,11,Quebec,4801.0
+2023,11,Rhode Island,3891.0
+2023,11,Saskatchewan,62.0
+2023,11,South Carolina,11859.0
+2023,11,South Dakota,2721.0
+2023,11,Tennessee,37900.0
+2023,11,Texas,141940.0
+2023,11,U.S. Pacific Trust Territories and Possessions,3498.0
+2023,11,U.S. Virgin Islands,6008.0
+2023,11,Utah,20494.0
+2023,11,Vermont,1455.0
+2023,11,Virginia,48731.0
+2023,11,Washington,41550.0
+2023,11,West Virginia,1740.0
+2023,11,Wisconsin,10310.0
+2023,11,Wyoming,1806.0
+2023,11,Yukon Territory,3.0
+2023,12,Alabama,6786.0
+2023,12,Alaska,60281.0
+2023,12,Alberta,3077.0
+2023,12,Arizona,42550.0
+2023,12,Arkansas,5463.0
+2023,12,British Columbia,4942.0
+2023,12,California,144907.0
+2023,12,Colorado,62705.0
+2023,12,Connecticut,5479.0
+2023,12,Delaware,288.0
+2023,12,Florida,130235.0
+2023,12,Georgia,63097.0
+2023,12,Hawaii,33255.0
+2023,12,Idaho,6463.0
+2023,12,Illinois,70032.0
+2023,12,Indiana,13256.0
+2023,12,Iowa,4974.0
+2023,12,Kansas,3006.0
+2023,12,Kentucky,26650.0
+2023,12,Louisiana,13269.0
+2023,12,Maine,3182.0
+2023,12,Manitoba,423.0
+2023,12,Maryland,18054.0
+2023,12,Massachusetts,27746.0
+2023,12,Michigan,28981.0
+2023,12,Minnesota,25460.0
+2023,12,Mississippi,2946.0
+2023,12,Missouri,23083.0
+2023,12,Montana,7222.0
+2023,12,Nebraska,5939.0
+2023,12,Nevada,39625.0
+2023,12,New Brunswick,1.0
+2023,12,New Hampshire,1946.0
+2023,12,New Jersey,28605.0
+2023,12,New Mexico,6539.0
+2023,12,New York,68034.0
+2023,12,Newfoundland and Labrador,22.0
+2023,12,North Carolina,57712.0
+2023,12,North Dakota,3705.0
+2023,12,Northwest Territories,2.0
+2023,12,Nova Scotia,233.0
+2023,12,Ohio,18336.0
+2023,12,Oklahoma,7681.0
+2023,12,Ontario,14301.0
+2023,12,Oregon,18453.0
+2023,12,Pennsylvania,32934.0
+2023,12,Puerto Rico,11589.0
+2023,12,Quebec,4981.0
+2023,12,Rhode Island,3969.0
+2023,12,Saskatchewan,86.0
+2023,12,South Carolina,11294.0
+2023,12,South Dakota,2789.0
+2023,12,Tennessee,38506.0
+2023,12,Texas,143265.0
+2023,12,U.S. Pacific Trust Territories and Possessions,3897.0
+2023,12,U.S. Virgin Islands,6302.0
+2023,12,Utah,21481.0
+2023,12,Vermont,1325.0
+2023,12,Virginia,47803.0
+2023,12,Washington,40101.0
+2023,12,West Virginia,1718.0
+2023,12,Wisconsin,10334.0
+2023,12,Wyoming,2254.0
+2023,12,Yukon Territory,4.0
+2024,1,Alabama,6420.0
+2024,1,Alaska,57549.0
+2024,1,Alberta,2909.0
+2024,1,Arizona,40012.0
+2024,1,Arkansas,5076.0
+2024,1,British Columbia,4708.0
+2024,1,California,130624.0
+2024,1,Colorado,59138.0
+2024,1,Connecticut,4870.0
+2024,1,Delaware,191.0
+2024,1,Florida,125061.0
+2024,1,Georgia,58650.0
+2024,1,Hawaii,31488.0
+2024,1,Idaho,6140.0
+2024,1,Illinois,62094.0
+2024,1,Indiana,12072.0
+2024,1,Iowa,4496.0
+2024,1,Kansas,2851.0
+2024,1,Kentucky,22664.0
+2024,1,Louisiana,12170.0
+2024,1,Maine,2806.0
+2024,1,Manitoba,440.0
+2024,1,Maryland,15731.0
+2024,1,Massachusetts,25065.0
+2024,1,Michigan,26654.0
+2024,1,Minnesota,23393.0
+2024,1,Mississippi,2677.0
+2024,1,Missouri,20461.0
+2024,1,Montana,6856.0
+2024,1,Nebraska,5484.0
+2024,1,Nevada,36518.0
+2024,1,New Brunswick,21.0
+2024,1,New Hampshire,1644.0
+2024,1,New Jersey,26239.0
+2024,1,New Mexico,5924.0
+2024,1,New York,62943.0
+2024,1,Newfoundland and Labrador,19.0
+2024,1,North Carolina,55761.0
+2024,1,North Dakota,3479.0
+2024,1,Nova Scotia,228.0
+2024,1,Nunavut Territory,1.0
+2024,1,Ohio,16783.0
+2024,1,Oklahoma,7138.0
+2024,1,Ontario,13420.0
+2024,1,Oregon,15300.0
+2024,1,Pennsylvania,30537.0
+2024,1,Puerto Rico,14322.0
+2024,1,Quebec,4754.0
+2024,1,Rhode Island,3433.0
+2024,1,Saskatchewan,93.0
+2024,1,South Carolina,10335.0
+2024,1,South Dakota,2711.0
+2024,1,Tennessee,32473.0
+2024,1,Texas,131834.0
+2024,1,U.S. Pacific Trust Territories and Possessions,3705.0
+2024,1,U.S. Virgin Islands,6113.0
+2024,1,Utah,21283.0
+2024,1,Vermont,1253.0
+2024,1,Virginia,45165.0
+2024,1,Washington,35020.0
+2024,1,West Virginia,1491.0
+2024,1,Wisconsin,9295.0
+2024,1,Wyoming,2465.0
+2024,1,Yukon Territory,6.0
+2024,2,Alabama,6526.0
+2024,2,Alaska,56150.0
+2024,2,Alberta,2873.0
+2024,2,Arizona,39373.0
+2024,2,Arkansas,5188.0
+2024,2,British Columbia,4607.0
+2024,2,California,124593.0
+2024,2,Colorado,56971.0
+2024,2,Connecticut,4869.0
+2024,2,Delaware,149.0
+2024,2,Florida,122960.0
+2024,2,Georgia,56040.0
+2024,2,Hawaii,30421.0
+2024,2,Idaho,5714.0
+2024,2,Illinois,62931.0
+2024,2,Indiana,12103.0
+2024,2,Iowa,4746.0
+2024,2,Kansas,2827.0
+2024,2,Kentucky,22191.0
+2024,2,Louisiana,12511.0
+2024,2,Maine,2941.0
+2024,2,Manitoba,457.0
+2024,2,Maryland,14877.0
+2024,2,Massachusetts,25502.0
+2024,2,Michigan,26788.0
+2024,2,Minnesota,22505.0
+2024,2,Mississippi,2633.0
+2024,2,Missouri,20255.0
+2024,2,Montana,6843.0
+2024,2,Nebraska,5517.0
+2024,2,Nevada,34954.0
+2024,2,New Brunswick,25.0
+2024,2,New Hampshire,1689.0
+2024,2,New Jersey,26453.0
+2024,2,New Mexico,5613.0
+2024,2,New York,63905.0
+2024,2,Newfoundland and Labrador,21.0
+2024,2,North Carolina,54045.0
+2024,2,North Dakota,3421.0
+2024,2,Nova Scotia,221.0
+2024,2,Ohio,16543.0
+2024,2,Oklahoma,6953.0
+2024,2,Ontario,13092.0
+2024,2,Oregon,15971.0
+2024,2,Pennsylvania,29685.0
+2024,2,Puerto Rico,13666.0
+2024,2,Quebec,4546.0
+2024,2,Rhode Island,3551.0
+2024,2,Saskatchewan,109.0
+2024,2,South Carolina,10364.0
+2024,2,South Dakota,2648.0
+2024,2,Tennessee,33377.0
+2024,2,Texas,128169.0
+2024,2,U.S. Pacific Trust Territories and Possessions,4062.0
+2024,2,U.S. Virgin Islands,6968.0
+2024,2,Utah,19883.0
+2024,2,Vermont,1317.0
+2024,2,Virginia,45897.0
+2024,2,Washington,35382.0
+2024,2,West Virginia,1581.0
+2024,2,Wisconsin,9582.0
+2024,2,Wyoming,2376.0
+2024,2,Yukon Territory,2.0
+2024,3,Alabama,7133.0
+2024,3,Alaska,64953.0
+2024,3,Alberta,3136.0
+2024,3,Arizona,45603.0
+2024,3,Arkansas,5649.0
+2024,3,British Columbia,5330.0
+2024,3,California,140505.0
+2024,3,Colorado,63535.0
+2024,3,Connecticut,5530.0
+2024,3,Delaware,180.0
+2024,3,Florida,142070.0
+2024,3,Georgia,64211.0
+2024,3,Hawaii,33394.0
+2024,3,Idaho,6452.0
+2024,3,Illinois,72729.0
+2024,3,Indiana,13921.0
+2024,3,Iowa,5266.0
+2024,3,Kansas,3017.0
+2024,3,Kentucky,24651.0
+2024,3,Louisiana,13700.0
+2024,3,Maine,3207.0
+2024,3,Manitoba,506.0
+2024,3,Maryland,17282.0
+2024,3,Massachusetts,29178.0
+2024,3,Michigan,31005.0
+2024,3,Minnesota,26110.0
+2024,3,Mississippi,2909.0
+2024,3,Missouri,23497.0
+2024,3,Montana,7455.0
+2024,3,Nebraska,6019.0
+2024,3,Nevada,39882.0
+2024,3,New Brunswick,38.0
+2024,3,New Hampshire,1886.0
+2024,3,New Jersey,28795.0
+2024,3,New Mexico,6323.0
+2024,3,New York,69479.0
+2024,3,Newfoundland and Labrador,24.0
+2024,3,North Carolina,60102.0
+2024,3,North Dakota,3690.0
+2024,3,Northwest Territories,24.0
+2024,3,Nova Scotia,251.0
+2024,3,Nunavut Territory,4.0
+2024,3,Ohio,18759.0
+2024,3,Oklahoma,7681.0
+2024,3,Ontario,14903.0
+2024,3,Oregon,18429.0
+2024,3,Pennsylvania,33559.0
+2024,3,Puerto Rico,14859.0
+2024,3,Quebec,4970.0
+2024,3,Rhode Island,3753.0
+2024,3,Saskatchewan,112.0
+2024,3,South Carolina,12016.0
+2024,3,South Dakota,2965.0
+2024,3,Tennessee,37676.0
+2024,3,Texas,143616.0
+2024,3,U.S. Pacific Trust Territories and Possessions,4378.0
+2024,3,U.S. Virgin Islands,4385.0
+2024,3,Utah,21967.0
+2024,3,Vermont,1440.0
+2024,3,Virginia,49795.0
+2024,3,Washington,41095.0
+2024,3,West Virginia,1705.0
+2024,3,Wisconsin,11290.0
+2024,3,Wyoming,2388.0
+2024,4,Alabama,7248.0
+2024,4,Alaska,65625.0
+2024,4,Alberta,2955.0
+2024,4,Arizona,43749.0
+2024,4,Arkansas,5710.0
+2024,4,British Columbia,5472.0
+2024,4,California,139174.0
+2024,4,Colorado,59706.0
+2024,4,Connecticut,5901.0
+2024,4,Delaware,151.0
+2024,4,Florida,127615.0
+2024,4,Georgia,64826.0
+2024,4,Hawaii,32011.0
+2024,4,Idaho,6141.0
+2024,4,Illinois,75788.0
+2024,4,Indiana,13212.0
+2024,4,Iowa,4870.0
+2024,4,Kansas,2970.0
+2024,4,Kentucky,24475.0
+2024,4,Louisiana,13359.0
+2024,4,Maine,3131.0
+2024,4,Manitoba,479.0
+2024,4,Maryland,17543.0
+2024,4,Massachusetts,30247.0
+2024,4,Michigan,30669.0
+2024,4,Minnesota,26136.0
+2024,4,Mississippi,2924.0
+2024,4,Missouri,23405.0
+2024,4,Montana,6748.0
+2024,4,Nebraska,5763.0
+2024,4,Nevada,39042.0
+2024,4,New Brunswick,27.0
+2024,4,New Hampshire,2021.0
+2024,4,New Jersey,28685.0
+2024,4,New Mexico,6311.0
+2024,4,New York,68852.0
+2024,4,Newfoundland and Labrador,27.0
+2024,4,North Carolina,62470.0
+2024,4,North Dakota,3645.0
+2024,4,Nova Scotia,242.0
+2024,4,Nunavut Territory,1.0
+2024,4,Ohio,18305.0
+2024,4,Oklahoma,7752.0
+2024,4,Ontario,14318.0
+2024,4,Oregon,18392.0
+2024,4,Pennsylvania,35017.0
+2024,4,Puerto Rico,12984.0
+2024,4,Quebec,4868.0
+2024,4,Rhode Island,4242.0
+2024,4,Saskatchewan,114.0
+2024,4,South Carolina,13659.0
+2024,4,South Dakota,2834.0
+2024,4,Tennessee,37388.0
+2024,4,Texas,141465.0
+2024,4,U.S. Pacific Trust Territories and Possessions,4071.0
+2024,4,U.S. Virgin Islands,6087.0
+2024,4,Utah,21329.0
+2024,4,Vermont,1516.0
+2024,4,Virginia,50061.0
+2024,4,Washington,42789.0
+2024,4,West Virginia,1668.0
+2024,4,Wisconsin,10736.0
+2024,4,Wyoming,1839.0
+2024,5,Alabama,7489.0
+2024,5,Alaska,79938.0
+2024,5,Alberta,3347.0
+2024,5,Arizona,44420.0
+2024,5,Arkansas,5915.0
+2024,5,British Columbia,6186.0
+2024,5,California,144521.0
+2024,5,Colorado,62304.0
+2024,5,Connecticut,5821.0
+2024,5,Delaware,159.0
+2024,5,Florida,120820.0
+2024,5,Georgia,67787.0
+2024,5,Hawaii,32374.0
+2024,5,Idaho,6709.0
+2024,5,Illinois,79321.0
+2024,5,Indiana,13848.0
+2024,5,Iowa,5055.0
+2024,5,Kansas,3095.0
+2024,5,Kentucky,26226.0
+2024,5,Louisiana,13880.0
+2024,5,Maine,3540.0
+2024,5,Manitoba,420.0
+2024,5,Maryland,18627.0
+2024,5,Massachusetts,34092.0
+2024,5,Michigan,32035.0
+2024,5,Minnesota,27503.0
+2024,5,Mississippi,3092.0
+2024,5,Missouri,25133.0
+2024,5,Montana,7404.0
+2024,5,Nebraska,6131.0
+2024,5,Nevada,40973.0
+2024,5,New Brunswick,12.0
+2024,5,New Hampshire,2099.0
+2024,5,New Jersey,30197.0
+2024,5,New Mexico,6760.0
+2024,5,New York,71865.0
+2024,5,Newfoundland and Labrador,30.0
+2024,5,North Carolina,66618.0
+2024,5,North Dakota,3822.0
+2024,5,Nova Scotia,240.0
+2024,5,Nunavut Territory,3.0
+2024,5,Ohio,19638.0
+2024,5,Oklahoma,8293.0
+2024,5,Ontario,14167.0
+2024,5,Oregon,19615.0
+2024,5,Pennsylvania,37846.0
+2024,5,Puerto Rico,13035.0
+2024,5,Quebec,5750.0
+2024,5,Rhode Island,4433.0
+2024,5,Saskatchewan,159.0
+2024,5,South Carolina,15161.0
+2024,5,South Dakota,3006.0
+2024,5,Tennessee,39941.0
+2024,5,Texas,147514.0
+2024,5,U.S. Pacific Trust Territories and Possessions,4627.0
+2024,5,U.S. Virgin Islands,5866.0
+2024,5,Utah,21963.0
+2024,5,Vermont,1531.0
+2024,5,Virginia,53293.0
+2024,5,Washington,47882.0
+2024,5,West Virginia,1855.0
+2024,5,Wisconsin,11002.0
+2024,5,Wyoming,2160.0
+2024,5,Yukon Territory,6.0
+2024,6,Alabama,7589.0
+2024,6,Alaska,83749.0
+2024,6,Alberta,3715.0
+2024,6,Arizona,40516.0
+2024,6,Arkansas,6189.0
+2024,6,British Columbia,6391.0
+2024,6,California,143618.0
+2024,6,Colorado,65650.0
+2024,6,Connecticut,5933.0
+2024,6,Delaware,157.0
+2024,6,Florida,112627.0
+2024,6,Georgia,66195.0
+2024,6,Hawaii,32176.0
+2024,6,Idaho,6957.0
+2024,6,Illinois,80039.0
+2024,6,Indiana,13820.0
+2024,6,Iowa,5161.0
+2024,6,Kansas,3244.0
+2024,6,Kentucky,25772.0
+2024,6,Louisiana,13486.0
+2024,6,Maine,5013.0
+2024,6,Manitoba,476.0
+2024,6,Maryland,18921.0
+2024,6,Massachusetts,35490.0
+2024,6,Michigan,33009.0
+2024,6,Minnesota,29115.0
+2024,6,Mississippi,3019.0
+2024,6,Missouri,25885.0
+2024,6,Montana,9089.0
+2024,6,Nebraska,6106.0
+2024,6,Nevada,39475.0
+2024,6,New Brunswick,12.0
+2024,6,New Hampshire,2117.0
+2024,6,New Jersey,28511.0
+2024,6,New Mexico,6819.0
+2024,6,New York,70199.0
+2024,6,Newfoundland and Labrador,28.0
+2024,6,North Carolina,65577.0
+2024,6,North Dakota,3856.0
+2024,6,Nova Scotia,472.0
+2024,6,Nunavut Territory,2.0
+2024,6,Ohio,19847.0
+2024,6,Oklahoma,8454.0
+2024,6,Ontario,13991.0
+2024,6,Oregon,20367.0
+2024,6,Pennsylvania,38951.0
+2024,6,Prince Edward Island,1.0
+2024,6,Puerto Rico,10585.0
+2024,6,Quebec,6008.0
+2024,6,Rhode Island,4976.0
+2024,6,Saskatchewan,111.0
+2024,6,South Carolina,15646.0
+2024,6,South Dakota,3327.0
+2024,6,Tennessee,40014.0
+2024,6,Texas,153253.0
+2024,6,U.S. Pacific Trust Territories and Possessions,4518.0
+2024,6,U.S. Virgin Islands,5626.0
+2024,6,Utah,21982.0
+2024,6,Vermont,1798.0
+2024,6,Virginia,52171.0
+2024,6,Washington,51588.0
+2024,6,West Virginia,1973.0
+2024,6,Wisconsin,11272.0
+2024,6,Wyoming,2808.0
+2024,7,Alabama,7640.0
+2024,7,Alaska,86988.0
+2024,7,Alberta,4169.0
+2024,7,Arizona,41075.0
+2024,7,Arkansas,6311.0
+2024,7,British Columbia,6922.0
+2024,7,California,151198.0
+2024,7,Colorado,67167.0
+2024,7,Connecticut,6089.0
+2024,7,Delaware,155.0
+2024,7,Florida,113650.0
+2024,7,Georgia,64545.0
+2024,7,Hawaii,33402.0
+2024,7,Idaho,7316.0
+2024,7,Illinois,81493.0
+2024,7,Indiana,14140.0
+2024,7,Iowa,5335.0
+2024,7,Kansas,3250.0
+2024,7,Kentucky,26438.0
+2024,7,Louisiana,13342.0
+2024,7,Maine,5743.0
+2024,7,Manitoba,476.0
+2024,7,Maryland,19554.0
+2024,7,Massachusetts,39290.0
+2024,7,Michigan,33288.0
+2024,7,Minnesota,29724.0
+2024,7,Mississippi,2984.0
+2024,7,Missouri,26425.0
+2024,7,Montana,9969.0
+2024,7,Nebraska,6044.0
+2024,7,Nevada,40193.0
+2024,7,New Brunswick,10.0
+2024,7,New Hampshire,2191.0
+2024,7,New Jersey,29007.0
+2024,7,New Mexico,7069.0
+2024,7,New York,73823.0
+2024,7,Newfoundland and Labrador,30.0
+2024,7,North Carolina,66531.0
+2024,7,North Dakota,4065.0
+2024,7,Nova Scotia,532.0
+2024,7,Nunavut Territory,1.0
+2024,7,Ohio,20058.0
+2024,7,Oklahoma,8561.0
+2024,7,Ontario,14008.0
+2024,7,Oregon,21021.0
+2024,7,Pennsylvania,40497.0
+2024,7,Puerto Rico,13576.0
+2024,7,Quebec,6135.0
+2024,7,Rhode Island,5120.0
+2024,7,Saskatchewan,121.0
+2024,7,South Carolina,15915.0
+2024,7,South Dakota,3426.0
+2024,7,Tennessee,40533.0
+2024,7,Texas,154722.0
+2024,7,U.S. Pacific Trust Territories and Possessions,8532.0
+2024,7,U.S. Virgin Islands,5226.0
+2024,7,Utah,22055.0
+2024,7,Vermont,1977.0
+2024,7,Virginia,54311.0
+2024,7,Washington,56649.0
+2024,7,West Virginia,2014.0
+2024,7,Wisconsin,11618.0
+2024,7,Wyoming,3055.0
+2024,7,Yukon Territory,2.0
+2024,8,Alabama,7610.0
+2024,8,Alaska,88714.0
+2024,8,Alberta,4109.0
+2024,8,Arizona,41077.0
+2024,8,Arkansas,6247.0
+2024,8,British Columbia,7052.0
+2024,8,California,152164.0
+2024,8,Colorado,65430.0
+2024,8,Connecticut,6377.0
+2024,8,Delaware,159.0
+2024,8,Florida,104532.0
+2024,8,Georgia,65985.0
+2024,8,Hawaii,31305.0
+2024,8,Idaho,7294.0
+2024,8,Illinois,82882.0
+2024,8,Indiana,13470.0
+2024,8,Iowa,5430.0
+2024,8,Kansas,3301.0
+2024,8,Kentucky,26801.0
+2024,8,Louisiana,12580.0
+2024,8,Maine,5912.0
+2024,8,Manitoba,489.0
+2024,8,Maryland,19197.0
+2024,8,Massachusetts,39663.0
+2024,8,Michigan,33982.0
+2024,8,Minnesota,30034.0
+2024,8,Mississippi,2989.0
+2024,8,Missouri,25511.0
+2024,8,Montana,9782.0
+2024,8,Nebraska,5998.0
+2024,8,Nevada,40780.0
+2024,8,New Brunswick,2.0
+2024,8,New Hampshire,2324.0
+2024,8,New Jersey,27852.0
+2024,8,New Mexico,7069.0
+2024,8,New York,71903.0
+2024,8,Newfoundland and Labrador,18.0
+2024,8,North Carolina,66724.0
+2024,8,North Dakota,3961.0
+2024,8,Northwest Territories,1.0
+2024,8,Nova Scotia,553.0
+2024,8,Nunavut Territory,1.0
+2024,8,Ohio,19584.0
+2024,8,Oklahoma,8395.0
+2024,8,Ontario,13704.0
+2024,8,Oregon,21001.0
+2024,8,Pennsylvania,40889.0
+2024,8,Puerto Rico,11951.0
+2024,8,Quebec,6062.0
+2024,8,Rhode Island,5435.0
+2024,8,Saskatchewan,120.0
+2024,8,South Carolina,15299.0
+2024,8,South Dakota,3493.0
+2024,8,Tennessee,39949.0
+2024,8,Texas,151942.0
+2024,8,U.S. Pacific Trust Territories and Possessions,4228.0
+2024,8,U.S. Virgin Islands,5082.0
+2024,8,Utah,22251.0
+2024,8,Vermont,2108.0
+2024,8,Virginia,53904.0
+2024,8,Washington,56149.0
+2024,8,West Virginia,1988.0
+2024,8,Wisconsin,11897.0
+2024,8,Wyoming,3062.0
+2024,8,Yukon Territory,1.0
+2024,9,Alabama,7535.0
+2024,9,Alaska,76385.0
+2024,9,Alberta,3750.0
+2024,9,Arizona,40332.0
+2024,9,Arkansas,6180.0
+2024,9,British Columbia,6147.0
+2024,9,California,144240.0
+2024,9,Colorado,62262.0
+2024,9,Connecticut,5722.0
+2024,9,Delaware,112.0
+2024,9,Florida,94128.0
+2024,9,Georgia,63373.0
+2024,9,Hawaii,29877.0
+2024,9,Idaho,6763.0
+2024,9,Illinois,80746.0
+2024,9,Indiana,13236.0
+2024,9,Iowa,5161.0
+2024,9,Kansas,2948.0
+2024,9,Kentucky,25622.0
+2024,9,Louisiana,11947.0
+2024,9,Maine,5563.0
+2024,9,Manitoba,514.0
+2024,9,Maryland,17974.0
+2024,9,Massachusetts,36675.0
+2024,9,Michigan,31834.0
+2024,9,Minnesota,26891.0
+2024,9,Mississippi,2919.0
+2024,9,Missouri,24629.0
+2024,9,Montana,8040.0
+2024,9,Nebraska,5766.0
+2024,9,Nevada,39763.0
+2024,9,New Brunswick,14.0
+2024,9,New Hampshire,2260.0
+2024,9,New Jersey,28524.0
+2024,9,New Mexico,6844.0
+2024,9,New York,71027.0
+2024,9,Newfoundland and Labrador,24.0
+2024,9,North Carolina,63445.0
+2024,9,North Dakota,3722.0
+2024,9,Nova Scotia,587.0
+2024,9,Nunavut Territory,1.0
+2024,9,Ohio,18849.0
+2024,9,Oklahoma,8210.0
+2024,9,Ontario,13433.0
+2024,9,Oregon,19548.0
+2024,9,Pennsylvania,38558.0
+2024,9,Puerto Rico,9560.0
+2024,9,Quebec,5791.0
+2024,9,Rhode Island,4888.0
+2024,9,Saskatchewan,119.0
+2024,9,South Carolina,14084.0
+2024,9,South Dakota,3270.0
+2024,9,Tennessee,37385.0
+2024,9,Texas,143990.0
+2024,9,U.S. Pacific Trust Territories and Possessions,3736.0
+2024,9,U.S. Virgin Islands,4631.0
+2024,9,Utah,21357.0
+2024,9,Vermont,2190.0
+2024,9,Virginia,53139.0
+2024,9,Washington,49522.0
+2024,9,West Virginia,1897.0
+2024,9,Wisconsin,11193.0
+2024,9,Wyoming,2620.0
+2024,9,Yukon Territory,2.0
+2024,10,Alabama,8099.0
+2024,10,Alaska,72571.0
+2024,10,Alberta,3296.0
+2024,10,Arizona,45455.0
+2024,10,Arkansas,6731.0
+2024,10,British Columbia,5131.0
+2024,10,California,153218.0
+2024,10,Colorado,63490.0
+2024,10,Connecticut,6066.0
+2024,10,Delaware,125.0
+2024,10,Florida,103651.0
+2024,10,Georgia,67185.0
+2024,10,Hawaii,30871.0
+2024,10,Idaho,7028.0
+2024,10,Illinois,82244.0
+2024,10,Indiana,15097.0
+2024,10,Iowa,5474.0
+2024,10,Kansas,3089.0
+2024,10,Kentucky,28382.0
+2024,10,Louisiana,14217.0
+2024,10,Maine,5448.0
+2024,10,Manitoba,572.0
+2024,10,Maryland,18130.0
+2024,10,Massachusetts,35631.0
+2024,10,Michigan,32973.0
+2024,10,Minnesota,28166.0
+2024,10,Mississippi,3131.0
+2024,10,Missouri,25814.0
+2024,10,Montana,7464.0
+2024,10,Nebraska,6241.0
+2024,10,Nevada,43217.0
+2024,10,New Brunswick,5.0
+2024,10,New Hampshire,2323.0
+2024,10,New Jersey,29541.0
+2024,10,New Mexico,7609.0
+2024,10,New York,73325.0
+2024,10,Newfoundland and Labrador,24.0
+2024,10,North Carolina,67616.0
+2024,10,North Dakota,3949.0
+2024,10,Northwest Territories,1.0
+2024,10,Nova Scotia,338.0
+2024,10,Ohio,19594.0
+2024,10,Oklahoma,8780.0
+2024,10,Ontario,13782.0
+2024,10,Oregon,20240.0
+2024,10,Pennsylvania,40702.0
+2024,10,Puerto Rico,10112.0
+2024,10,Quebec,5588.0
+2024,10,Rhode Island,5168.0
+2024,10,Saskatchewan,154.0
+2024,10,South Carolina,14945.0
+2024,10,South Dakota,3425.0
+2024,10,Tennessee,38590.0
+2024,10,Texas,153856.0
+2024,10,U.S. Pacific Trust Territories and Possessions,4009.0
+2024,10,U.S. Virgin Islands,4219.0
+2024,10,Utah,22159.0
+2024,10,Vermont,2312.0
+2024,10,Virginia,55649.0
+2024,10,Washington,45283.0
+2024,10,West Virginia,1898.0
+2024,10,Wisconsin,11796.0
+2024,10,Wyoming,2353.0
+2024,10,Yukon Territory,10.0
+2024,11,Alabama,7688.0
+2024,11,Alaska,65441.0
+2024,11,Alberta,2920.0
+2024,11,Arizona,44665.0
+2024,11,Arkansas,6216.0
+2024,11,British Columbia,4463.0
+2024,11,California,145206.0
+2024,11,Colorado,58453.0
+2024,11,Connecticut,5921.0
+2024,11,Delaware,215.0
+2024,11,Florida,116732.0
+2024,11,Georgia,63558.0
+2024,11,Hawaii,30247.0
+2024,11,Idaho,6554.0
+2024,11,Illinois,73638.0
+2024,11,Indiana,13672.0
+2024,11,Iowa,5088.0
+2024,11,Kansas,3101.0
+2024,11,Kentucky,25798.0
+2024,11,Louisiana,13679.0
+2024,11,Maine,3619.0
+2024,11,Manitoba,605.0
+2024,11,Maryland,16937.0
+2024,11,Massachusetts,30960.0
+2024,11,Michigan,30853.0
+2024,11,Minnesota,26003.0
+2024,11,Mississippi,3035.0
+2024,11,Missouri,23687.0
+2024,11,Montana,6638.0
+2024,11,Nebraska,5831.0
+2024,11,Nevada,39843.0
+2024,11,New Hampshire,2056.0
+2024,11,New Jersey,28054.0
+2024,11,New Mexico,6586.0
+2024,11,New York,68621.0
+2024,11,Newfoundland and Labrador,15.0
+2024,11,North Carolina,61720.0
+2024,11,North Dakota,3703.0
+2024,11,Northwest Territories,1.0
+2024,11,Nova Scotia,183.0
+2024,11,Ohio,18404.0
+2024,11,Oklahoma,8054.0
+2024,11,Ontario,13238.0
+2024,11,Oregon,18811.0
+2024,11,Pennsylvania,34736.0
+2024,11,Puerto Rico,11568.0
+2024,11,Quebec,4497.0
+2024,11,Rhode Island,5202.0
+2024,11,Saskatchewan,130.0
+2024,11,South Carolina,12965.0
+2024,11,South Dakota,3119.0
+2024,11,Tennessee,35061.0
+2024,11,Texas,142696.0
+2024,11,U.S. Pacific Trust Territories and Possessions,3735.0
+2024,11,U.S. Virgin Islands,5080.0
+2024,11,Utah,20744.0
+2024,11,Vermont,1711.0
+2024,11,Virginia,52978.0
+2024,11,Washington,39476.0
+2024,11,West Virginia,1716.0
+2024,11,Wisconsin,10571.0
+2024,11,Wyoming,1941.0
+2024,12,Alabama,7723.0
+2024,12,Alaska,59471.0
+2024,12,Alberta,3004.0
+2024,12,Arizona,46173.0
+2024,12,Arkansas,6245.0
+2024,12,British Columbia,4778.0
+2024,12,California,148254.0
+2024,12,Colorado,62848.0
+2024,12,Connecticut,6283.0
+2024,12,Delaware,227.0
+2024,12,Florida,129911.0
+2024,12,Georgia,65712.0
+2024,12,Hawaii,32373.0
+2024,12,Idaho,7106.0
+2024,12,Illinois,75287.0
+2024,12,Indiana,13704.0
+2024,12,Iowa,5171.0
+2024,12,Kansas,3060.0
+2024,12,Kentucky,28178.0
+2024,12,Louisiana,13637.0
+2024,12,Maine,3334.0
+2024,12,Manitoba,612.0
+2024,12,Maryland,17180.0
+2024,12,Massachusetts,30860.0
+2024,12,Michigan,31513.0
+2024,12,Minnesota,27102.0
+2024,12,Mississippi,3054.0
+2024,12,Missouri,23811.0
+2024,12,Montana,7397.0
+2024,12,Nebraska,6054.0
+2024,12,Nevada,39636.0
+2024,12,New Brunswick,12.0
+2024,12,New Hampshire,2108.0
+2024,12,New Jersey,28436.0
+2024,12,New Mexico,6823.0
+2024,12,New York,68905.0
+2024,12,Newfoundland and Labrador,28.0
+2024,12,North Carolina,63506.0
+2024,12,North Dakota,4038.0
+2024,12,Nova Scotia,237.0
+2024,12,Ohio,18727.0
+2024,12,Oklahoma,8137.0
+2024,12,Ontario,13923.0
+2024,12,Oregon,19445.0
+2024,12,Pennsylvania,35372.0
+2024,12,Puerto Rico,14479.0
+2024,12,Quebec,4621.0
+2024,12,Rhode Island,4830.0
+2024,12,Saskatchewan,154.0
+2024,12,South Carolina,12262.0
+2024,12,South Dakota,3219.0
+2024,12,Tennessee,35134.0
+2024,12,Texas,145828.0
+2024,12,U.S. Pacific Trust Territories and Possessions,3968.0
+2024,12,U.S. Virgin Islands,6041.0
+2024,12,Utah,22295.0
+2024,12,Vermont,1779.0
+2024,12,Virginia,52126.0
+2024,12,Washington,40589.0
+2024,12,West Virginia,1610.0
+2024,12,Wisconsin,10648.0
+2024,12,Wyoming,2338.0
+2025,1,Alabama,6913.0
+2025,1,Alaska,55374.0
+2025,1,Alberta,2783.0
+2025,1,Arizona,42414.0
+2025,1,Arkansas,5573.0
+2025,1,British Columbia,4783.0
+2025,1,California,134457.0
+2025,1,Colorado,61121.0
+2025,1,Connecticut,5684.0
+2025,1,Delaware,220.0
+2025,1,Florida,123276.0
+2025,1,Georgia,57824.0
+2025,1,Hawaii,31225.0
+2025,1,Idaho,6935.0
+2025,1,Illinois,69363.0
+2025,1,Indiana,12966.0
+2025,1,Iowa,5085.0
+2025,1,Kansas,2865.0
+2025,1,Kentucky,23473.0
+2025,1,Louisiana,12225.0
+2025,1,Maine,3077.0
+2025,1,Manitoba,609.0
+2025,1,Maryland,14772.0
+2025,1,Massachusetts,26733.0
+2025,1,Michigan,29046.0
+2025,1,Minnesota,24515.0
+2025,1,Mississippi,2721.0
+2025,1,Missouri,20027.0
+2025,1,Montana,7373.0
+2025,1,Nebraska,5728.0
+2025,1,Nevada,37854.0
+2025,1,New Brunswick,19.0
+2025,1,New Hampshire,1877.0
+2025,1,New Jersey,26706.0
+2025,1,New Mexico,6154.0
+2025,1,New York,65692.0
+2025,1,Newfoundland and Labrador,16.0
+2025,1,North Carolina,57827.0
+2025,1,North Dakota,3870.0
+2025,1,Northwest Territories,1.0
+2025,1,Nova Scotia,271.0
+2025,1,Nunavut Territory,2.0
+2025,1,Ohio,17590.0
+2025,1,Oklahoma,7207.0
+2025,1,Ontario,13520.0
+2025,1,Oregon,17402.0
+2025,1,Pennsylvania,31414.0
+2025,1,Puerto Rico,15022.0
+2025,1,Quebec,4544.0
+2025,1,Rhode Island,4459.0
+2025,1,Saskatchewan,159.0
+2025,1,South Carolina,10659.0
+2025,1,South Dakota,3060.0
+2025,1,Tennessee,31590.0
+2025,1,Texas,131430.0
+2025,1,U.S. Pacific Trust Territories and Possessions,4262.0
+2025,1,U.S. Virgin Islands,5800.0
+2025,1,Utah,21658.0
+2025,1,Vermont,1661.0
+2025,1,Virginia,48159.0
+2025,1,Washington,38445.0
+2025,1,West Virginia,1289.0
+2025,1,Wisconsin,10488.0
+2025,1,Wyoming,2672.0
+2025,1,Yukon Territory,1.0
+2025,2,Alabama,6811.0
+2025,2,Alaska,58747.0
+2025,2,Alberta,2708.0
+2025,2,Arizona,41270.0
+2025,2,Arkansas,5326.0
+2025,2,British Columbia,4226.0
+2025,2,California,124925.0
+2025,2,Colorado,56816.0
+2025,2,Connecticut,5624.0
+2025,2,Delaware,204.0
+2025,2,Florida,119384.0
+2025,2,Georgia,57075.0
+2025,2,Hawaii,29727.0
+2025,2,Idaho,6263.0
+2025,2,Illinois,64600.0
+2025,2,Indiana,12546.0
+2025,2,Iowa,4776.0
+2025,2,Kansas,2691.0
+2025,2,Kentucky,22630.0
+2025,2,Louisiana,13628.0
+2025,2,Maine,2787.0
+2025,2,Manitoba,535.0
+2025,2,Maryland,14242.0
+2025,2,Massachusetts,25000.0
+2025,2,Michigan,27108.0
+2025,2,Minnesota,22635.0
+2025,2,Mississippi,2696.0
+2025,2,Missouri,19836.0
+2025,2,Montana,6629.0
+2025,2,Nebraska,5324.0
+2025,2,Nevada,35555.0
+2025,2,New Brunswick,31.0
+2025,2,New Hampshire,1819.0
+2025,2,New Jersey,24710.0
+2025,2,New Mexico,5845.0
+2025,2,New York,61576.0
+2025,2,Newfoundland and Labrador,13.0
+2025,2,North Carolina,54279.0
+2025,2,North Dakota,3583.0
+2025,2,Nova Scotia,237.0
+2025,2,Nunavut Territory,1.0
+2025,2,Ohio,16778.0
+2025,2,Oklahoma,6717.0
+2025,2,Ontario,11630.0
+2025,2,Oregon,15443.0
+2025,2,Pennsylvania,29988.0
+2025,2,Puerto Rico,13889.0
+2025,2,Quebec,3954.0
+2025,2,Rhode Island,4258.0
+2025,2,Saskatchewan,144.0
+2025,2,South Carolina,10726.0
+2025,2,South Dakota,2815.0
+2025,2,Tennessee,30060.0
+2025,2,Texas,126610.0
+2025,2,U.S. Pacific Trust Territories and Possessions,4087.0
+2025,2,U.S. Virgin Islands,5870.0
+2025,2,Utah,20386.0
+2025,2,Vermont,1440.0
+2025,2,Virginia,45422.0
+2025,2,Washington,34662.0
+2025,2,West Virginia,1367.0
+2025,2,Wisconsin,9794.0
+2025,2,Wyoming,2455.0
+2025,2,Yukon Territory,1.0
+2025,3,Alabama,7948.0
+2025,3,Alaska,61925.0
+2025,3,Alberta,3172.0
+2025,3,Arizona,50779.0
+2025,3,Arkansas,6556.0
+2025,3,British Columbia,5188.0
+2025,3,California,147536.0
+2025,3,Colorado,66231.0
+2025,3,Connecticut,6456.0
+2025,3,Delaware,203.0
+2025,3,Florida,144266.0
+2025,3,Georgia,67676.0
+2025,3,Hawaii,33883.0
+2025,3,Idaho,7149.0
+2025,3,Illinois,79371.0
+2025,3,Indiana,15091.0
+2025,3,Iowa,5482.0
+2025,3,Kansas,3142.0
+2025,3,Kentucky,25976.0
+2025,3,Louisiana,14981.0
+2025,3,Maine,3467.0
+2025,3,Manitoba,633.0
+2025,3,Maryland,17003.0
+2025,3,Massachusetts,30917.0
+2025,3,Michigan,32624.0
+2025,3,Minnesota,27095.0
+2025,3,Mississippi,3100.0
+2025,3,Missouri,24062.0
+2025,3,Montana,8012.0
+2025,3,Nebraska,6023.0
+2025,3,Nevada,41253.0
+2025,3,New Brunswick,28.0
+2025,3,New Hampshire,2158.0
+2025,3,New Jersey,27966.0
+2025,3,New Mexico,6640.0
+2025,3,New York,71089.0
+2025,3,Newfoundland and Labrador,33.0
+2025,3,North Carolina,63922.0
+2025,3,North Dakota,4142.0
+2025,3,Nova Scotia,282.0
+2025,3,Ohio,20345.0
+2025,3,Oklahoma,8259.0
+2025,3,Ontario,14765.0
+2025,3,Oregon,18548.0
+2025,3,Pennsylvania,36514.0
+2025,3,Puerto Rico,15812.0
+2025,3,Quebec,4894.0
+2025,3,Rhode Island,5534.0
+2025,3,Saskatchewan,150.0
+2025,3,South Carolina,13433.0
+2025,3,South Dakota,3263.0
+2025,3,Tennessee,37071.0
+2025,3,Texas,148326.0
+2025,3,U.S. Pacific Trust Territories and Possessions,4106.0
+2025,3,U.S. Virgin Islands,6064.0
+2025,3,Utah,23816.0
+2025,3,Vermont,1839.0
+2025,3,Virginia,55221.0
+2025,3,Washington,41163.0
+2025,3,West Virginia,1670.0
+2025,3,Wisconsin,11834.0
+2025,3,Wyoming,2709.0
+2025,4,Alabama,8024.0
+2025,4,Alaska,67125.0
+2025,4,Alberta,2949.0
+2025,4,Arizona,48107.0
+2025,4,Arkansas,6396.0
+2025,4,British Columbia,5034.0
+2025,4,California,147078.0
+2025,4,Colorado,59609.0
+2025,4,Connecticut,6678.0
+2025,4,Delaware,206.0
+2025,4,Florida,131280.0
+2025,4,Georgia,65573.0
+2025,4,Hawaii,31608.0
+2025,4,Idaho,6623.0
+2025,4,Illinois,79785.0
+2025,4,Indiana,14662.0
+2025,4,Iowa,5138.0
+2025,4,Kansas,3158.0
+2025,4,Kentucky,25804.0
+2025,4,Louisiana,14326.0
+2025,4,Maine,3792.0
+2025,4,Manitoba,605.0
+2025,4,Maryland,17584.0
+2025,4,Massachusetts,31960.0
+2025,4,Michigan,31881.0
+2025,4,Minnesota,26403.0
+2025,4,Mississippi,2938.0
+2025,4,Missouri,23885.0
+2025,4,Montana,6955.0
+2025,4,Nebraska,5985.0
+2025,4,Nevada,40355.0
+2025,4,New Brunswick,22.0
+2025,4,New Hampshire,2324.0
+2025,4,New Jersey,24039.0
+2025,4,New Mexico,6756.0
+2025,4,New York,71252.0
+2025,4,Newfoundland and Labrador,31.0
+2025,4,North Carolina,63062.0
+2025,4,North Dakota,4014.0
+2025,4,Northwest Territories,1.0
+2025,4,Nova Scotia,266.0
+2025,4,Ohio,20080.0
+2025,4,Oklahoma,8129.0
+2025,4,Ontario,12576.0
+2025,4,Oregon,18704.0
+2025,4,Pennsylvania,38291.0
+2025,4,Puerto Rico,14545.0
+2025,4,Quebec,4402.0
+2025,4,Rhode Island,5894.0
+2025,4,Saskatchewan,151.0
+2025,4,South Carolina,14523.0
+2025,4,South Dakota,3263.0
+2025,4,Tennessee,37026.0
+2025,4,Texas,143528.0
+2025,4,U.S. Pacific Trust Territories and Possessions,4051.0
+2025,4,U.S. Virgin Islands,6222.0
+2025,4,Utah,22231.0
+2025,4,Vermont,1850.0
+2025,4,Virginia,55793.0
+2025,4,Washington,42466.0
+2025,4,West Virginia,1593.0
+2025,4,Wisconsin,11391.0
+2025,4,Wyoming,2010.0
+2025,5,Alabama,8521.0
+2025,5,Alaska,76437.0
+2025,5,Alberta,3512.0
+2025,5,Arizona,45759.0
+2025,5,Arkansas,6898.0
+2025,5,British Columbia,5939.0
+2025,5,California,153021.0
+2025,5,Colorado,62647.0
+2025,5,Connecticut,6621.0
+2025,5,Delaware,195.0
+2025,5,Florida,120583.0
+2025,5,Georgia,69256.0
+2025,5,Hawaii,33116.0
+2025,5,Idaho,6917.0
+2025,5,Illinois,85143.0
+2025,5,Indiana,15163.0
+2025,5,Iowa,5603.0
+2025,5,Kansas,3350.0
+2025,5,Kentucky,26800.0
+2025,5,Louisiana,14494.0
+2025,5,Maine,3972.0
+2025,5,Manitoba,618.0
+2025,5,Maryland,17993.0
+2025,5,Massachusetts,34382.0
+2025,5,Michigan,33722.0
+2025,5,Minnesota,27420.0
+2025,5,Mississippi,3229.0
+2025,5,Missouri,25317.0
+2025,5,Montana,7982.0
+2025,5,Nebraska,6452.0
+2025,5,Nevada,42182.0
+2025,5,New Brunswick,18.0
+2025,5,New Hampshire,2414.0
+2025,5,New Jersey,22221.0
+2025,5,New Mexico,7257.0
+2025,5,New York,72942.0
+2025,5,Newfoundland and Labrador,23.0
+2025,5,North Carolina,65975.0
+2025,5,North Dakota,4091.0
+2025,5,Northwest Territories,2.0
+2025,5,Nova Scotia,108.0
+2025,5,Ohio,20843.0
+2025,5,Oklahoma,8734.0
+2025,5,Ontario,13185.0
+2025,5,Oregon,20862.0
+2025,5,Pennsylvania,39085.0
+2025,5,Puerto Rico,14202.0
+2025,5,Quebec,4916.0
+2025,5,Rhode Island,5695.0
+2025,5,Saskatchewan,155.0
+2025,5,South Carolina,15761.0
+2025,5,South Dakota,3525.0
+2025,5,Tennessee,39491.0
+2025,5,Texas,150940.0
+2025,5,U.S. Pacific Trust Territories and Possessions,4405.0
+2025,5,U.S. Virgin Islands,6342.0
+2025,5,Utah,23321.0
+2025,5,Vermont,1883.0
+2025,5,Virginia,58093.0
+2025,5,Washington,48482.0
+2025,5,West Virginia,1805.0
+2025,5,Wisconsin,11578.0
+2025,5,Wyoming,2320.0
+2025,6,Alabama,8617.0
+2025,6,Alaska,81157.0
+2025,6,Alberta,3702.0
+2025,6,Arizona,41284.0
+2025,6,Arkansas,6857.0
+2025,6,British Columbia,5793.0
+2025,6,California,150504.0
+2025,6,Colorado,66069.0
+2025,6,Connecticut,6537.0
+2025,6,Delaware,238.0
+2025,6,Florida,114760.0
+2025,6,Georgia,67841.0
+2025,6,Hawaii,32377.0
+2025,6,Idaho,7193.0
+2025,6,Illinois,88607.0
+2025,6,Indiana,14900.0
+2025,6,Iowa,5806.0
+2025,6,Kansas,3451.0
+2025,6,Kentucky,26042.0
+2025,6,Louisiana,13468.0
+2025,6,Maine,4824.0
+2025,6,Manitoba,563.0
+2025,6,Maryland,18370.0
+2025,6,Massachusetts,36714.0
+2025,6,Michigan,35557.0
+2025,6,Minnesota,28694.0
+2025,6,Mississippi,3203.0
+2025,6,Missouri,25628.0
+2025,6,Montana,9926.0
+2025,6,Nebraska,6556.0
+2025,6,Nevada,39961.0
+2025,6,New Brunswick,7.0
+2025,6,New Hampshire,2357.0
+2025,6,New Jersey,23244.0
+2025,6,New Mexico,7288.0
+2025,6,New York,70766.0
+2025,6,Newfoundland and Labrador,21.0
+2025,6,North Carolina,64163.0
+2025,6,North Dakota,4184.0
+2025,6,Nova Scotia,303.0
+2025,6,Ohio,20555.0
+2025,6,Oklahoma,9032.0
+2025,6,Ontario,10272.0
+2025,6,Oregon,22051.0
+2025,6,Pennsylvania,39030.0
+2025,6,Puerto Rico,13757.0
+2025,6,Quebec,4124.0
+2025,6,Rhode Island,5874.0
+2025,6,Saskatchewan,180.0
+2025,6,South Carolina,16376.0
+2025,6,South Dakota,3443.0
+2025,6,Tennessee,38804.0
+2025,6,Texas,152341.0
+2025,6,U.S. Pacific Trust Territories and Possessions,4003.0
+2025,6,U.S. Virgin Islands,6364.0
+2025,6,Utah,23375.0
+2025,6,Vermont,1925.0
+2025,6,Virginia,55896.0
+2025,6,Washington,51684.0
+2025,6,West Virginia,1916.0
+2025,6,Wisconsin,11744.0
+2025,6,Wyoming,3076.0
+2025,6,Yukon Territory,2.0
+2025,7,Alabama,8856.0
+2025,7,Alaska,83437.0
+2025,7,Alberta,3994.0
+2025,7,Arizona,40963.0
+2025,7,Arkansas,6926.0
+2025,7,British Columbia,6993.0
+2025,7,California,154740.0
+2025,7,Colorado,68919.0
+2025,7,Connecticut,6570.0
+2025,7,Delaware,235.0
+2025,7,Florida,117079.0
+2025,7,Georgia,69896.0
+2025,7,Hawaii,33929.0
+2025,7,Idaho,7542.0
+2025,7,Illinois,90135.0
+2025,7,Indiana,15566.0
+2025,7,Iowa,5792.0
+2025,7,Kansas,3623.0
+2025,7,Kentucky,27291.0
+2025,7,Louisiana,13448.0
+2025,7,Maine,5771.0
+2025,7,Manitoba,561.0
+2025,7,Maryland,18678.0
+2025,7,Massachusetts,40840.0
+2025,7,Michigan,37656.0
+2025,7,Minnesota,30234.0
+2025,7,Mississippi,3271.0
+2025,7,Missouri,26140.0
+2025,7,Montana,10846.0
+2025,7,Nebraska,6777.0
+2025,7,Nevada,39740.0
+2025,7,New Brunswick,5.0
+2025,7,New Hampshire,2474.0
+2025,7,New Jersey,26445.0
+2025,7,New Mexico,7567.0
+2025,7,New York,72127.0
+2025,7,Newfoundland and Labrador,24.0
+2025,7,North Carolina,65586.0
+2025,7,North Dakota,4367.0
+2025,7,Northwest Territories,1.0
+2025,7,Nova Scotia,424.0
+2025,7,Ohio,21056.0
+2025,7,Oklahoma,9291.0
+2025,7,Ontario,12267.0
+2025,7,Oregon,22831.0
+2025,7,Pennsylvania,40466.0
+2025,7,Prince Edward Island,2.0
+2025,7,Puerto Rico,13527.0
+2025,7,Quebec,5592.0
+2025,7,Rhode Island,7023.0
+2025,7,Saskatchewan,186.0
+2025,7,South Carolina,16674.0
+2025,7,South Dakota,3721.0
+2025,7,Tennessee,40041.0
+2025,7,Texas,156418.0
+2025,7,U.S. Pacific Trust Territories and Possessions,4030.0
+2025,7,U.S. Virgin Islands,6376.0
+2025,7,Utah,24222.0
+2025,7,Vermont,1977.0
+2025,7,Virginia,55841.0
+2025,7,Washington,56505.0
+2025,7,West Virginia,1948.0
+2025,7,Wisconsin,12263.0
+2025,7,Wyoming,3309.0
+2025,7,Yukon Territory,10.0
