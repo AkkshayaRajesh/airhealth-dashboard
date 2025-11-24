@@ -1,0 +1,2072 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>AirHealth: U.S. Air Quality & Health Impact Dashboard</title>
+<script src="./lib/d3.v5.min.js"></script>
+<style>
+:root {
+  --bg: #f8fafc;
+  --ink: #0f172a;
+  --muted: #64748b;
+  --card: #ffffff;
+  --accent: #2563eb;
+  --border: #e5e7eb;
+}
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Noto Sans', Ubuntu, Cantarell, 'Helvetica Neue', Arial;
+  color: var(--ink);
+  background: radial-gradient(1200px 600px at 30% 0%, #eef2ff 0%, var(--bg) 40%);
+}
+.wrap {
+  max-width: 1200px;
+  margin: 10px auto 16px;
+  padding: 0 12px;
+}
+h1 { margin: 0 0 10px; font-size: 20px; font-weight: 700; letter-spacing: 0.2px; }
+.toolbar {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: 16px;
+  align-items: center;
+}
+.controls { display: flex; gap: 12px; align-items: center; }
+.select { position: relative; }
+select {
+  appearance: none; -webkit-appearance: none; -moz-appearance: none;
+  border: 1px solid var(--border); background: var(--card);
+  border-radius: 12px; padding: 10px 40px 10px 14px; font-size: 14px; color: var(--ink);
+  box-shadow: 0 1px 1px rgba(16,24,40,.04), 0 1px 2px rgba(16,24,40,.06);
+  outline: none;
+}
+.select:after {
+  content: '\25BE';
+  position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+  color: var(--muted); pointer-events: none; font-size: 14px;
+}
+.select.small select {
+  padding: 6px 28px 6px 10px;
+  font-size: 12px;
+}
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 14px;
+}
+.layout {
+  display: grid;
+  grid-template-columns:1.5fr 1fr;
+  gap: 16px;
+  margin-top: 14px;
+}
+.layout-charts { grid-template-columns: 1fr 1fr; }
+.mapPanel { position: relative; }
+.map-main-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.map-sub-title {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+svg { width: 100%; height: auto; display: block; }
+.state { fill: #e5edf5; stroke: #ffffff; stroke-width: 1; cursor: pointer; }
+.state:hover { filter: brightness(0.95); }
+.abbr {
+  font: 11px/1.1 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto;
+  fill: #0f172a;
+  text-anchor: middle;
+  pointer-events: none;
+}
+/* Slider */
+.sliderWrap {
+  padding: 10px 14px 10px 10px;
+  grid-column: 1 / -1;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.sliderTitle { font-size: 14px; margin-bottom: 8px; font-weight: 600; letter-spacing: .02em; }
+.slider svg { width: 100%; height: 70px; }
+.track { stroke: #e2e8f0; stroke-linecap: round; stroke-width: 6; }
+.track-inset { stroke: #f8fafc; stroke-width: 4; }
+.track-overlay { pointer-events: stroke; stroke-width: 36; cursor: ew-resize; opacity: 0; }
+.handle { fill: var(--card); stroke: var(--accent); stroke-width: 2.5; }
+.tick text { font-size: 11px; fill: var(--muted); transform: translateY(-10px); }
+.pop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  pointer-events: none;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, .14);
+  padding: 10px 10px 8px;
+  min-width: 220px;
+  max-width: 260px;
+  transform: translate(-50%, -100%);
+  display: none;
+}
+.pop .title {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.pop .sub {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.pop .legend {
+  font-size: 11px;
+  color: var(--muted);
+  display: flex;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+.pop .legend i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin-right: 6px;
+}
+.pop .legend .c { background: #facc15; }
+.pop .legend .i { background: #f9a8d4; }
+.bar.copd { fill: #facc15; }
+.bar.ihd { fill: #f9a8d4; }
+.axis text { font-size: 10px; fill: var(--muted); }
+.axis path, .axis line { stroke: #e5e7eb; }
+#lineChartPanel,
+#forecastPanel {
+  width: auto;
+  max-width: 100%;
+  height: 500px;
+  margin-bottom: 60px;
+}
+.forecast-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.forecast-controls .select {
+  width: 180px;
+}
+.tooltip {
+  position: absolute;
+  padding: 6px 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 13px;
+  pointer-events: none;
+  opacity: 0;
+}
+/* Radar panel */
+#radarPanel {
+  min-height: 260px;
+  /* width: 100%; */
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+.radar-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.radar-controls {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.aqi-legend {
+  margin-top: 4px;
+  padding-top: 4px;
+  font-size: 11px;
+  color: #64748b;
+}
+.aqi-legend-title {
+  margin-top: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 2px;
+}
+.aqi-legend-label {
+  font-size: 9px;
+  fill: #0f172a;
+}
+/* ---------- WHAT-IF SCENARIO (bottom, full width) ---------- */
+.whatif-section {
+  margin-top: 20px;
+}
+.whatif-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 10px;
+  letter-spacing: 0.02em;
+}
+.whatif-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 20px;
+  align-items: stretch;
+}
+.controls-card {
+  padding: 20px;
+}
+.controls-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.control-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.control-value {
+  font-size: 16px;
+  color: var(--accent);
+  font-weight: 600;
+}
+input[type="range"] {
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+  background: var(--border);
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--accent);
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--accent);
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.unit {
+  font-size: 11px;
+  color: var(--muted);
+  font-weight: normal;
+}
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  height: 100%; /* 🔒 fixed height for the What-If chart section */
+  box-sizing: border-box;
+}
+.chart-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--ink);
+}
+#barChart {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+.bar.asthma { fill: #93c5fd; }
+.bar.copd { fill: #facc15; }
+.bar.ihd { fill: #f9a8d4; }
+.info-text {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 8px;
+  font-style: italic;
+}
+@media (max-width: 960px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+  .layout-charts {
+    grid-template-columns: 1fr;
+  }
+  .whatif-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>AirHealth: U.S. Air Quality & Health Impact Dashboard</h1>
+<div class="toolbar">
+  <div class="controls">
+    <div class="select">
+      <select id="pollutant">
+        <option value="" selected disabled>Pollutants</option>
+        <option value="pm25">PM₂.₅ (Fine Particulate)</option>
+        <option value="pm10">PM₁₀ (Coarse Particulate)</option>
+        <option value="o3">O₃ (Ozone)</option>
+        <option value="no2">NO₂ (Nitrogen Dioxide)</option>
+        <option value="co">CO (Carbon Monoxide)</option>
+        <option value="so2">SO₂ (Sulfur Dioxide)</option>
+      </select>
+    </div>
+    <div class="select">
+      <select id="year">
+        <option value="" selected disabled>Year</option>
+      </select>
+    </div>
+  </div>
+  <div class="card sliderWrap">
+    <div class="sliderTitle">Month</div>
+    <div id="month-slider" class="slider"></div>
+  </div>
+</div>
+
+<!-- 상단: 지도 + 레이더 -->
+<div class="layout">
+  <div class="card mapPanel">
+    <div class="map-main-title">U.S. Air Quality Choropleth Map</div>
+    <div class="map-sub-title">Select pollutant, year & month to explore trends</div>
+    <svg id="map" viewBox="0 0 960 600" aria-label="US States map"></svg>
+
+    <!-- Tooltip popover -->
+    <div id="pop" class="pop" role="tooltip" aria-live="polite">
+      <div class="title" id="pop-title"></div>
+      <div class="sub" id="pop-sub"></div>
+      <div class="legend" id="disease-legend">
+        <span><i class="c"></i>COPD</span>
+        <span><i class="i"></i>IHD</span>
+      </div>
+      <div id="pollutant-info" style="font-size:11px; color:var(--muted); margin-top:2px; margin-bottom:4px;"></div>
+      <svg id="pop-chart" width="240" height="150" aria-label="Mortality mini chart"></svg>
+    </div>
+
+    <!-- Pollutant color legend -->
+    <div id="color-legend"
+      style="margin-top: 14px; background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 10px 14px; display: none; pointer-events: none;
+      width: 200px; margin-left: auto; margin-right: auto;">
+      <div id="legend-title"
+        style="font-size: 11px; font-weight: 600; margin-bottom: 6px; color: var(--muted);">
+        PM₂.₅ (μg/m³)
+      </div>
+      <svg id="legend-gradient" width="180" height="12" style="margin-bottom: 4px;"></svg>
+      <div style="display: flex; justify-content: space-between; font-size: 10px; color: var(--muted);">
+        <span id="legend-min">0</span>
+        <span id="legend-max">500</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 오른쪽 상단: AQI 레이더 -->
+  <div class="card" id="radarPanel">
+    <div class="radar-title">AQI Forecast through 2030 (by Pollutant)</div>
+    <div class="radar-controls">
+      <div class="select small">
+        <select id="radarState">
+          <option value="" disabled selected>State</option>
+        </select>
+      </div>
+      <div class="select small">
+        <select id="radarYear">
+          <option value="" disabled selected>Year</option>
+        </select>
+      </div>
+      <div class="select small">
+        <select id="radarMonth">
+          <option value="1">JAN</option>
+          <option value="2">FEB</option>
+          <option value="3">MAR</option>
+          <option value="4">APR</option>
+          <option value="5">MAY</option>
+          <option value="6">JUN</option>
+          <option value="7">JUL</option>
+          <option value="8">AUG</option>
+          <option value="9">SEP</option>
+          <option value="10">OCT</option>
+          <option value="11">NOV</option>
+          <option value="12">DEC</option>
+        </select>
+      </div>
+    </div>
+    <svg id="aqiLineChart" width="420" height="160"></svg>
+    <svg id="radarChart" width="520" height="260"></svg>
+    <div id="aqi-legend" class="aqi-legend">
+      <div class="aqi-legend-title">Air Quality Index (AQI)</div>
+      <svg id="aqiLegendSvg" width="420" height="40"></svg>
+    </div>
+  </div>
+</div>
+
+<!-- 하단: Mortality line chart + Forecast -->
+<div class="layout layout-charts">
+  <div class="card" id="lineChartPanel">
+    <h2 style="margin: 0 0 10 px; font-size: 16px;">
+      Yearly Mortality Rate per 100,000 by Disease (2018-2024)
+    </h2>
+    <div class="select" style="margin-bottom:12px; width:180px;">
+      <select id="state">
+        <option value="" selected disabled>State</option>
+      </select>
+    </div>
+    <svg id="lineChart" width="480" height="420"></svg>
+  </div>
+
+  <div class="card" id="forecastPanel">
+    <h2 style="margin: 0 0 10px; font-size: 16px;">
+      Forecast Yearly Mortality Rate per 100,000 by Disease (2025–2030)
+    </h2>
+    <div class="forecast-controls">
+      <div class="select">
+        <select id="forecast-state">
+          <option value="" selected disabled>State (forecast)</option>
+        </select>
+      </div>
+    </div>
+    <svg id="forecastChart" width="520" height="420"></svg>
+  </div>
+</div>
+
+<!-- NEW BOTTOM SECTION: What-If Scenario (full width) -->
+<div class="whatif-section">
+  <h2 class="whatif-title">What-If Scenario — Health Outcome Prediction</h2>
+  <div class="whatif-grid">
+    <div class="card controls-card">
+      <div class="controls-panel">
+        <div class="control-group">
+          <div class="control-label">
+            <span>PM₂.₅ (Fine Particulate)</span>
+            <span class="control-value" id="pm25-value">8.0</span>
+          </div>
+          <input type="range" id="pm25-slider" min="0" max="20" step="0.1" value="8.0">
+          <div class="unit">Range: 0 - 20 μg/m³</div>
+        </div>
+        <div class="control-group">
+          <div class="control-label">
+            <span>O₃ (Ozone)</span>
+            <span class="control-value" id="o3-value">45.0</span>
+          </div>
+          <input type="range" id="o3-slider" min="0" max="100" step="0.5" value="45.0">
+          <div class="unit">Range: 0 - 100 ppb</div>
+        </div>
+        <div class="control-group">
+          <div class="control-label">
+            <span>NO₂ (Nitrogen Dioxide)</span>
+            <span class="control-value" id="no2-value">12.0</span>
+          </div>
+          <input type="range" id="no2-slider" min="0" max="50" step="0.1" value="12.0">
+          <div class="unit">Range: 0 - 50 ppb</div>
+        </div>
+        <div class="control-group">
+          <div class="control-label">
+            <span>Average Temperature</span>
+            <span class="control-value" id="temp-value">65.0</span>
+          </div>
+          <input type="range" id="temp-slider" min="30" max="100" step="0.5" value="65.0">
+          <div class="unit">Range: 30 - 100 °F</div>
+        </div>
+        <div class="control-group">
+          <div class="control-label">
+            <span>VMT (Vehicle Miles Traveled)</span>
+            <span class="control-value" id="vmt-value">500.0</span>
+          </div>
+          <input type="range" id="vmt-slider" min="0" max="1000" step="1" value="500.0">
+          <div class="unit">Range: 0 - 1000 (millions)</div>
+        </div>
+        <div class="control-group">
+          <div class="control-label">
+            <span>NDVI (Vegetation Index)</span>
+            <span class="control-value" id="ndvi-value">0.5</span>
+          </div>
+          <input type="range" id="ndvi-slider" min="0" max="1" step="0.01" value="0.5">
+          <div class="unit">Range: 0 - 1</div>
+        </div>
+      </div>
+      <div class="info-text">
+        Adjust the variable values above to see predicted health outcomes. The model calculates mortality based on pollutant concentrations, temperature, vehicle miles traveled, and vegetation index independent of location or time.
+      </div>
+    </div>
+
+    <div class="card chart-container">
+      <div class="chart-title">Predicted Health Outcomes</div>
+      <svg id="barChart"></svg>
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+(function() {
+  // ----- Year dropdown (지도/라인차트용) -----
+  var years = d3.range(2018, 2031);
+  var yearSel = d3.select('#year');
+  yearSel.selectAll('option.yr')
+    .data(years)
+    .enter().append('option')
+    .attr('class','yr')
+    .attr('value', String)
+    .text(String);
+
+  // ----- Month slider -----
+  var months = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+  var sliderSVG, gS, x, handle, activeMonth;
+
+  function drawSlider() {
+    d3.select('#month-slider').selectAll('svg').remove();
+    var mapW = document.querySelector('.mapPanel').getBoundingClientRect().width;
+    var sliderW = Math.max(300, Math.floor(mapW));
+    var sliderH = 60;
+    var margin = {left: 24, right: 30, top: 16, bottom: 16};
+    var innerW = sliderW - margin.left - margin.right;
+
+    sliderSVG = d3.select('#month-slider').append('svg')
+      .attr('width', sliderW)
+      .attr('height', sliderH);
+    gS = sliderSVG.append('g').attr('transform', 'translate(' + margin.left + ',30)');
+
+    x = d3.scalePoint().domain(months).range([0, innerW]).padding(0.5);
+    var xIdx = d3.scaleLinear().domain([0, months.length - 1]).range([0, innerW]).clamp(true);
+
+    function clampPx(px) { return Math.max(x.range()[0], Math.min(x.range()[1], px)); }
+
+    function smoothDrag(pxAbs) {
+      var local = clampPx(pxAbs - margin.left);
+      var idx = xIdx.invert(local);
+      handle.attr('cx', xIdx(idx));
+    }
+
+    function snapToNearest(pxAbs) {
+      var local = clampPx(pxAbs - margin.left);
+      var idx = xIdx.invert(local);
+      var i = Math.round(idx);
+      i = Math.max(0, Math.min(months.length - 1, i));
+      activeMonth = months[i];
+      handle.attr('cx', x(activeMonth));
+      var detail = { month: activeMonth, index: i };
+      var ev = new CustomEvent('monthchange', { detail: detail });
+      document.body.dispatchEvent(ev);
+    }
+
+    gS.append('line').attr('class','track')
+      .attr('x1', x.range()[0]).attr('x2', x.range()[1])
+      .attr('y1',0).attr('y2',0);
+    gS.append('line').attr('class','track-inset')
+      .attr('x1', x.range()[0]).attr('x2', x.range()[1])
+      .attr('y1',0).attr('y2',0);
+
+    var overlay = gS.append('line').attr('class','track-overlay')
+      .attr('x1', x.range()[0]).attr('x2', x.range()[1])
+      .attr('y1',0).attr('y2',0);
+
+    overlay.call(d3.drag()
+      .on('start drag', function() { smoothDrag(d3.event.x); })
+      .on('end', function() { snapToNearest(d3.event.x); })
+    );
+
+    gS.append('g').attr('class','axis axis--x')
+      .call(d3.axisBottom(x).tickSize(0))
+      .selectAll('text').attr('dy', -10);
+
+    var initialIdx = 0;
+    activeMonth = months[initialIdx];
+    handle = gS.append('circle')
+      .attr('class','handle').attr('r', 10)
+      .attr('cy', 0).attr('cx', x(activeMonth));
+    handle.call(d3.drag()
+      .on('start drag', function() { smoothDrag(d3.event.x); })
+      .on('end', function() { snapToNearest(d3.event.x); })
+    );
+  }
+
+  function alignSliderBox() {
+    var wrap = document.querySelector('.wrap');
+    var map = document.querySelector('.mapPanel');
+    var sliderBox = document.querySelector('.sliderWrap');
+    if (!wrap || !map || !sliderBox) return;
+    var wrapRect = wrap.getBoundingClientRect();
+    var mapRect = map.getBoundingClientRect();
+    sliderBox.style.width = (mapRect.width - 30) + 'px';
+    sliderBox.style.marginLeft = (mapRect.left - wrapRect.left - 16) + 'px';
+  }
+
+  function reflowSlider() { alignSliderBox(); drawSlider(); }
+  reflowSlider();
+  window.addEventListener('resize', reflowSlider);
+
+  document.body.addEventListener('monthchange', function(e){
+    updateMapColors();
+    updateMapTitle();
+  });
+
+  // ----- Map rendering -----
+  var mapSvg = d3.select('#map');
+  var gMap = mapSvg.append('g');
+  var mapStates = null;
+  var projection = d3.geoAlbersUsa().translate([480, 300]).scale(1150);
+  var path = d3.geoPath().projection(projection);
+
+  d3.json('./data/us-states.json').then(function(geo) {
+    var states = geo.features;
+    mapStates = gMap.selectAll('path.state')
+      .data(states)
+      .enter().append('path')
+      .attr('class', 'state')
+      .attr('d', path);
+
+    gMap.selectAll('text.abbr')
+      .data(states)
+      .enter().append('text')
+      .attr('class','abbr')
+      .attr('transform', function(d){
+        var c = path.centroid(d);
+        return 'translate(' + (isFinite(c[0]) ? c[0] : -9999) + ',' + (isFinite(c[1]) ? c[1] : -9999) + ')';
+      })
+      .attr('dy', 3)
+      .text(function(d){ return d.id || ''; });
+
+    if (masterLoaded) attachMapHoverHandlers();
+  }).catch(function(err){
+    console.error('Failed to load GeoJSON. Make sure ./data/us-states.json exists.', err);
+  });
+
+  // ----- Tooltip popover -----
+  var pop = document.getElementById('pop');
+  var popTitle = document.getElementById('pop-title');
+  var popSub = document.getElementById('pop-sub');
+  var popSvg = d3.select('#pop-chart');
+
+  function showPop() { pop.style.display = 'block'; }
+  function hidePop() { pop.style.display = 'none'; }
+  function movePop(evt) {
+    const panel = document.querySelector('.mapPanel').getBoundingClientRect();
+    const popRect = pop.getBoundingClientRect();
+    const x = evt.clientX - panel.left + 14;
+    const y = evt.clientY - panel.top - 10;
+    const left = Math.min(Math.max(8, x), panel.width - popRect.width - 8);
+    const top = Math.min(Math.max(8, y), panel.height - popRect.height - 8);
+    pop.style.left = left + 'px';
+    pop.style.top = top + 'px';
+  }
+
+  // ----- Pollutant data & mortality -----
+  var masterLoaded = false;
+  var pollutantMeans = {
+    pm25: new Map(),
+    pm10: new Map(),
+    o3: new Map(),
+    no2: new Map(),
+    co: new Map(),
+    so2: new Map()
+  };
+  var pollutantAQI = {
+    pm25: new Map(),
+    pm10: new Map(),
+    o3: new Map(),
+    no2: new Map(),
+    co: new Map(),
+    so2: new Map()
+  };
+  var pollutantGlobalRange = {
+    pm25: {min: Infinity, max: -Infinity},
+    pm10: {min: Infinity, max: -Infinity},
+    o3: {min: Infinity, max: -Infinity},
+    no2: {min: Infinity, max: -Infinity},
+    co: {min: Infinity, max: -Infinity},
+    so2: {min: Infinity, max: -Infinity}
+  };
+  function updateRange(polKey, value) {
+    if (isNaN(value)) return;
+    var r = pollutantGlobalRange[polKey];
+    if (value < r.min) r.min = value;
+    if (value > r.max) r.max = value;
+  }
+  var mortalityByStateYM = new Map();
+  var mortalityByStateYear = new Map();
+  var popByStateYear = {};
+  var yearSetForMortality = new Set();
+  var stateSetForMortality = new Set();
+
+  pollutantColorScale = d3.scaleSequential(d3.interpolateYlOrRd).domain([0, 500]);
+
+  function updateLegendGradient(min, max) {
+    var legendGradient = d3.select('#legend-gradient');
+    legendGradient.selectAll('*').remove();
+    var defs = legendGradient.append('defs');
+    var gradient = defs.append('linearGradient')
+      .attr('id', 'pollutant-gradient')
+      .attr('x1', '0%')
+      .attr('x2', '100%');
+    var numStops = 10;
+    for (var i = 0; i <= numStops; i++) {
+      var value = min + (i / numStops) * (max - min);
+      gradient.append('stop')
+        .attr('offset', (i / numStops * 100) + '%')
+        .attr('stop-color', pollutantColorScale(value));
+    }
+    legendGradient.append('rect')
+      .attr('width', 160)
+      .attr('height', 12)
+      .attr('fill', 'url(#pollutant-gradient)')
+      .attr('rx', 2);
+  }
+  function monthAbbrToMM(abbr) {
+    var idx = months.indexOf(abbr);
+    if (idx < 0) idx = 0;
+    return String(idx + 1).padStart(2, '0');
+  }
+  function keySM(state, year, monthNum) {
+    var mmStr = String(monthNum).padStart(2,'0');
+    return state + "|" + year + "-" + mmStr;
+  }
+
+  function updateMapColors() {
+    var selectedPollutant = d3.select('#pollutant').property('value');
+    var selectedYear = d3.select('#year').property('value');
+    if (!masterLoaded || !selectedPollutant || !selectedYear) {
+      gMap.selectAll('path.state').style('fill', '#e5edf5');
+      d3.select('#color-legend').style('display', 'none');
+      return;
+    }
+    var polKey = selectedPollutant;
+    var range = pollutantGlobalRange[polKey];
+    if (!range || !isFinite(range.min) || !isFinite(range.max)) {
+      gMap.selectAll('path.state').style('fill', '#e5edf5');
+      d3.select('#color-legend').style('display', 'none');
+      return;
+    }
+    pollutantColorScale.domain([range.min, range.max]);
+    var pollutantConfig = {
+      pm25: { name: 'PM₂.₅', unit: 'μg/m³' },
+      no2:  { name: 'NO₂',   unit: 'ppb' },
+      o3:   { name: 'O₃',    unit: 'ppb' },
+      pm10: { name: 'PM₁₀',  unit: 'μg/m³' },
+      co:   { name: 'CO',    unit: 'ppm' },
+      so2:  { name: 'SO₂',   unit: 'ppb' }
+    };
+    var config = pollutantConfig[polKey];
+    if (!config) {
+      gMap.selectAll('path.state').style('fill', '#e5edf5');
+      d3.select('#color-legend').style('display', 'none');
+      return;
+    }
+    d3.select('#legend-title').text(config.name + ' (AQI)');
+    d3.select('#legend-min').text("0");
+    d3.select('#legend-max').text("500");
+    updateLegendGradient(range.min, range.max);
+    d3.select('#color-legend').style('display', 'block');
+
+    var monthIdx = activeMonth ? months.indexOf(activeMonth) : 0;
+    var monthNum = monthIdx + 1;
+    gMap.selectAll('path.state')
+      .style('fill', function(d) {
+        var stateName = d.properties.name;
+        var key = keySM(stateName, selectedYear, monthNum);
+        var val = pollutantAQI[polKey].get(key);
+        if (val === undefined || isNaN(val)) return '#e5edf5';
+        return pollutantColorScale(val);
+      });
+  }
+
+  function updateMapTitle() {
+    const pollutant = document.querySelector('#pollutant').value;
+    const year = document.querySelector('#year').value;
+    const month = activeMonth;
+    const subTitleEl = document.querySelector('.map-sub-title');
+    const pollutantName = {
+      pm25: "PM₂.₅",
+      no2: "NO₂",
+      o3: "O₃",
+      pm10: "PM₁₀",
+      co: "CO",
+      so2: "SO₂"
+    }[pollutant];
+    if (!pollutant || !year || !month) {
+      subTitleEl.textContent = "Select pollutant, year & month to explore trends";
+      return;
+    }
+    subTitleEl.textContent = `${pollutantName} — ${year} / ${month}`;
+  }
+
+  document.querySelector('#pollutant').addEventListener('change', function(){
+    updateMapColors();
+    updateMapTitle();
+  });
+  document.querySelector('#year').addEventListener('change', function(){
+    updateMapColors();
+    updateMapTitle();
+  });
+
+  // ----- AQI 레이더 차트 + 월별 Overall AQI 라인 차트 -----
+  var radarSvg = d3.select("#radarChart");
+  var radarMeta = d3.select("#radarMeta");
+  var radarData = new Map();
+  var monthlyAQIBySY = new Map();
+  var radarLoaded = false;
+  var currentRadarMonth = 1;
+
+  var aqiColor = d3.scaleThreshold()
+    .domain([51, 101, 151, 201, 301])
+    .range([
+      "#00e400",
+      "#ffff00",
+      "#ff7e00",
+      "#ff0000",
+      "#8f3f97",
+      "#7e0023"
+    ]);
+
+  function drawAQILegend() {
+    var svg = d3.select("#aqiLegendSvg");
+    if (svg.empty()) return;
+    svg.selectAll("*").remove();
+    var g = svg.append("g").attr("transform", "translate(4, 6)");
+    var legendData = [
+      { label: "0–50\nGood", max: 50 },
+      { label: "51–100\nModerate", max: 100 },
+      { label: "101–150\nUnhealthy for SG", max: 150 },
+      { label: "151–200\nUnhealthy", max: 200 },
+      { label: "201–300\nVery Unhealthy", max: 300 },
+      { label: "301+\nHazardous", max: 500 }
+    ];
+    var boxW = 70;
+    var boxH = 12;
+    var gapX = 3;
+    var item = g.selectAll("g.legend-item")
+      .data(legendData)
+      .enter().append("g")
+      .attr("class", "legend-item")
+      .attr("transform", function(d, i) {
+        return "translate(" + (i * (boxW + gapX)) + ",0)";
+      });
+    item.append("rect")
+      .attr("width", boxW)
+      .attr("height", boxH)
+      .attr("rx", 2)
+      .attr("ry", 2)
+      .attr("fill", function(d) { return aqiColor(d.max); })
+      .attr("stroke", "#e5e7eb")
+      .attr("stroke-width", 0.5);
+    item.append("text")
+      .attr("x", boxW / 2)
+      .attr("y", boxH + 9)
+      .attr("text-anchor", "middle")
+      .attr("class", "aqi-legend-label")
+      .selectAll("tspan")
+      .data(function(d) { return d.label.split("\n"); })
+      .enter().append("tspan")
+      .attr("x", boxW / 2)
+      .attr("dy", function(_, i) { return i === 0 ? 0 : 10; })
+      .text(function(t) { return t; });
+  }
+
+  function drawRadar(data, overallAQI, aqiCol) {
+    var w = +radarSvg.attr("width");
+    var h = +radarSvg.attr("height");
+    var cx = w / 2;
+    var cy = h / 2 + 5;
+    var maxRadius = Math.min(w, h) / 2 - 20;
+    var innerHoleR = maxRadius * 0.45;
+    var barScale = d3.scaleLinear()
+      .domain([0, 300])
+      .range([innerHoleR + 6, maxRadius]);
+    var cats = data.map(d => d.name);
+    var angle = d3.scaleBand()
+      .domain(cats)
+      .range([0, 2 * Math.PI])
+      .padding(0.25);
+    var bw = angle.bandwidth();
+    var g = radarSvg.append("g")
+      .attr("transform", "translate(" + cx + "," + cy + ")");
+    var gridLevels = [50, 100, 150, 200, 300];
+    gridLevels.forEach(function (L) {
+      g.append("circle")
+        .attr("r", barScale(L))
+        .attr("fill", "none")
+        .attr("stroke", "#e5e7eb")
+        .attr("stroke-width", 0.8);
+      g.append("text")
+        .attr("x", 0)
+        .attr("y", -barScale(L) - 3)
+        .attr("text-anchor", "middle")
+        .style("font-size", "9px")
+        .style("fill", "#94a3b8")
+        .text(L);
+    });
+    var axes = g.selectAll(".axis")
+      .data(data)
+      .enter().append("g")
+      .attr("class", "axis");
+    axes.append("line")
+      .attr("x1", d => innerHoleR * Math.sin(angle(d.name)))
+      .attr("y1", d => -innerHoleR * Math.cos(angle(d.name)))
+      .attr("x2", d => barScale(300) * Math.sin(angle(d.name)))
+      .attr("y2", d => -barScale(300) * Math.cos(angle(d.name)))
+      .attr("stroke", "#cbd5e1")
+      .attr("stroke-width", 1);
+    axes.append("text")
+      .attr("x", d => (barScale(300) + 18) * Math.sin(angle(d.name)))
+      .attr("y", d => -(barScale(300) + 18) * Math.cos(angle(d.name)))
+      .attr("text-anchor", "middle")
+      .style("font-size", "12px")
+      .style("font-weight", "500")
+      .style("fill", "#0f172a")
+      .text(d => d.name);
+    var driver = data.reduce((a, b) => (a.value > b.value ? a : b));
+    var barArc = d3.arc()
+      .innerRadius(innerHoleR)
+      .outerRadius(d => barScale(d.value))
+      .startAngle(d => angle(d.name) - bw / 2)
+      .endAngle(d => angle(d.name) + bw / 2);
+    g.selectAll(".radar-bar")
+      .data(data)
+      .enter().append("path")
+      .attr("class", "radar-bar")
+      .attr("d", barArc)
+      .attr("fill", d => aqiColor(d.value))
+      .attr("fill-opacity", d => d === driver ? 0.8 : 0.5)
+      .attr("stroke", d => d === driver ? "#111827" : "#ffffff")
+      .attr("stroke-width", d => d === driver ? 1.4 : 0.7);
+    var tips = g.selectAll(".radar-tip")
+      .data(data)
+      .enter().append("g")
+      .attr("class", "radar-tip")
+      .attr("transform", d => {
+        var r = barScale(d.value);
+        var a = angle(d.name);
+        return "translate(" + (r * Math.sin(a)) + "," + (-r * Math.cos(a)) + ")";
+      });
+    tips.append("circle")
+      .attr("r", 3)
+      .attr("fill", "#ffffff")
+      .attr("stroke", "#0f172a")
+      .attr("stroke-width", 0.8);
+    tips.append("text")
+      .attr("y", -6)
+      .attr("text-anchor", "middle")
+      .style("font-size", "9px")
+      .style("fill", "#0f172a")
+      .text(d => Math.round(d.value));
+    g.append("circle")
+      .attr("r", innerHoleR - 4)
+      .attr("fill", "#ffffff");
+    g.append("text")
+      .attr("text-anchor", "middle")
+      .attr("dy", "0.2em")
+      .style("font-size", "24px")
+      .style("font-weight", "700")
+      .style("fill", aqiCol)
+      .style("stroke", "#abd5bd")
+      .style("stroke-width", "0.5px")
+      .text(Math.round(overallAQI));
+    g.append("text")
+      .attr("text-anchor", "middle")
+      .attr("dy", "1.6em")
+      .style("font-size", "10px")
+      .style("fill", "#6b7280")
+      .text("Overall AQI");
+  }
+
+  var aqiLineSvg = d3.select("#aqiLineChart"),
+      aqiLineMargin = {top: 20, right: 10, bottom: 30, left: 40},
+      aqiLineWidth = +aqiLineSvg.attr("width") - aqiLineMargin.left - aqiLineMargin.right,
+      aqiLineHeight = +aqiLineSvg.attr("height") - aqiLineMargin.top - aqiLineMargin.bottom;
+  var gAqiLine = aqiLineSvg.append("g")
+    .attr("transform", "translate(" + aqiLineMargin.left + "," + aqiLineMargin.top + ")");
+  var xAQI = d3.scaleBand()
+    .domain(d3.range(1, 13))
+    .range([0, aqiLineWidth])
+    .padding(0.2);
+  var yAQI = d3.scaleLinear()
+    .range([aqiLineHeight, 0]);
+  var xAxisAQI = d3.axisBottom(xAQI)
+    .tickFormat(function(m) {
+      var names = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+      return names[m-1];
+    });
+  var yAxisAQI = d3.axisLeft(yAQI).ticks(4);
+  gAqiLine.append("g")
+    .attr("class", "x-axis-aqi")
+    .attr("transform", "translate(0," + aqiLineHeight + ")")
+    .call(xAxisAQI);
+  gAqiLine.append("g")
+    .attr("class", "y-axis-aqi")
+    .call(yAQI);
+  gAqiLine.append("text")
+    .attr("x", aqiLineWidth / 2)
+    .attr("y", -6)
+    .attr("text-anchor", "middle")
+    .style("font-size", "11px")
+    .style("fill", "#64748b")
+    .text("Monthly Overall AQI");
+
+  var aqiTooltip = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
+
+  var aqiLineGen = d3.line()
+    .x(d => xAQI(d.month) + xAQI.bandwidth() / 2)
+    .y(d => yAQI(d.overallAQI))
+    .curve(d3.curveMonotoneX);
+
+  var monthNamesShort = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+  function updateAQILineChart() {
+    if (!radarLoaded) return;
+    var stateName = d3.select("#radarState").property("value");
+    var yearVal = d3.select("#radarYear").property("value");
+    gAqiLine.selectAll(".aqi-overall-line").remove();
+    gAqiLine.selectAll(".aqi-point").remove();
+    gAqiLine.selectAll(".no-data-text").remove();
+    if (!stateName || !yearVal) return;
+    var keySY = stateName + "|" + yearVal;
+    var arr = (monthlyAQIBySY.get(keySY) || []).slice()
+      .sort((a,b) => a.month - b.month);
+    if (!arr.length) {
+      gAqiLine.append("text")
+        .attr("class", "no-data-text")
+        .attr("x", aqiLineWidth / 2)
+        .attr("y", aqiLineHeight / 2)
+        .attr("text-anchor", "middle")
+        .style("fill", "#9ca3af")
+        .style("font-size", "12px")
+        .text("No AQI data available");
+      return;
+    }
+    var maxAQI = d3.max(arr, d => d.overallAQI) || 0;
+    yAQI.domain([0, Math.max(100, maxAQI * 1.1)]).nice();
+    gAqiLine.select(".y-axis-aqi").transition().duration(300)
+      .call(yAQI);
+    gAqiLine.select(".x-axis-aqi")
+      .call(xAxisAQI)
+      .selectAll("text")
+      .attr("dy", "1.5em")
+      .style("fill", "#475569")
+      .style("font-size", "10px");
+    gAqiLine.append("path")
+      .datum(arr)
+      .attr("class", "aqi-overall-line")
+      .attr("fill", "none")
+      .attr("stroke", "#2563eb")
+      .attr("stroke-width", 2)
+      .attr("d", aqiLineGen);
+    var points = gAqiLine.selectAll(".aqi-point")
+      .data(arr, d => d.month);
+    var enter = points.enter()
+      .append("circle")
+      .attr("class", "aqi-point")
+      .attr("r", 4)
+      .attr("cx", d => xAQI(d.month) + xAQI.bandwidth() / 2)
+      .attr("cy", d => yAQI(d.overallAQI))
+      .style("fill", "#2563eb")
+      .style("stroke", "#ffffff")
+      .style("stroke-width", 1.3)
+      .style("cursor", "pointer")
+      .on("mouseover", function(d) {
+        aqiTooltip
+          .style("opacity", 0.95)
+          .html("<b>" + monthNamesShort[d.month-1] + " " +
+            d3.select("#radarYear").property("value") + "</b><br>" +
+            "Overall AQI: " + Math.round(d.overallAQI))
+          .style("left", (d3.event.pageX + 10) + "px")
+          .style("top", (d3.event.pageY - 28) + "px");
+      })
+      .on("mousemove", function() {
+        aqiTooltip
+          .style("left", (d3.event.pageX + 10) + "px")
+          .style("top", (d3.event.pageY - 28) + "px");
+      })
+      .on("mouseout", function() {
+        aqiTooltip.transition().duration(150).style("opacity", 0);
+      })
+      .on("click", function(d) {
+        currentRadarMonth = d.month;
+        d3.select("#radarMonth").property("value", currentRadarMonth);
+        updateRadarChartExplicit(currentRadarMonth);
+        highlightSelectedMonth();
+      });
+    points.merge(enter)
+      .transition().duration(300)
+      .attr("cx", d => xAQI(d.month) + xAQI.bandwidth() / 2)
+      .attr("cy", d => yAQI(d.overallAQI));
+    points.exit().remove();
+    if (!arr.find(d => d.month === currentRadarMonth)) {
+      currentRadarMonth = arr[0].month;
+      d3.select("#radarMonth").property("value", currentRadarMonth);
+    }
+    updateRadarChartExplicit(currentRadarMonth);
+    highlightSelectedMonth();
+  }
+
+  function highlightSelectedMonth() {
+    gAqiLine.selectAll(".aqi-point")
+      .attr("r", d => d.month === currentRadarMonth ? 6 : 4)
+      .style("fill", d => d.month === currentRadarMonth ? "#1d4ed8" : "#2563eb");
+  }
+
+  function updateRadarChartExplicit(monthVal) {
+    if (!radarLoaded) return;
+    var stateName = d3.select("#radarState").property("value");
+    var yearVal = d3.select("#radarYear").property("value");
+    radarSvg.selectAll("*").remove();
+    if (!stateName || !yearVal || !monthVal) return;
+    var mmStr = String(monthVal).padStart(2,'0');
+    var key = stateName + "|" + yearVal + "-" + mmStr;
+    var rec = radarData.get(key);
+    if (!rec) return;
+    var series = [
+      { name: "PM2.5", value: rec.pm25_aqi },
+      { name: "PM10", value: rec.pm10_aqi },
+      { name: "CO", value: rec.co_aqi },
+      { name: "O3", value: rec.o3_aqi },
+      { name: "NO2", value: rec.no2_aqi },
+      { name: "SO2", value: rec.so2_aqi }
+    ];
+    var overallAQI = d3.max(series, d => d.value);
+    var aqiCol = aqiColor(overallAQI);
+    drawRadar(series, overallAQI, aqiCol);
+  }
+
+  // ----- Mortality line chart -----
+  var svgLine = d3.select("#lineChart"),
+      margin = {top: 40, right: 20, bottom: 70, left: 100},
+      width = +svgLine.attr("width") - margin.left - margin.right,
+      height = +svgLine.attr("height") - margin.top - margin.bottom;
+  var gLine = svgLine.append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+  var xLine = d3.scaleTime().range([0, width]);
+  var yLine = d3.scaleLinear().range([height, 0]);
+  var color = d3.scaleOrdinal()
+    .domain(["COPD", "IHD"])
+    .range([
+      "rgba(250,204,21,0.8)",
+      "rgba(249,168,212,0.8)"
+    ]);
+  var xAxis = d3.axisBottom(xLine)
+    .ticks(d3.timeYear.every(1))
+    .tickFormat(d3.timeFormat("%Y"))
+    .tickPadding(8);
+  var yAxis = d3.axisLeft(yLine).tickFormat(d3.format(".1f"));
+  gLine.append("g").attr("class", "x-axis")
+    .attr("transform", "translate(0," + height + ")");
+  gLine.append("g").attr("class", "y-axis");
+
+  gLine.append("text")
+    .attr("x", width / 2)
+    .attr("y", height + 40)
+    .attr("text-anchor", "middle")
+    .style("fill", "#64748b")
+    .text("Year");
+  gLine.append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("y", -45)
+    .attr("x", -height / 2)
+    .attr("text-anchor", "middle")
+    .style("fill", "#64748b")
+    .text("Mortality Rate per 100,000");
+  var legend = gLine.append("g")
+    .attr("class", "legend")
+    .attr("transform", "translate(" + (width + 20) + ", 0)");
+  var legendItems = [
+    { name: "COPD", color: "rgba(250,204,21,0.8)" },
+    { name: "IHD",  color: "rgba(249,168,212,0.8)" }
+  ];
+  legend.selectAll("rect")
+    .data(legendItems)
+    .enter().append("rect")
+    .attr("x", 0)
+    .attr("y", (d, i) => i * 20)
+    .attr("width", 10)
+    .attr("height", 10)
+    .attr("rx", 2)
+    .attr("fill", d => d.color)
+    .attr("fill-opacity", 0.9);
+  legend.selectAll("text")
+    .data(legendItems)
+    .enter().append("text")
+    .attr("x", 16)
+    .attr("y", (d, i) => i * 20 + 9)
+    .attr("text-anchor", "start")
+    .style("font-size", "11.5px")
+    .style("fill", "#334155")
+    .text(d => d.name);
+
+  var tooltip = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("position", "absolute")
+    .style("padding", "6px 10px")
+    .style("background", "#fff")
+    .style("border", "1px solid #ddd")
+    .style("border-radius", "6px")
+    .style("font-size", "13px")
+    .style("pointer-events", "none")
+    .style("opacity", 0);
+
+  var GLOBAL_MAX_RATE = 0;
+  var allYearsArray = [];
+
+  function updateLineChart(stateName) {
+    if (!masterLoaded) return;
+    var yearsArr = allYearsArray.slice().sort();
+    var diseases = ["COPD", "IHD"];
+    var series = diseases.map(function(dName){
+      return {
+        name: dName,
+        values: yearsArr.map(function(y){
+          var keySY = stateName + "|" + y;
+          var rec = mortalityByStateYear.get(keySY) || {};
+          var deaths = rec[dName] || 0;
+          var pop = popByStateYear[stateName + "_" + y];
+          if (!pop || pop <= 0) return {year:y, rate:null, deaths:deaths};
+          return {
+            year: y,
+            rate: deaths / pop * 100000,
+            deaths: deaths
+          };
+        }).filter(v => v.rate !== null)
+      };
+    });
+    series = series.filter(s => s.values.length > 0);
+    if (!series.length) return;
+    var maxRateLocal = d3.max(series.flatMap(s => s.values.map(v => v.rate)));
+    var maxRate = Math.max(maxRateLocal || 0, GLOBAL_MAX_RATE || 0);
+    yLine.domain([0, maxRate * 1.1]).nice();
+    gLine.select(".y-axis").call(yAxis);
+
+    var lineGen = d3.line()
+      .x(d => xLine(new Date(d.year, 0, 1)))
+      .y(d => yLine(d.rate))
+      .curve(d3.curveMonotoneX);
+    var lines = gLine.selectAll(".disease-line")
+      .data(series, d => d.name);
+    lines.enter().append("path")
+      .attr("class", "disease-line")
+      .merge(lines)
+      .attr("fill", "none")
+      .attr("stroke-width", 2)
+      .attr("stroke", d => color(d.name))
+      .attr("d", d => lineGen(d.values));
+    lines.exit().remove();
+    var points = gLine.selectAll(".point")
+      .data(
+        series.flatMap(s =>
+          s.values.map(v => ({...v, name: s.name}))
+        ),
+        d => d.name + "_" + d.year
+      );
+    points.exit().remove();
+    points = points.enter()
+      .append("circle")
+      .attr("class", "point")
+      .attr("r", 3)
+      .attr("fill", d => color(d.name))
+      .attr("fill-opacity", 0.9)
+      .merge(points);
+    points
+      .attr("cx", d => xLine(new Date(d.year, 0, 1)))
+      .attr("cy", d => yLine(d.rate))
+      .on("mouseover", function(d) {
+        d3.select(this)
+          .transition().duration(80)
+          .attr("r", 6);
+        tooltip.transition().duration(50).style("opacity", 0.9);
+        tooltip.html(
+          `<b>${d.name}</b><br>` +
+          `${d.year}: ${d.rate.toFixed(1)} per 100,000<br>` +
+          `Deaths: ${d.deaths.toLocaleString()}`
+        )
+        .style("left", (d3.event.pageX + 10) + "px")
+        .style("top", (d3.event.pageY - 28) + "px");
+      })
+      .on("mouseout", function() {
+        d3.select(this)
+          .transition().duration(80)
+          .attr("r", 3);
+        tooltip.transition().duration(150).style("opacity", 0);
+      });
+  }
+
+  function renderMiniChart(stateName) {
+    var selectedYear = d3.select('#year').property('value');
+    var selectedPollutant = d3.select('#pollutant').property('value');
+    var pollutantInfo = d3.select('#pollutant-info');
+    popSvg.selectAll('*').remove();
+    if (!selectedYear) {
+      popTitle.textContent = stateName;
+      popSub.textContent = "Select a year to view data";
+      pollutantInfo.style('display', 'none').text('');
+      return;
+    }
+    var monthIdx = activeMonth ? months.indexOf(activeMonth) : 0;
+    var monthNum = monthIdx + 1;
+    var mmStr = String(monthNum).padStart(2,'0');
+    var monthLabel = months[monthIdx];
+    var pollutantConfig = {
+      pm25: { name: 'PM₂.₅', unit: 'μg/m³' },
+      no2:  { name: 'NO₂',   unit: 'ppb' },
+      o3:   { name: 'O₃',    unit: 'ppb' },
+      pm10: { name: 'PM₁₀',  unit: 'μg/m³' },
+      co:   { name: 'CO',    unit: 'ppm' },
+      so2:  { name: 'SO₂',   unit: 'ppb' }
+    };
+    if (selectedPollutant && pollutantConfig[selectedPollutant]) {
+      var config = pollutantConfig[selectedPollutant];
+      var key = keySM(stateName, selectedYear, monthNum);
+      var val = pollutantMeans[selectedPollutant].get(key);
+      var displayVal = (val === undefined || isNaN(val))
+        ? 'Not Available'
+        : val.toFixed(2) + ' ' + config.unit;
+      pollutantInfo
+        .style('display', 'block')
+        .text(config.name + ': ' + displayVal);
+    } else {
+      pollutantInfo.style('display', 'none').text('');
+    }
+    var keyYM = stateName + "|" + selectedYear + "-" + mmStr;
+    var rec = mortalityByStateYM.get(keyYM) || {copd:0, ihd:0};
+    popTitle.textContent = stateName;
+    popSub.textContent = `${monthLabel} ${selectedYear}`;
+    var dataBars = [
+      { label: 'COPD', cls: 'copd', value: rec.copd },
+      { label: 'IHD',  cls: 'ihd',  value: rec.ihd }
+    ];
+    var W = 240, H = 150, m = { top: 6, right: 8, bottom: 28, left: 36 };
+    var iw = W - m.left - m.right, ih = H - m.top - m.bottom;
+    var svg = popSvg;
+    svg.selectAll('*').remove();
+    var g = svg.append('g').attr('transform', `translate(${m.left},${m.top})`);
+    var x = d3.scaleBand().domain(dataBars.map(d => d.label)).range([0, iw]).padding(0.35);
+    var y = d3.scaleLinear()
+      .domain([0, (d3.max(dataBars, d => d.value) || 1) * 1.1])
+      .range([ih, 0]);
+    g.append('g')
+      .attr('class', 'axis axis--x')
+      .attr('transform', `translate(0,${ih})`)
+      .call(d3.axisBottom(x).tickSize(0));
+    g.selectAll('.axis--x text')
+      .attr('dy', '1.6em');
+    g.append('g')
+      .attr('class', 'axis axis--y')
+      .call(d3.axisLeft(y).ticks(4).tickSize(-iw));
+    g.selectAll('rect.bar')
+      .data(dataBars)
+      .enter().append('rect')
+      .attr('class', d => 'bar ' + d.cls)
+      .attr('x', d => x(d.label))
+      .attr('y', d => y(d.value))
+      .attr('width', x.bandwidth())
+      .attr('height', d => ih - y(d.value))
+      .attr('fill', d => color(d.label.toUpperCase()))
+      .attr('fill-opacity', 0.9)
+      .attr('rx', 3);
+    g.selectAll('text.value')
+      .data(dataBars)
+      .enter().append('text')
+      .attr('class', 'value')
+      .attr('x', d => x(d.label) + x.bandwidth() / 2)
+      .attr('y', d => y(d.value) - 6)
+      .attr('text-anchor', 'middle')
+      .style('font-size', '11px')
+      .style('font-weight', '500')
+      .style('fill', '#000000')
+      .text(d => d.value.toLocaleString());
+  }
+
+  function attachMapHoverHandlers() {
+    if (!mapStates) return;
+    mapStates
+      .on('mouseover', function(d) {
+        renderMiniChart(d.properties.name);
+        showPop();
+        movePop(d3.event);
+      })
+      .on('mousemove', function() { movePop(d3.event); })
+      .on('mouseout', hidePop);
+  }
+
+  // ===== Master dataset + population =====
+  Promise.all([
+    d3.csv("./data/Final_Master_with_preds.csv"),
+    d3.csv("./data/state_population.csv")
+  ]).then(function([rows, popRows]) {
+
+    // population
+    popRows.forEach(function(d) {
+      var state = d.State;
+      for (var year = 2018; year <= 2030; year++) {
+        var col = String(year);
+        var raw = d[col];
+        if (!raw) continue;
+        var val = +raw.replace(/,/g, "");
+        if (!isNaN(val)) {
+          popByStateYear[state + "_" + year] = val;
+        }
+      }
+    });
+
+    rows.forEach(function(d) {
+      var state = d.state;
+      var parts = String(d.month).split("-");
+      var year = +parts[0];
+      var mm = +parts[1];
+      var mmStr = String(mm).padStart(2,'0');
+      var keyYM = year + "-" + mmStr;
+      var keyStateYM = state + "|" + keyYM;
+      var keyStateY = state + "|" + year;
+      if (year < 2018 || year > 2030) {
+        return;
+      }
+      stateSetForMortality.add(state);
+      yearSetForMortality.add(year);
+
+      var pm25 = +d.pm25_mean;
+      var pm10 = +d.pm10_mean;
+      var o3 = +d.o3_mean;
+      var no2 = +d.no2_mean;
+      var co = +d.co_mean;
+      var so2 = +d.so2_mean;
+      var pm25aqi = +d.pm25_aqi;
+      var pm10aqi = +d.pm10_aqi;
+      var o3aqi = +d.o3_aqi;
+      var no2aqi = +d.no2_aqi;
+      var coaqi = +d.co_aqi;
+      var so2aqi = +d.so2_aqi;
+
+      if (!isNaN(pm25)) { pollutantMeans.pm25.set(keyStateYM, pm25); updateRange("pm25", pm25); }
+      if (!isNaN(pm10)) { pollutantMeans.pm10.set(keyStateYM, pm10); updateRange("pm10", pm10); }
+      if (!isNaN(o3)) { pollutantMeans.o3.set(keyStateYM, o3); updateRange("o3", o3); }
+      if (!isNaN(no2)) { pollutantMeans.no2.set(keyStateYM, no2); updateRange("no2", no2); }
+      if (!isNaN(co)) { pollutantMeans.co.set(keyStateYM, co); updateRange("co", co); }
+      if (!isNaN(so2)) { pollutantMeans.so2.set(keyStateYM, so2); updateRange("so2", so2); }
+
+      if (!isNaN(pm25aqi)) pollutantAQI.pm25.set(keyStateYM, pm25aqi);
+      if (!isNaN(pm10aqi)) pollutantAQI.pm10.set(keyStateYM, pm10aqi);
+      if (!isNaN(o3aqi))  pollutantAQI.o3.set(keyStateYM, o3aqi);
+      if (!isNaN(no2aqi)) pollutantAQI.no2.set(keyStateYM, no2aqi);
+      if (!isNaN(coaqi))  pollutantAQI.co.set(keyStateYM, coaqi);
+      if (!isNaN(so2aqi)) pollutantAQI.so2.set(keyStateYM, so2aqi);
+
+      var copd = +d.copd_deaths || 0;
+      var ihd  = +d.ihd_deaths  || 0;
+      if (!mortalityByStateYM.has(keyStateYM)) mortalityByStateYM.set(keyStateYM, {copd:0, ihd:0});
+      var mRec = mortalityByStateYM.get(keyStateYM);
+      mRec.copd += copd;
+      mRec.ihd  += ihd;
+
+      if (!mortalityByStateYear.has(keyStateY)) mortalityByStateYear.set(keyStateY, {COPD:0, IHD:0});
+      var yRec = mortalityByStateYear.get(keyStateY);
+      yRec.COPD += copd;
+      yRec.IHD  += ihd;
+
+      var recRadar = {
+        state: state,
+        year: year,
+        month_num: mm,
+        pm25_aqi: +d.pm25_aqi,
+        pm10_aqi: +d.pm10_aqi,
+        co_aqi:   +d.co_aqi,
+        o3_aqi:   +d.o3_aqi,
+        no2_aqi:  +d.no2_aqi,
+        so2_aqi:  +d.so2_aqi
+      };
+      radarData.set(keyStateYM, recRadar);
+      var overall = d3.max([
+        recRadar.pm25_aqi, recRadar.pm10_aqi, recRadar.co_aqi,
+        recRadar.o3_aqi,  recRadar.no2_aqi,  recRadar.so2_aqi
+      ].filter(v => !isNaN(v)));
+      var keySY = state + "|" + year;
+      if (!monthlyAQIBySY.has(keySY)) monthlyAQIBySY.set(keySY, []);
+      monthlyAQIBySY.get(keySY).push({
+        month: mm,
+        overallAQI: overall || 0
+      });
+    });
+
+    masterLoaded = true;
+    radarLoaded = true;
+
+    GLOBAL_MAX_RATE = 0;
+    mortalityByStateYear.forEach(function(val, keySY) {
+      var parts = keySY.split("|");
+      var state = parts[0];
+      var year = +parts[1];
+      if (year > 2024) return; 
+      var pop = popByStateYear[state + "_" + year];
+      if (!pop || pop <= 0) return;
+      ["COPD","IHD"].forEach(function(dName) {
+        var deaths = val[dName] || 0;
+        var rate = deaths / pop * 100000;
+        if (rate > GLOBAL_MAX_RATE) GLOBAL_MAX_RATE = rate;
+      });
+    });
+
+    allYearsArray = Array.from(yearSetForMortality)
+      .filter(y => y >= 2018 && y <= 2024)
+      .sort();
+
+    xLine.domain(d3.extent(allYearsArray, d => new Date(d, 0, 1)));
+    gLine.select(".x-axis")
+      .call(d3.axisBottom(xLine)
+        .ticks(d3.timeYear.every(1))
+        .tickFormat(d3.timeFormat("%Y"))
+        .tickSizeOuter(0)
+        .tickPadding(10))
+      .selectAll("text")
+      .attr("dy", "1.5em")
+      .style("fill", "#475569")
+      .style("font-size", "12px");
+
+    var allStates = Array.from(stateSetForMortality).sort();
+    d3.select("#state")
+      .selectAll("option.stateOpt")
+      .data(allStates)
+      .enter().append("option")
+      .attr("value", d => d)
+      .text(d => d);
+
+    if (allStates.length) {
+      d3.select("#state").property("value", allStates[0]);
+      updateLineChart(allStates[0]);
+    }
+    d3.select("#state").on("change", function() {
+      updateLineChart(this.value);
+    });
+
+    var stateList = allStates;
+    var yearList = Array.from(yearSetForMortality).sort();
+    var stSel = d3.select("#radarState");
+    var ySel = d3.select("#radarYear");
+    var mSel = d3.select("#radarMonth");
+    stSel.selectAll("option.stateOpt")
+      .data(stateList)
+      .enter().append("option")
+      .attr("class", "stateOpt")
+      .attr("value", d => d)
+      .text(d => d);
+    ySel.selectAll("option.yearOpt")
+      .data(yearList)
+      .enter().append("option")
+      .attr("class", "yearOpt")
+      .attr("value", d => d)
+      .text(d => d);
+    if (stateList.length) stSel.property("value", stateList[0]);
+    if (yearList.length) ySel.property("value", yearList[0]);
+    mSel.property("value", currentRadarMonth);
+
+    stSel.on("change", function() {
+      updateAQILineChart();
+    });
+    ySel.on("change", function() {
+      updateAQILineChart();
+    });
+    mSel.on("change", function() {
+      currentRadarMonth = +this.value;
+      updateRadarChartExplicit(currentRadarMonth);
+      highlightSelectedMonth();
+    });
+
+    drawAQILegend();
+    updateAQILineChart();
+    attachMapHoverHandlers();
+    updateMapColors();
+  });
+
+  // ----- Forecast COPD & IHD (now rates per 100k using 2024 pop) -----
+  var svgForecast = d3.select("#forecastChart"),
+      fMargin = {top: 10, right: 120, bottom: 80, left: 120},
+      fWidth  = +svgForecast.attr("width") - fMargin.left - fMargin.right,
+      fHeight = +svgForecast.attr("height") - fMargin.top - fMargin.bottom;
+  var gForecast = svgForecast.append("g")
+    .attr("transform", "translate(" + fMargin.left + "," + fMargin.top + ")");
+  var xF = d3.scalePoint().range([0, fWidth]).padding(0.5);
+  var yF = d3.scaleLinear().range([fHeight, 0]);
+
+  gForecast.append("g")
+    .attr("class", "axis x-axis-forecast")
+    .attr("transform", "translate(0," + fHeight + ")");
+  gForecast.append("g")
+    .attr("class", "axis y-axis-forecast");
+
+  gForecast.append("text")
+    .attr("x", fWidth / 2)
+    .attr("y", fHeight + 35)
+    .attr("text-anchor", "middle")
+    .style("fill", "#64748b")
+    .text("Year");
+  gForecast.append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("y", -50)
+    .attr("x", -fHeight / 2)
+    .attr("text-anchor", "middle")
+    .style("fill", "#64748b")
+    .text("Predicted Mortality Rate per 100,000");   
+
+  var fLegend = gForecast.append("g")
+    .attr("class", "forecast-legend")
+    .attr("transform", "translate(" + (fWidth - 10) + ", -10)");
+  var fLegendItems = [
+    { name: "COPD", color: color("COPD") },
+    { name: "IHD",  color: color("IHD") }
+  ];
+  fLegend.selectAll("rect")
+    .data(fLegendItems)
+    .enter().append("rect")
+    .attr("x", 0)
+    .attr("y", (d, i) => i * 18)
+    .attr("width", 10)
+    .attr("height", 10)
+    .attr("rx", 2)
+    .attr("fill", d => d.color)
+    .attr("fill-opacity", 0.9);
+  fLegend.selectAll("text")
+    .data(fLegendItems)
+    .enter().append("text")
+    .attr("x", 16)
+    .attr("y", (d, i) => i * 18 + 9)
+    .attr("text-anchor", "start")
+    .style("font-size", "11px")
+    .style("fill", "#334155")
+    .text(d => d.name);
+
+  var forecastAgg = new Map();
+  var forecastReady = false;
+  var parseFutureMonth = d3.timeParse("%Y-%m");
+  var forecastStates = [];
+
+  function drawForecastPlaceholder(msg) {
+    gForecast.selectAll(".forecast-line").remove();
+    gForecast.selectAll(".forecast-point").remove();
+    gForecast.selectAll(".placeholder").remove();
+    gForecast.append("text")
+      .attr("class", "placeholder")
+      .attr("x", fWidth / 2)
+      .attr("y", fHeight / 2)
+      .attr("text-anchor", "middle")
+      .style("fill", "#94a3b8")
+      .style("font-size", "13px")
+      .text(msg);
+  }
+
+  d3.csv("./data/Final_Master_with_preds.csv").then(function(data) {
+    var statesSet = new Set();
+    data.forEach(function(d) {
+      var stateName = d.state || d.State || d["Residence State"];
+      if (!stateName) return;
+      var date = parseFutureMonth(d.month);
+      if (!date) return;
+      var startDate = new Date(2025, 7, 1);   // 2025-08
+      var endDate   = new Date(2030, 11, 31); // 2030-12
+      if (date < startDate || date > endDate) return;
+      var year = date.getFullYear();
+      if (!forecastAgg.has(stateName)) {
+        forecastAgg.set(stateName, new Map());
+      }
+      var yearMap = forecastAgg.get(stateName);
+      if (!yearMap.has(year)) {
+        yearMap.set(year, {copd: 0, ihd: 0});
+      }
+      var rec = yearMap.get(year);
+      rec.copd += +d.copd_pred || 0;
+      rec.ihd  += +d.ihd_pred  || 0;
+      statesSet.add(stateName);
+    });
+
+    forecastStates = Array.from(statesSet).sort();
+    var stateSelF = d3.select("#forecast-state");
+    stateSelF.selectAll("option.optState")
+      .data(forecastStates)
+      .enter()
+      .append("option")
+      .attr("class", "optState")
+      .attr("value", d => d)
+      .text(d => d);
+
+    forecastReady = true;
+    updateForecastChart();
+  }).catch(function(err) {
+    console.error("Failed to load Final_Master_with_preds.csv:", err);
+    drawForecastPlaceholder("Failed to load forecast data.");
+  });
+
+  function updateForecastChart() {
+    if (!forecastReady) {
+      drawForecastPlaceholder("Loading forecast data...");
+      return;
+    }
+    var state = d3.select("#forecast-state").property("value");
+    gForecast.selectAll(".placeholder").remove();
+    if (!state) {
+      drawForecastPlaceholder("Select a forecast state.");
+      return;
+    }
+    var yearMap = forecastAgg.get(state);
+    if (!yearMap || yearMap.size === 0) {
+      drawForecastPlaceholder("No forecast data for " + state + ".");
+      return;
+    }
+
+    var years = Array.from(yearMap.keys())
+      .map(Number)
+      .sort(d3.ascending);
+
+    // ⭐ NEW: use 2024 population for all forecast years if available
+    var pop2024 = popByStateYear[state + "_2024"];
+    var useRates = !!(pop2024 && pop2024 > 0);
+
+    var copdSeries = years.map(y => {
+      const deaths = yearMap.get(y).copd;
+      const value = useRates ? (deaths / pop2024 * 100000) : deaths;
+      return { year: y, value: value };
+    });
+
+    var ihdSeries = years.map(y => {
+      const deaths = yearMap.get(y).ihd;
+      const value = useRates ? (deaths / pop2024 * 100000) : deaths;
+      return { year: y, value: value };
+    });
+
+    var maxVal = d3.max([
+      d3.max(copdSeries, d => d.value),
+      d3.max(ihdSeries,  d => d.value)
+    ]) || 1;
+
+    xF.domain(years);
+    yF.domain([0, maxVal * 1.1]);
+
+    gForecast.select(".x-axis-forecast")
+      .call(
+        d3.axisBottom(xF)
+          .tickValues(years)
+          .tickFormat(d3.format("d"))
+      )
+      .selectAll("text")
+      .attr("dy", "1.5em")
+      .style("fill", "#475569")
+      .style("font-size", "12px");
+
+    gForecast.select(".y-axis-forecast")
+      .call(d3.axisLeft(yF).ticks(4).tickFormat(d3.format(",")));
+
+    var lineGenF = d3.line()
+      .x(d => xF(d.year))
+      .y(d => yF(d.value))
+      .curve(d3.curveMonotoneX);
+
+    var seriesData = [
+      {name: "COPD", values: copdSeries},
+      {name: "IHD",  values: ihdSeries}
+    ];
+
+    var linesF = gForecast.selectAll(".forecast-line")
+      .data(seriesData, d => d.name);
+    linesF.enter().append("path")
+      .attr("class", "forecast-line")
+      .merge(linesF)
+      .attr("fill", "none")
+      .attr("stroke-width", 1.8)
+      .attr("stroke-opacity", 0.9)
+      .attr("stroke", d => color(d.name))
+      .attr("d", d => lineGenF(d.values));
+    linesF.exit().remove();
+
+    var pointsData = seriesData.flatMap(s =>
+      s.values.map(v => ({year: v.year, value: v.value, name: s.name}))
+    );
+    var pointsF = gForecast.selectAll(".forecast-point")
+      .data(pointsData, d => d.name + "-" + d.year);
+    pointsF.enter().append("circle")
+      .attr("class", "forecast-point")
+      .attr("r", 3)
+      .attr("fill", d => color(d.name))
+      .attr("fill-opacity", 0.9)
+      .merge(pointsF)
+      .attr("cx", d => xF(d.year))
+      .attr("cy", d => yF(d.value));
+    pointsF.exit().remove();
+  }
+
+  d3.select("#forecast-state").on("change", updateForecastChart);
+})();
+</script>
+
+<!-- WHAT-IF SCENARIO SCRIPT -->
+<script>
+(function() {
+  function log10(x) {
+    return Math.log10 ? Math.log10(x) : Math.log(x) / Math.LN10;
+  }
+
+
+  var logModelCoefficients = {
+    COPD: {
+      pm25_mean: 0.03126352798148533,
+      o3_mean: 12.82533294830461,
+      no2_mean: 0.058970402755327694,
+      tavg: -0.02408446103937115,
+      vmt: 0.00014890021746479152,
+      ndvi: 1.4250223587650512
+    },
+    IHD: {
+      pm25_mean: 0.01790603477613159,
+      o3_mean: 6.296049672836624,
+      no2_mean: 0.06031484296931223,
+      tavg: -0.016421311698724836,
+      vmt: 0.00014871792880348877,
+      ndvi: 1.277711952071027
+    }
+  };
+  var logModelIntercepts = {
+    COPD: -18.32742873631733,
+    IHD: -7.271474787885943
+  };
+
+  function calculateHealthOutcomes(pm25, o3, no2, temp, vmt, ndvi) {
+    function calculateAsthma() {
+      var coeff = asthmaLinearCoefficients;
+      var tempDeviation = Math.abs(temp - 65);
+      var tempEffect = coeff.temp * tempDeviation;
+      var deaths = coeff.base +
+                   coeff.pm25 * pm25 +
+                   coeff.o3 * o3 +
+                   coeff.no2 * no2 +
+                   tempEffect +
+                   coeff.vmt * vmt +
+                   coeff.ndvi * ndvi;
+      return Math.max(0, Math.round(deaths));
+    }
+
+    function calculateLogDisease(diseaseKey) {
+      var coeff = logModelCoefficients[diseaseKey];
+      var intercept = logModelIntercepts[diseaseKey];
+      var lp = intercept +
+        coeff.pm25_mean * log10(pm25 + 1) +
+        coeff.o3_mean   * log10(o3 + 1) +
+        coeff.no2_mean  * log10(no2 + 1) +
+        coeff.tavg      * log10(temp + 1) +
+        coeff.vmt       * log10(vmt + 1) +
+        coeff.ndvi      * log10(ndvi + 1);
+      var deaths = Math.pow(10, lp);
+      deaths = Math.max(0, Math.min(10000, deaths));
+      return Math.round(deaths);
+    }
+
+    return {
+      copd:  calculateLogDisease('COPD'),
+      ihd:   calculateLogDisease('IHD')
+    };
+  }
+
+  var svg = d3.select("#barChart");
+
+  function getDimensions() {
+    var chartContainer = document.querySelector('.chart-container');
+    var fixedHeight = 380;
+    chartContainer.style.height = fixedHeight + 'px';
+    var containerRect = chartContainer.getBoundingClientRect();
+    return {
+      width: containerRect.width - 40,
+      height: fixedHeight - 80
+    };
+  }
+
+  var dims = getDimensions();
+  var margin = {top: 0, right: 40, bottom: 80, left: 80};
+  var width  = dims.width  - margin.left - margin.right;
+  var height = dims.height - margin.top  - margin.bottom;
+
+  svg.attr("width", dims.width).attr("height", dims.height);
+  var g = svg.append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  var x = d3.scaleBand()
+    .range([0, width])
+    .padding(0.35);
+  var y = d3.scaleLinear()
+    .range([height, 0]);
+  var colorBar = d3.scaleOrdinal()
+    .domain([ "COPD", "IHD"])
+    .range(["#facc15", "#f9a8d4"]);
+
+  g.append("g")
+    .attr("class", "axis axis--x")
+    .attr("transform", "translate(0," + height + ")");
+  g.append("g")
+    .attr("class", "axis axis--y");
+  g.append("text")
+    .attr("x", width / 2)
+    .attr("y", -20)
+    .attr("text-anchor", "middle")
+    .style("font-size", "14px")
+    .style("font-weight", "600")
+    .style("fill", "#0f172a")
+    .text("Predicted Mortality by Disease");
+  g.append("text")
+    .attr("x", width / 2)
+    .attr("y", height + 50)
+    .attr("text-anchor", "middle")
+    .style("font-size", "12px")
+    .style("fill", "#64748b")
+    .text("Disease Type");
+  g.append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("y", -50)
+    .attr("x", -height / 2)
+    .attr("text-anchor", "middle")
+    .style("font-size", "12px")
+    .style("fill", "#64748b")
+    .text("Predicted Deaths");
+
+  var legend = g.append("g")
+    .attr("class", "legend")
+    .attr("transform", "translate(" + (width - 20) + ", 20)");
+
+  var legendItems = [
+    { name: "COPD",   color: colorBar("COPD") },
+    { name: "IHD",    color: colorBar("IHD") }
+  ];
+  legend.selectAll("rect")
+    .data(legendItems)
+    .enter().append("rect")
+    .attr("x", 0)
+    .attr("y", (d, i) => i * 20)
+    .attr("width", 10)
+    .attr("height", 10)
+    .attr("rx", 2)
+    .attr("fill", d => d.color)
+    .attr("fill-opacity", 0.9);
+  legend.selectAll("text")
+    .data(legendItems)
+    .enter().append("text")
+    .attr("x", 16)
+    .attr("y", (d, i) => i * 20 + 9)
+    .attr("text-anchor", "start")
+    .style("font-size", "11.5px")
+    .style("fill", "#334155")
+    .text(d => d.name);
+
+  function updateChart() {
+    dims = getDimensions();
+    width  = dims.width  - margin.left - margin.right;
+    height = dims.height - margin.top  - margin.bottom;
+    svg.attr("width", dims.width).attr("height", dims.height);
+    x.range([0, width]);
+    y.range([height, 0]);
+
+    var pm25 = parseFloat(d3.select("#pm25-slider").property("value"));
+    var o3   = parseFloat(d3.select("#o3-slider").property("value"));
+    var no2  = parseFloat(d3.select("#no2-slider").property("value"));
+    var temp = parseFloat(d3.select("#temp-slider").property("value"));
+    var vmt  = parseFloat(d3.select("#vmt-slider").property("value"));
+    var ndvi = parseFloat(d3.select("#ndvi-slider").property("value"));
+
+    d3.select("#pm25-value").text(pm25.toFixed(1));
+    d3.select("#o3-value").text(o3.toFixed(1));
+    d3.select("#no2-value").text(no2.toFixed(1));
+    d3.select("#temp-value").text(temp.toFixed(1));
+    d3.select("#vmt-value").text(vmt.toFixed(0));
+    d3.select("#ndvi-value").text(ndvi.toFixed(2));
+
+    var outcomes = calculateHealthOutcomes(pm25, o3, no2, temp, vmt, ndvi);
+    var data = [
+      { label: 'COPD',   cls: 'copd',   value: outcomes.copd },
+      { label: 'IHD',    cls: 'ihd',    value: outcomes.ihd }
+    ];
+
+    x.domain(data.map(d => d.label));
+    y.domain([0, d3.max(data, d => d.value) * 1.1 || 1]);
+
+    g.select(".axis--x")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x).tickSize(0))
+      .selectAll("text")
+      .attr("dy", "1.5em")
+      .style("font-size", "12px")
+      .style("fill", "#475569");
+    g.select(".axis--y")
+      .call(d3.axisLeft(y).ticks(6).tickFormat(d3.format(",")))
+      .selectAll("text")
+      .style("font-size", "11px")
+      .style("fill", "#475569");
+
+    var bars = g.selectAll("rect.bar")
+      .data(data, d => d.label);
+    bars.enter()
+      .append("rect")
+      .attr("class", d => "bar " + d.cls)
+      .merge(bars)
+      .transition()
+      .duration(300)
+      .attr("x", d => x(d.label))
+      .attr("y", d => y(d.value))
+      .attr("width", x.bandwidth())
+      .attr("height", d => height - y(d.value))
+      .attr("fill", d => colorBar(d.label))
+      .attr("fill-opacity", 0.9)
+      .attr("rx", 3);
+    bars.exit().remove();
+
+    var labels = g.selectAll("text.value-label")
+      .data(data, d => d.label);
+    labels.enter()
+      .append("text")
+      .attr("class", "value-label")
+      .merge(labels)
+      .transition()
+      .duration(300)
+      .attr("x", d => x(d.label) + x.bandwidth() / 2)
+      .attr("y", d => y(d.value) - 6)
+      .attr("text-anchor", "middle")
+      .style("font-size", "12px")
+      .style("font-weight", "600")
+      .style("fill", "#000000")
+      .text(d => d.value.toLocaleString());
+    labels.exit().remove();
+  }
+
+  d3.select("#pm25-slider").on("input", updateChart);
+  d3.select("#o3-slider").on("input", updateChart);
+  d3.select("#no2-slider").on("input", updateChart);
+  d3.select("#temp-slider").on("input", updateChart);
+  d3.select("#vmt-slider").on("input", updateChart);
+  d3.select("#ndvi-slider").on("input", updateChart);
+
+  setTimeout(function() {
+    updateChart();
+  }, 100);
+
+  window.addEventListener('resize', function() {
+    updateChart();
+  });
+})();
+</script>
+</body>
+</html>
